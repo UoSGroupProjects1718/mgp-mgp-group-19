@@ -47,7 +47,7 @@ public class Movement_Attack_Dodge : MonoBehaviour
         }
     }
 
-    void StopPendulum()
+   public void StopPendulum()
 
     //When you click you trigger the bool that keeps tracking the movement, and then it calculates the angle of the pendulum
     // to know if it's an attack dodge or miss.
@@ -59,10 +59,13 @@ public class Movement_Attack_Dodge : MonoBehaviour
             if (transform.eulerAngles.z <= 40 && transform.eulerAngles.z >= 22)
             {
                 print("HIT");
+                this.GetComponent<Attack>().Fight();
             }
             else if (transform.eulerAngles.z <= 351 && transform.eulerAngles.z >= 330)
             {
                 print("Dodge");
+                this.GetComponent<Attack>().Dodge();
+                this.GetComponent<Attack>().Fight();
             }
             else
             {
@@ -71,4 +74,5 @@ public class Movement_Attack_Dodge : MonoBehaviour
         }
     }
 
+ 
 }
