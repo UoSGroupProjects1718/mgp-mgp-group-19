@@ -204,7 +204,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4790052317533780, guid: b16763878f82e6c4da0052d2b6b52264, type: 2}
       propertyPath: m_LocalPosition.z
-      value: -10.009844
+      value: -8.66
       objectReference: {fileID: 0}
     - target: {fileID: 4790052317533780, guid: b16763878f82e6c4da0052d2b6b52264, type: 2}
       propertyPath: m_LocalRotation.x
@@ -947,7 +947,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1047469965}
-        m_MethodName: dodgep2
+        m_MethodName: Dodgep2
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

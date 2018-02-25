@@ -36,32 +36,32 @@ public class Attack : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 		
-        player1_hp = 3;
-        player2_hp = 3;
-        Dodge1 = false;
-        Dodge2 = false;
-        p1Attack = false;
-        p2Attack = false;
-		Pend = false;
-		isMoving = false;
-		currentPlayer = 1;
+        player1_hp = 3; //Sets player 1 health to 3
+        player2_hp = 3; //Sets player 2 health to 3
+        Dodge1 = false; //Sets player 1 dodge to false
+        Dodge2 = false; //Sets player 2 dodge to false
+        p1Attack = false; //Sets player 1 attack to false
+        p2Attack = false; //Sets player 2 attack to false
+		Pend = false; //Sets the pend to false
+		isMoving = false; //Sets the isMoving to fasle for the pendulum
+		currentPlayer = 1; //Sets the current player to 1
 	}
 	
 	// Update is called once per frame
 	void Update () {
-		if (player2_hp == 0 && player1_hp >= 1)
+		if (player2_hp == 0 && player1_hp >= 1) //If the player 2 health is 0 and player 1 health is higher or equal to 1 then load player 1 win scene
 		{
 			//Debug.Log ("Player health is at 0 and we should be loading a new scene");
 			SceneManager.LoadScene ("Player 1 Win");
 		}
 
-		if (player1_hp == 0 && player2_hp >= 1)
+		if (player1_hp == 0 && player2_hp >= 1) //If the player 1 health is 0 and player 2 health is higher or equal to 1 then load player 2 win scene
 		{
 			//Debug.Log ("Player health is at 0 and we should be loading a new scene");
 			SceneManager.LoadScene ("Player 2 Win");
 		}
 
-		if (player1_hp == 0 && player2_hp == 0)
+		if (player1_hp == 0 && player2_hp == 0) //If the player 1 health and player 2 health is 0 then load the draw screen
 		{
 			//Debug.Log ("Player health is at 0 and we should be loading a new scene");
 			SceneManager.LoadScene ("Player Draw");
@@ -135,16 +135,16 @@ public class Attack : MonoBehaviour {
 
 	public void PlayerAttack()
 	{
-		if (currentPlayer == 1)
+		if (currentPlayer == 1) //If the current player equals 1
 		{
 			player1Move = Moves.attack;
-            player2_hp -= 1;
+            player2_hp -= 1; //Minus 1 from the player 2 health
             p1Attack = true;
-			GameObject g = GameObject.Find("Player 2 health");
+			GameObject g = GameObject.Find("Player 2 health"); //Look for the game object named "Player 2 health"
 			Player_2_health bScript =  g.GetComponent<Player_2_health>();
-			bScript.updateHealthPlayer2(player2_hp);
+			bScript.updateHealthPlayer2(player2_hp); //Update the player 2 health script
 			//Debug.Log("Player 1 attack");
-			currentPlayer = 2;
+			currentPlayer = 2; //Sets the current player to 2
 			//Debug.Log("Player 2 turn");
 
 		}
@@ -160,12 +160,12 @@ public class Attack : MonoBehaviour {
 		{
 			player2Move = Moves.attack;
 			p2Attack = false;
-			player1_hp -= 1;
-			GameObject g = GameObject.Find("Player 1 health");
+			player1_hp -= 1; //Minus 1 from player 1 health
+			GameObject g = GameObject.Find("Player 1 health"); //Look for the game object named "Player 1 health"
 			Player_1_health bScript2 =  g.GetComponent<Player_1_health>();
-			bScript2.updateHealthPlayer1(player1_hp);
+			bScript2.updateHealthPlayer1(player1_hp); //Update the player 1 health script
 			//Debug.Log("Player 2 attack");
-			currentPlayer = 1;
+			currentPlayer = 1; //Sets the current player to 1
 			//Debug.Log("Player 1 turn");
 		}
 	}
@@ -176,15 +176,20 @@ public class Attack : MonoBehaviour {
 		{
 			Debug.Log("Player 1 dodge");
             Dodge1 = true;
+			currentPlayer = 2; //Sets the current player to 2
 		}
+			
 
+		//gameManager.NextTurn ();
+	}
+	public void Dodgep2 ()
+	{
 		if (currentPlayer == 2)
 		{
 			Debug.Log("Player 2 dodge");
-            Dodge2 = true;
+			Dodge2 = true;
+			currentPlayer = 1; //Sets the current player to 1
 		}
-
-		//gameManager.NextTurn ();
 	}
 
 	public void Fight()

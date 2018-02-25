@@ -16,6 +16,6 @@ public class Quit : MonoBehaviour {
 
 	public void applicationquit()
 	{
-		Application.Quit ();
+		Application.Quit (); //Quits the applications when activated
 	}
 }
