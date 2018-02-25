@@ -5,18 +5,41 @@ using UnityEngine.UI;
 
 public class GameManager : MonoBehaviour {
 
+
+	private static GameManager instance;
+
 	[Header("Number of players")]
 	public int maxPlayers;
-	int currentPlayer;
+	public int currentPlayer;
 
 
 	public int CurrentPlayer{ get { return currentPlayer; } }
+
+	public static GameManager Instance { get { return instance; } }
 
 	//public float countdownTimer;
 	//public Text timer;
 
 	// Use this for initialization
 	void Start () {
+
+		// If the singleton doesnt exist yet 
+		if (instance == null) {
+
+			// Set this as the singleton
+			instance = this;
+
+			// Dont destroy this object as we change scenes
+			DontDestroyOnLoad (this.gameObject);
+		}
+		// Otherwise, if the singleton already exists...
+		else {
+			// Destroy this
+			Destroy(this.gameObject);
+		}
+
+
+		maxPlayers = 2;
 		currentPlayer = 1;
 
 		//countdownTimer = 20;
@@ -33,6 +56,8 @@ public class GameManager : MonoBehaviour {
 		//yield return new WaitForSeconds (20f);
 		//NextTurn ();
 	}*/
+
+
 
 	public void NextTurn()
 	{
