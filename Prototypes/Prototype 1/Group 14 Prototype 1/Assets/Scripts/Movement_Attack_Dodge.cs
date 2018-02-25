@@ -6,7 +6,7 @@ public class Movement_Attack_Dodge : MonoBehaviour
 {
     bool Pend = false;          //Keeps track to when the pendulum is moving right and left.
 
-    bool isMoving = true;       //Keeps track to when the pendulum is moving and when it stopped.
+    bool isMoving = false;       //Keeps track to when the pendulum is moving and when it stopped.
 
 
     void FixedUpdate()
