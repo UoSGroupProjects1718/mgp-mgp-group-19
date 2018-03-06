@@ -1006,6 +1006,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+<<<<<<< HEAD
       - m_Target: {fileID: 1047469965}
         m_MethodName: isDodge2Clicked
         m_Mode: 1
@@ -1018,6 +1019,20 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
       - m_Target: {fileID: 1047469965}
+=======
+      - m_Target: {fileID: 1047469965}
+        m_MethodName: isDodge2Clicked
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1047469965}
+>>>>>>> 338ec0a9d900160315c3641b63f593f4b26d177f
         m_MethodName: Player2Attack
         m_Mode: 1
         m_Arguments:
@@ -1150,6 +1165,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+<<<<<<< HEAD
       - m_Target: {fileID: 1047469965}
         m_MethodName: isDodgeClicked
         m_Mode: 1
@@ -1162,6 +1178,20 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
       - m_Target: {fileID: 1047469965}
+=======
+      - m_Target: {fileID: 1047469965}
+        m_MethodName: isDodgeClicked
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1047469965}
+>>>>>>> 338ec0a9d900160315c3641b63f593f4b26d177f
         m_MethodName: PlayerAttack
         m_Mode: 1
         m_Arguments:
@@ -1248,6 +1278,7 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+<<<<<<< HEAD
 --- !u!1 &1277260984
 GameObject:
   m_ObjectHideFlags: 0
@@ -1321,6 +1352,8 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+=======
+>>>>>>> 338ec0a9d900160315c3641b63f593f4b26d177f
 --- !u!1 &1313279537
 GameObject:
   m_ObjectHideFlags: 0
