@@ -6,8 +6,19 @@ public class Movement_Attack_Dodge : MonoBehaviour
 {
     bool Pend = false;          //Keeps track to when the pendulum is moving right and left.
 
-    bool isMoving = false;       //Keeps track to when the pendulum is moving and when it stopped.
+    public bool isMoving = true;       //Keeps track to when the pendulum is moving and when it stopped.
 
+    public bool Hit;
+    public bool Dodge;
+    public GameObject AttackRef;
+
+
+
+    void Start()
+    {
+        Hit = false;
+        Dodge = false;
+    }
 
     void FixedUpdate()
     {
@@ -44,6 +55,9 @@ public class Movement_Attack_Dodge : MonoBehaviour
                 }
 
             }
+        } else if (isMoving == false)
+        {
+            Destroy(GameObject.FindWithTag("WORK"), 1);
         }
     }
 
@@ -55,22 +69,43 @@ public class Movement_Attack_Dodge : MonoBehaviour
     {
         if (Input.GetKeyDown("mouse 0"))
         {
+            AttackRef = GameObject.Find("Attack/dodge");
+            Attack something = AttackRef.GetComponent<Attack>();
             isMoving = false;
             if (transform.eulerAngles.z <= 40 && transform.eulerAngles.z >= 22)
             {
-                print("HIT");
-                this.GetComponent<Attack>().Fight();
+
+               
+
+                if (something.is1Clicked == true)
+                {
+                    something.Attack1Success = true;
+                    something.Dodge1Success = false;
+                }
+
+                if (something.is2Clicked == true)
+                {
+                    something.Attack2Success = true;
+                    something.Dodge2Success = false;
+                }
+
             }
             else if (transform.eulerAngles.z <= 351 && transform.eulerAngles.z >= 330)
             {
-                print("Dodge");
-                this.GetComponent<Attack>().Dodge();
-                this.GetComponent<Attack>().Fight();
+                
+                if (something.is1dClicked == true)
+                {
+                    something.Attack1Success = false;
+                    something.Dodge1Success = true;
+                } 
+                if (something.is2dClicked == true)
+                {
+                   something.Attack2Success = false;
+                   something.Dodge2Success = true;
+                }
+                
             }
-            else
-            {
-                print("Miss");
-            }
+            
         }
     }
 
