@@ -3,7 +3,13 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - P1Button
+  - P2Button
+  - PendulumThing
+  - Undefined
+  - Pendulum
+  - WORK
   layers:
   - Default
   - TransparentFX
