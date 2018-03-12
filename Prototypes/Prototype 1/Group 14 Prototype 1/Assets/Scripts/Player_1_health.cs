@@ -10,16 +10,6 @@ public class Player_1_health : MonoBehaviour {
 	public Sprite Player1_health1;
 	public Sprite Player1_health0;
 
-	// Use this for initialization
-	void Start () {
-		
-	}
-	
-	// Update is called once per frame
-	void Update () {
-		
-	}
-
 	public void updateHealthPlayer1(int Number)
 	{
 		GameObject attackDodge = GameObject.Find("Attack/dodge");
