@@ -15,38 +15,34 @@ public class Attack : MonoBehaviour {
 
 	public int currentPlayer;
 
-	//public GameManager gameManager;
-	//public bool player1;
-	//public bool player2;
     public int player1_hp;
     public int player2_hp;
+
     public Button player1_Attackb;
     public Button player2_Attackb;
+
     public Button player1_Dodgeb;
     public Button player2_Dodgeb;
+
     public bool is1Clicked;
     public bool is2Clicked;
     public bool is1dClicked;
     public bool is2dClicked;
+
     public GameObject Ref_to_attack;
     public GameObject Ref_to_pendulum;
+
     public bool Attack1Success;
     public bool Attack2Success;
     public bool Dodge1Success;
     public bool Dodge2Success;
 
-
-
     Moves player1Move;
 	Moves player2Move;
 
-
-	
-
-
 	// Use this for initialization
-	void Start () {
-		
+	void Start () 
+	{
         player1_hp = 3; //Sets player 1 health to 3
         player2_hp = 3; //Sets player 2 health to 3
 		currentPlayer = 1; //Sets the current player to 1
@@ -62,6 +58,7 @@ public class Attack : MonoBehaviour {
         Attack2Success = false;
         Dodge1Success = false;
      }
+
     public void isDodgeClicked()
     {
         is1dClicked = true;
@@ -80,22 +77,20 @@ public class Attack : MonoBehaviour {
     }
 	
 	// Update is called once per frame
-	void Update () {
+	void Update () 
+	{
 		if (player2_hp == 0 && player1_hp >= 1) //If the player 2 health is 0 and player 1 health is higher or equal to 1 then load player 1 win scene
 		{
-			//Debug.Log ("Player health is at 0 and we should be loading a new scene");
 			SceneManager.LoadScene ("Player 1 Win");
 		}
 
 		if (player1_hp == 0 && player2_hp >= 1) //If the player 1 health is 0 and player 2 health is higher or equal to 1 then load player 2 win scene
 		{
-			//Debug.Log ("Player health is at 0 and we should be loading a new scene");
 			SceneManager.LoadScene ("Player 2 Win");
 		}
 
 		if (player1_hp == 0 && player2_hp == 0) //If the player 1 health and player 2 health is 0 then load the draw screen
 		{
-			//Debug.Log ("Player health is at 0 and we should be loading a new scene");
 			SceneManager.LoadScene ("Player Draw");
 		}
         if (currentPlayer == 1 && Input.GetMouseButtonDown(0) && (is1Clicked == true || is1dClicked == true))
@@ -107,64 +102,36 @@ public class Attack : MonoBehaviour {
         }
 	}
 
-    void FixedUpdate()
-    {
-    }
-
-	
-
 	public void PlayerAttack()
 	{
 		if (currentPlayer == 1) //If the current player equals 1
 		{
-			//player1Move = Moves.attack;
-            //;
-            //p1Attack = true;
-            
             player2_Attackb.interactable = true;
             player1_Attackb.interactable = false;
             player2_Dodgeb.interactable = true;
             player1_Dodgeb.interactable = false;
-            //Ref_to_pendulum = GameObject.FindGameObjectWithTag("WORK");
-            //Movement_Attack_Dodge something = Ref_to_pendulum.GetComponentInChildren<Movement_Attack_Dodge>();
-           
+
             is1Clicked = false;
             is1dClicked = false;
             is2Clicked = false;
             is2dClicked = false;
-            //currentPlayer = 2;
         }
 
-	
-
-		//gameManager.NextTurn ();
 	}
 
 	public void Player2Attack()
 	{
 		if (currentPlayer == 2)
 		{
-			//player2Move = Moves.attack;
-            //p2Attack = false;
-            //player1_hp -= 1; //Minus 1 from player 1 health
-            
             player2_Attackb.interactable = false;
             player1_Attackb.interactable = true;
             player2_Dodgeb.interactable = false;
             player1_Dodgeb.interactable = true;
-            //Ref_to_pendulum = GameObject.FindGameObjectWithTag("WORK");
-            //Movement_Attack_Dodge something = Ref_to_pendulum.GetComponentInChildren<Movement_Attack_Dodge>();
         
             is1Clicked = false;
             is1dClicked = false;
             is2Clicked = false;
             is2dClicked = false;
-            
-            //if (Input.GetKeyDown("mouse 0"))
-            //{
-            //    Debug.Log("MOUSECLICKED");
-            //    Player3Attack();
-            //}
         }
 	}
 

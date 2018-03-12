@@ -12,8 +12,6 @@ public class Movement_Attack_Dodge : MonoBehaviour
     public bool Dodge;
     public GameObject AttackRef;
 
-
-
     void Start()
     {
         Hit = false;
@@ -74,9 +72,6 @@ public class Movement_Attack_Dodge : MonoBehaviour
             isMoving = false;
             if (transform.eulerAngles.z <= 40 && transform.eulerAngles.z >= 22)
             {
-
-               
-
                 if (something.is1Clicked == true)
                 {
                     something.Attack1Success = true;
@@ -102,12 +97,8 @@ public class Movement_Attack_Dodge : MonoBehaviour
                 {
                    something.Attack2Success = false;
                    something.Dodge2Success = true;
-                }
-                
-            }
-            
-        }
+                }  
+           } 
+       }
     }
-
- 
 }
