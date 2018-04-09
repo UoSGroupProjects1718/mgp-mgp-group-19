@@ -1,0 +1,881 @@
+﻿Log file open, 04/09/18 03:17:31
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
+LogWindows: File 'VSPerf140.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: MyProject2
+LogPlatformFile: Not using cached read wrapper
+LogInit: Display: RandInit(-90544103) SRandInit(-90544103).
+LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.159232
+LogD3D11RHI: Aftermath initialized
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.17-CL-3658906
+LogInit: Engine Version: 4.17.2-3658906+++UE4+Release-4.17
+LogInit: Compatible Engine Version: 4.17.0-3573198+++UE4+Release-4.17
+LogInit: Net CL: 3573198
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 20
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 28
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 19
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 7
+LogInit: Compiled (64-bit): Sep 22 2017 13:47:16
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.17
+LogInit: Command line: -EpicPortal 
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.17/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2018.04.09-02.17.31:755][  0]LogInit: Selected Device Profile: [Windows]
+[2018.04.09-02.17.31:755][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.04.09-02.17.31:772][  0]LogInit: Computer: DESKTOP-MCF393H
+[2018.04.09-02.17.31:772][  0]LogInit: User: vmirc
+[2018.04.09-02.17.31:772][  0]LogInit: CPU Page size=4096, Cores=4
+[2018.04.09-02.17.31:772][  0]LogInit: High frequency timer resolution =3.423913 MHz
+[2018.04.09-02.17.31:773][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2018.04.09-02.17.31:773][  0]LogMemory: Platform Memory Stats for Windows
+[2018.04.09-02.17.31:773][  0]LogMemory: Process Physical Memory: 281.21 MB used, 281.21 MB peak
+[2018.04.09-02.17.31:773][  0]LogMemory: Process Virtual Memory: 282.37 MB used, 282.37 MB peak
+[2018.04.09-02.17.31:773][  0]LogMemory: Physical Memory: 8373.59 MB used,  7882.30 MB free, 16255.89 MB total
+[2018.04.09-02.17.31:773][  0]LogMemory: Virtual Memory: 715.45 MB used,  7882.30 MB free, 134217728.00 MB total
+[2018.04.09-02.17.31:899][  0]LogInit: Using OS detected language (en-US).
+[2018.04.09-02.17.31:899][  0]LogInit: Using OS detected locale (en-GB).
+[2018.04.09-02.17.31:902][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2018.04.09-02.17.32:483][  0]LogD3D11RHI: D3D11 adapters:
+[2018.04.09-02.17.32:529][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 760' (Feature Level 11_0)
+[2018.04.09-02.17.32:529][  0]LogD3D11RHI:       2007/0/8127 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2018.04.09-02.17.32:535][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 4600' (Feature Level 11_0)
+[2018.04.09-02.17.32:535][  0]LogD3D11RHI:       112/0/2048 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x8086
+[2018.04.09-02.17.32:540][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.04.09-02.17.32:540][  0]LogD3D11RHI:       0/0/8127 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.04.09-02.17.32:540][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.04.09-02.17.32:546][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.04.09-02.17.32:546][  0]LogD3D11RHI:     GPU DeviceId: 0x1187 (for the marketing name, search the web for "GPU Device Id")
+[2018.04.09-02.17.32:547][  0]LogWindows: EnumDisplayDevices:
+[2018.04.09-02.17.32:547][  0]LogWindows:    0. 'NVIDIA GeForce GTX 760' (P:1 D:1)
+[2018.04.09-02.17.32:548][  0]LogWindows:    1. 'NVIDIA GeForce GTX 760' (P:0 D:0)
+[2018.04.09-02.17.32:548][  0]LogWindows:    2. 'NVIDIA GeForce GTX 760' (P:0 D:0)
+[2018.04.09-02.17.32:548][  0]LogWindows:    3. 'NVIDIA GeForce GTX 760' (P:0 D:0)
+[2018.04.09-02.17.32:548][  0]LogWindows:    4. 'Intel(R) HD Graphics 4600' (P:0 D:1)
+[2018.04.09-02.17.32:548][  0]LogWindows:    5. 'Intel(R) HD Graphics 4600' (P:0 D:0)
+[2018.04.09-02.17.32:548][  0]LogWindows:    6. 'Intel(R) HD Graphics 4600' (P:0 D:0)
+[2018.04.09-02.17.32:548][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2018.04.09-02.17.32:548][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 760
+[2018.04.09-02.17.32:549][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2018.04.09-02.17.32:549][  0]LogD3D11RHI:      Driver Date: Unknown
+[2018.04.09-02.17.32:549][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2018.04.09-02.17.32:579][  0]LogD3D11RHI: Async texture creation enabled
+[2018.04.09-02.17.32:596][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2018.04.09-02.17.32:645][  0]LogShaderCompilers: Guid format shader working directory is 16 characters bigger than the processId version (D:/Unreal Projects/MyProject2/Intermediate/Shaders/WorkingDirectory/11388/).
+[2018.04.09-02.17.32:645][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/vmirc/AppData/Local/Temp/UnrealShaderWorkingDir/E0722DFC48C8EC08EA74B5B49A3E4AF6/'.
+[2018.04.09-02.17.32:645][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.04.09-02.17.33:427][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.04.09-02.17.33:475][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.04.09-02.17.33:527][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.04.09-02.17.33:576][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.04.09-02.17.33:624][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.04.09-02.17.33:678][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.04.09-02.17.33:729][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.04.09-02.17.33:782][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.04.09-02.17.33:830][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.04.09-02.17.33:889][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.04.09-02.17.33:957][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2018.04.09-02.17.34:027][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2018.04.09-02.17.34:091][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2018.04.09-02.17.34:139][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2018.04.09-02.17.34:203][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2018.04.09-02.17.34:304][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2018.04.09-02.17.34:304][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2018.04.09-02.17.34:341][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.04.09-02.17.34:426][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.04.09-02.17.34:450][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.04.09-02.17.34:496][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.04.09-02.17.34:548][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.04.09-02.17.34:589][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.04.09-02.17.34:631][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.04.09-02.17.34:631][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.04.09-02.17.35:080][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.04.09-02.17.35:188][  0]LogDerivedDataCache: Loaded boot cache 0.11s 93MB C:/Users/vmirc/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2018.04.09-02.17.35:189][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/vmirc/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc
+[2018.04.09-02.17.35:189][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file D:/Unreal Projects/MyProject2/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.04.09-02.17.35:189][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.04.09-02.17.35:189][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file D:/Unreal Projects/MyProject2/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.04.09-02.17.35:189][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.04.09-02.17.35:205][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.04.09-02.17.35:217][  0]LogDerivedDataCache: Using Local data cache path C:/Users/vmirc/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.04.09-02.17.35:229][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.04.09-02.17.35:229][  0]LogSlate: Using Freetype 2.6.0
+[2018.04.09-02.17.35:230][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.04.09-02.17.35:230][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.04.09-02.17.35:481][  0]LogAssetRegistry: FAssetRegistry took 0.0251 seconds to start up
+[2018.04.09-02.17.35:574][  0]LogInit: Selected Device Profile: [Windows]
+[2018.04.09-02.17.35:889][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.04.09-02.17.35:924][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.04.09-02.17.35:924][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.04.09-02.17.35:924][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.04.09-02.17.35:924][  0]LogMeshReduction: No automatic mesh merging module available
+[2018.04.09-02.17.35:924][  0]LogMeshMerging: No automatic mesh merging module available
+[2018.04.09-02.17.35:932][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2018.04.09-02.17.36:313][  0]LogNetVersion: MyProject2 , NetCL: 3573198, EngineNetVer: 2, GameNetVer: 0 (Checksum: 237949846)
+[2018.04.09-02.17.36:493][  0]LogPackageLocalizationCache: Processed 5 localized package path(s) for 2 prioritized culture(s) in 0.035941 seconds
+[2018.04.09-02.17.36:497][  0]LogUObjectArray: 35825 objects as part of root set at end of initial load.
+[2018.04.09-02.17.36:497][  0]LogUObjectAllocator: 7529104 out of 0 bytes used by permanent object pool.
+[2018.04.09-02.17.36:497][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.04.09-02.17.36:547][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2018.04.09-02.17.38:649][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.04.09-02.17.38:686][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.04.09-02.17.39:288][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2018.04.09-02.17.39:621][  0]SourceControl: Source control is disabled
+[2018.04.09-02.17.39:621][  0]SourceControl: Source control is disabled
+[2018.04.09-02.17.39:661][  0]SourceControl: Source control is disabled
+[2018.04.09-02.17.39:697][  0]SourceControl: Source control is disabled
+[2018.04.09-02.17.40:165][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.04.09-02.17.40:365][  0]LogOcInput: OculusInput pre-init called
+[2018.04.09-02.17.40:576][  0]LogEngine: Initializing Engine...
+[2018.04.09-02.17.40:577][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.04.09-02.17.40:777][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.04.09-02.17.40:778][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.04.09-02.17.40:885][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.04.09-02.17.40:893][  0]LogInit: XAudio2 using 'Digital Audio (S/PDIF) (2- High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.04.09-02.17.40:902][  0]LogInit: FAudioDevice initialized.
+[2018.04.09-02.17.41:007][  0]LogDerivedDataCache: Saved boot cache 0.10s 93MB C:/Users/vmirc/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2018.04.09-02.17.41:024][  0]LogInit: Texture streaming: Enabled
+[2018.04.09-02.17.41:112][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.04.09-02.17.41:296][  0]LogInit: Transaction tracking system initialized
+[2018.04.09-02.17.41:544][  0]BlueprintLog: New page: Editor Load
+[2018.04.09-02.17.42:294][  0]LocalizationService: Localization service is disabled
+[2018.04.09-02.17.42:852][  0]LogConsoleResponse: Display: 
+[2018.04.09-02.17.43:009][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.04.09-02.17.43:009][  0]LogFileCache: Scanning file cache for directory 'D:/Unreal Projects/MyProject2/Content/' took 0.01s
+[2018.04.09-02.17.43:009][  0]LogCook: Display: Mobile HDR setting 1
+[2018.04.09-02.17.43:009][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.04.09-02.17.43:858][  0]SourceControl: Source control is disabled
+[2018.04.09-02.17.43:858][  0]Cmd: MAP LOAD FILE="D:/Unreal Projects/MyProject2/Content/Untitled.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.04.09-02.17.43:859][  0]LightingResults: New page: Lighting Build
+[2018.04.09-02.17.43:891][  0]MapCheck: New page: Map Check
+[2018.04.09-02.17.43:891][  0]LightingResults: New page: Lighting Build
+[2018.04.09-02.17.44:086][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.04.09-02.17.44:090][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.04.09-02.17.44:101][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.04.09-02.17.44:145][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 44.04ms to complete.
+[2018.04.09-02.17.44:145][  0]LogFileHelpers: Loading map 'Untitled' took 0.287
+[2018.04.09-02.17.44:204][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.04.09-02.17.44:282][  0]LogCollectionManager: Loaded 0 collections in 0.001340 seconds
+[2018.04.09-02.17.44:370][  0]LogFileCache: Scanning file cache for directory 'D:/Unreal Projects/MyProject2/Saved/Collections/' took 0.01s
+[2018.04.09-02.17.44:370][  0]LogFileCache: Scanning file cache for directory 'D:/Unreal Projects/MyProject2/Content/Developers/vmirc/Collections/' took 0.01s
+[2018.04.09-02.17.44:370][  0]LogFileCache: Scanning file cache for directory 'D:/Unreal Projects/MyProject2/Content/Collections/' took 0.01s
+[2018.04.09-02.17.44:370][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2018.04.09-02.17.44:378][  0]LogContentBrowser: Native class hierarchy populated in 0.0084 seconds. Added 2386 classes and 500 folders.
+[2018.04.09-02.17.44:430][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2018.04.09-02.17.44:465][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2018.04.09-02.17.44:500][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
+[2018.04.09-02.17.45:463][  0]LogSlate: Took 0.000270 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.04.09-02.17.45:465][  0]LogSlate: Took 0.000224 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.04.09-02.17.45:469][  0]LogSlate: Took 0.000206 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.04.09-02.17.45:557][  0]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.MyProject2
+[2018.04.09-02.17.45:557][  0]LogTemp: CWD: C:\Program Files\Epic Games\UE_4.17\Engine\Binaries\DotNET\IOS
+[2018.04.09-02.17.45:557][  0]LogTemp: Initial Dir: C:\Program Files\Epic Games\UE_4.17
+[2018.04.09-02.17.45:557][  0]LogTemp: Env CWD: C:\Program Files\Epic Games\UE_4.17\Engine\Binaries\DotNET\IOS
+[2018.04.09-02.17.45:557][  0]LogTemp: BranchPath = DESKTOP-MCF393H/C/Program Files/Epic Games/UE_4.17/Engine/Binaries --- GameBranchPath = DESKTOP-MCF393H/C/Program Files/Epic Games/UE_4.17/Engine/Binaries
+[2018.04.09-02.17.45:557][  0]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\vmirc\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
+[2018.04.09-02.17.45:557][  0]LogRenderer: Reallocating scene render targets to support 1208x576 Format 10 NumSamples 1 (Frame:1).
+[2018.04.09-02.17.45:596][  0]LogSlate: Took 0.000168 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.04.09-02.17.45:747][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2018.04.09-02.17.45:748][  0]LogLoad: (Engine Initialization) Total time: 15.36 seconds
+[2018.04.09-02.17.45:748][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.04.09-02.17.45:748][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2018.04.09-02.17.45:782][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.04.09-02.17.45:835][  1]LogAssetRegistry: Asset discovery search completed in 10.3756 seconds
+[2018.04.09-02.17.45:836][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2018.04.09-02.17.45:836][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000029 seconds (updated 0 objects)
+[2018.04.09-02.17.46:798][ 48]LogSlate: Took 0.000175 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.04.09-02.18.01:951][884]LogTemp: Repeating last play command: Selected Viewport
+[2018.04.09-02.18.01:972][884]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Untitled.Untitled:PersistentLevel' has LevelScriptBlueprint '/Game/Untitled.Untitled:PersistentLevel.Untitled' with GeneratedClass '/Game/Untitled.Untitled_C' with ClassGeneratedBy '/Game/Untitled.Untitled:PersistentLevel.Untitled'
+[2018.04.09-02.18.01:972][884]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.04.09-02.18.01:972][884]PIE: New page: PIE session: Untitled (9 Apr 2018 04:18:01)
+[2018.04.09-02.18.01:972][884]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Untitled
+[2018.04.09-02.18.01:974][884]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001827s)
+[2018.04.09-02.18.01:975][884]LogAIModule: Creating AISystem for world Untitled
+[2018.04.09-02.18.01:975][884]LogPlayLevel: PIE: World Init took: (0.000743s)
+[2018.04.09-02.18.01:975][884]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Untitled.Untitled to /Game/UEDPIE_0_Untitled.Untitled (0.002806s)
+[2018.04.09-02.18.01:987][884]LogInit: XAudio2 using 'Digital Audio (S/PDIF) (2- High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.04.09-02.18.01:992][884]LogInit: FAudioDevice initialized.
+[2018.04.09-02.18.02:031][884]LogLoad: Game class is 'GameModeBase'
+[2018.04.09-02.18.02:033][884]LogWorld: Bringing World /Game/UEDPIE_0_Untitled.Untitled up for play (max tick rate 0) at 2018.04.09-03.18.02
+[2018.04.09-02.18.02:037][884]LogWorld: Bringing up level for play took: 0.004769
+[2018.04.09-02.18.02:071][884]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0007 seconds. Added 11 classes and 0 folders.
+[2018.04.09-02.18.02:072][884]PIE: Play in editor start time for /Game/UEDPIE_0_Untitled 0.927
+[2018.04.09-02.18.02:072][884]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Untitled.Untitled:PersistentLevel' has LevelScriptBlueprint '/Game/Untitled.Untitled:PersistentLevel.Untitled' with GeneratedClass '/Game/Untitled.Untitled_C' with ClassGeneratedBy '/Game/Untitled.Untitled:PersistentLevel.Untitled'
+[2018.04.09-02.18.04:056][121]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Untitled.Untitled:PersistentLevel' has LevelScriptBlueprint '/Game/Untitled.Untitled:PersistentLevel.Untitled' with GeneratedClass '/Game/Untitled.Untitled_C' with ClassGeneratedBy '/Game/Untitled.Untitled:PersistentLevel.Untitled'
+[2018.04.09-02.18.04:089][121]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Untitled.Untitled:PersistentLevel' has LevelScriptBlueprint '/Game/Untitled.Untitled:PersistentLevel.Untitled' with GeneratedClass '/Game/Untitled.Untitled_C' with ClassGeneratedBy '/Game/Untitled.Untitled:PersistentLevel.Untitled'
+[2018.04.09-02.18.05:216][245]LogSlate: Took 0.000151 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.04.09-02.18.05:246][245]LogAIModule: Creating AISystem for world Pendulu
+[2018.04.09-02.18.05:261][245]Cmd: MAP LOAD FILE="D:/Unreal Projects/MyProject2/Content/Pendulu.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.04.09-02.18.05:261][245]LightingResults: New page: Lighting Build
+[2018.04.09-02.18.05:262][245]LoadErrors: New page: Loading map: Pendulu.umap
+[2018.04.09-02.18.05:262][245]MapCheck: New page: Map Check
+[2018.04.09-02.18.05:262][245]LightingResults: New page: Lighting Build
+[2018.04.09-02.18.05:274][245]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.04.09-02.18.05:303][245]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.04.09-02.18.05:347][245]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 44.542ms to complete.
+[2018.04.09-02.18.05:347][245]LogFileHelpers: Loading map 'Pendulu' took 0.087
+[2018.04.09-02.18.07:511][494]LogTemp: Repeating last play command: Selected Viewport
+[2018.04.09-02.18.07:522][494]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Pendulu.Pendulu:PersistentLevel' has LevelScriptBlueprint '/Game/Pendulu.Pendulu:PersistentLevel.Pendulu' with GeneratedClass '/Game/Pendulu.Pendulu_C' with ClassGeneratedBy '/Game/Pendulu.Pendulu:PersistentLevel.Pendulu'
+[2018.04.09-02.18.07:522][494]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.04.09-02.18.07:522][494]PIE: New page: PIE session: Pendulu (9 Apr 2018 04:18:07)
+[2018.04.09-02.18.07:522][494]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Pendulu
+[2018.04.09-02.18.07:523][494]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001462s)
+[2018.04.09-02.18.07:524][494]LogAIModule: Creating AISystem for world Pendulu
+[2018.04.09-02.18.07:524][494]LogPlayLevel: PIE: World Init took: (0.000782s)
+[2018.04.09-02.18.07:524][494]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Pendulu.Pendulu to /Game/UEDPIE_0_Pendulu.Pendulu (0.002460s)
+[2018.04.09-02.18.07:537][494]LogInit: XAudio2 using 'Digital Audio (S/PDIF) (2- High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.04.09-02.18.07:543][494]LogInit: FAudioDevice initialized.
+[2018.04.09-02.18.07:572][494]LogLoad: Game class is 'GameModeBase'
+[2018.04.09-02.18.07:574][494]LogWorld: Bringing World /Game/UEDPIE_0_Pendulu.Pendulu up for play (max tick rate 0) at 2018.04.09-03.18.07
+[2018.04.09-02.18.07:574][494]LogWorld: Bringing up level for play took: 0.001020
+[2018.04.09-02.18.07:575][494]PIE: Play in editor start time for /Game/UEDPIE_0_Pendulu 0.43
+[2018.04.09-02.18.07:575][494]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Pendulu.Pendulu:PersistentLevel' has LevelScriptBlueprint '/Game/Pendulu.Pendulu:PersistentLevel.Pendulu' with GeneratedClass '/Game/Pendulu.Pendulu_C' with ClassGeneratedBy '/Game/Pendulu.Pendulu:PersistentLevel.Pendulu'
+[2018.04.09-02.18.08:222][571]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Pendulu.Pendulu:PersistentLevel' has LevelScriptBlueprint '/Game/Pendulu.Pendulu:PersistentLevel.Pendulu' with GeneratedClass '/Game/Pendulu.Pendulu_C' with ClassGeneratedBy '/Game/Pendulu.Pendulu:PersistentLevel.Pendulu'
+[2018.04.09-02.18.08:254][571]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Pendulu.Pendulu:PersistentLevel' has LevelScriptBlueprint '/Game/Pendulu.Pendulu:PersistentLevel.Pendulu' with GeneratedClass '/Game/Pendulu.Pendulu_C' with ClassGeneratedBy '/Game/Pendulu.Pendulu:PersistentLevel.Pendulu'
+[2018.04.09-02.18.12:676][ 52]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0008 seconds. Added 113 classes and 0 folders.
+[2018.04.09-02.18.13:238][ 52]LogSlate: Took 0.000206 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2018.04.09-02.18.13:276][ 53]LogSlate: Took 0.000501 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2018.04.09-02.18.53:359][799]BlueprintLog: New page: Compile Pendulu
+[2018.04.09-02.18.54:581][878]LogTemp: Repeating last play command: Selected Viewport
+[2018.04.09-02.18.54:596][878]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Pendulu.Pendulu:PersistentLevel' has LevelScriptBlueprint '/Game/Pendulu.Pendulu:PersistentLevel.Pendulu' with GeneratedClass '/Game/Pendulu.Pendulu_C' with ClassGeneratedBy '/Game/Pendulu.Pendulu:PersistentLevel.Pendulu'
+[2018.04.09-02.18.54:596][878]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.04.09-02.18.54:596][878]PIE: New page: PIE session: Pendulu (9 Apr 2018 04:18:54)
+[2018.04.09-02.18.54:596][878]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Pendulu
+[2018.04.09-02.18.54:598][878]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001945s)
+[2018.04.09-02.18.54:599][878]LogAIModule: Creating AISystem for world Pendulu
+[2018.04.09-02.18.54:600][878]LogPlayLevel: PIE: World Init took: (0.001360s)
+[2018.04.09-02.18.54:600][878]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Pendulu.Pendulu to /Game/UEDPIE_0_Pendulu.Pendulu (0.003641s)
+[2018.04.09-02.18.54:620][878]LogInit: XAudio2 using 'Digital Audio (S/PDIF) (2- High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.04.09-02.18.54:625][878]LogInit: FAudioDevice initialized.
+[2018.04.09-02.18.54:654][878]LogLoad: Game class is 'GameModeBase'
+[2018.04.09-02.18.54:656][878]LogWorld: Bringing World /Game/UEDPIE_0_Pendulu.Pendulu up for play (max tick rate 0) at 2018.04.09-03.18.54
+[2018.04.09-02.18.54:656][878]LogWorld: Bringing up level for play took: 0.000998
+[2018.04.09-02.18.54:657][878]PIE: Play in editor start time for /Game/UEDPIE_0_Pendulu -0.488
+[2018.04.09-02.18.54:657][878]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Pendulu.Pendulu:PersistentLevel' has LevelScriptBlueprint '/Game/Pendulu.Pendulu:PersistentLevel.Pendulu' with GeneratedClass '/Game/Pendulu.Pendulu_C' with ClassGeneratedBy '/Game/Pendulu.Pendulu:PersistentLevel.Pendulu'
+[2018.04.09-02.19.04:228][984]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Pendulu.Pendulu:PersistentLevel' has LevelScriptBlueprint '/Game/Pendulu.Pendulu:PersistentLevel.Pendulu' with GeneratedClass '/Game/Pendulu.Pendulu_C' with ClassGeneratedBy '/Game/Pendulu.Pendulu:PersistentLevel.Pendulu'
+[2018.04.09-02.19.04:274][984]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Pendulu.Pendulu:PersistentLevel' has LevelScriptBlueprint '/Game/Pendulu.Pendulu:PersistentLevel.Pendulu' with GeneratedClass '/Game/Pendulu.Pendulu_C' with ClassGeneratedBy '/Game/Pendulu.Pendulu:PersistentLevel.Pendulu'
+[2018.04.09-02.19.48:354][ 13]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2018.04.09-02.19.48:968][ 69]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube2)
+[2018.04.09-02.20.08:482][678]BlueprintLog: New page: Compile Pendulu
+[2018.04.09-02.20.10:475][815]LogTemp: Repeating last play command: Selected Viewport
+[2018.04.09-02.20.10:486][815]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Pendulu.Pendulu:PersistentLevel' has LevelScriptBlueprint '/Game/Pendulu.Pendulu:PersistentLevel.Pendulu' with GeneratedClass '/Game/Pendulu.Pendulu_C' with ClassGeneratedBy '/Game/Pendulu.Pendulu:PersistentLevel.Pendulu'
+[2018.04.09-02.20.10:486][815]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.04.09-02.20.10:486][815]PIE: New page: PIE session: Pendulu (9 Apr 2018 04:20:10)
+[2018.04.09-02.20.10:486][815]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Pendulu
+[2018.04.09-02.20.10:488][815]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001717s)
+[2018.04.09-02.20.10:489][815]LogAIModule: Creating AISystem for world Pendulu
+[2018.04.09-02.20.10:489][815]LogPlayLevel: PIE: World Init took: (0.000629s)
+[2018.04.09-02.20.10:489][815]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Pendulu.Pendulu to /Game/UEDPIE_0_Pendulu.Pendulu (0.002549s)
+[2018.04.09-02.20.10:511][815]LogInit: XAudio2 using 'Digital Audio (S/PDIF) (2- High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.04.09-02.20.10:517][815]LogInit: FAudioDevice initialized.
+[2018.04.09-02.20.10:550][815]LogLoad: Game class is 'GameModeBase'
+[2018.04.09-02.20.10:552][815]LogWorld: Bringing World /Game/UEDPIE_0_Pendulu.Pendulu up for play (max tick rate 0) at 2018.04.09-03.20.10
+[2018.04.09-02.20.10:552][815]LogWorld: Bringing up level for play took: 0.001055
+[2018.04.09-02.20.10:553][815]PIE: Play in editor start time for /Game/UEDPIE_0_Pendulu -0.592
+[2018.04.09-02.20.10:553][815]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Pendulu.Pendulu:PersistentLevel' has LevelScriptBlueprint '/Game/Pendulu.Pendulu:PersistentLevel.Pendulu' with GeneratedClass '/Game/Pendulu.Pendulu_C' with ClassGeneratedBy '/Game/Pendulu.Pendulu:PersistentLevel.Pendulu'
+[2018.04.09-02.20.11:519][922]LogBlueprintUserMessages: [Pendulu_C_2] P=0.000000 Y=0.000000 R=0.000000
+[2018.04.09-02.20.12:186][997]LogBlueprintUserMessages: [Pendulu_C_2] P=0.000000 Y=0.000000 R=0.000000
+[2018.04.09-02.20.12:851][ 72]LogBlueprintUserMessages: [Pendulu_C_2] P=0.000000 Y=0.000000 R=0.000000
+[2018.04.09-02.20.13:160][107]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Pendulu.Pendulu:PersistentLevel' has LevelScriptBlueprint '/Game/Pendulu.Pendulu:PersistentLevel.Pendulu' with GeneratedClass '/Game/Pendulu.Pendulu_C' with ClassGeneratedBy '/Game/Pendulu.Pendulu:PersistentLevel.Pendulu'
+[2018.04.09-02.20.13:212][107]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Pendulu.Pendulu:PersistentLevel' has LevelScriptBlueprint '/Game/Pendulu.Pendulu:PersistentLevel.Pendulu' with GeneratedClass '/Game/Pendulu.Pendulu_C' with ClassGeneratedBy '/Game/Pendulu.Pendulu:PersistentLevel.Pendulu'
+[2018.04.09-02.20.16:086][247]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2018.04.09-02.20.17:416][368]LogTemp: Repeating last play command: Selected Viewport
+[2018.04.09-02.20.17:427][368]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Pendulu.Pendulu:PersistentLevel' has LevelScriptBlueprint '/Game/Pendulu.Pendulu:PersistentLevel.Pendulu' with GeneratedClass '/Game/Pendulu.Pendulu_C' with ClassGeneratedBy '/Game/Pendulu.Pendulu:PersistentLevel.Pendulu'
+[2018.04.09-02.20.17:427][368]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.04.09-02.20.17:427][368]PIE: New page: PIE session: Pendulu (9 Apr 2018 04:20:17)
+[2018.04.09-02.20.17:427][368]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Pendulu
+[2018.04.09-02.20.17:429][368]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002088s)
+[2018.04.09-02.20.17:430][368]LogAIModule: Creating AISystem for world Pendulu
+[2018.04.09-02.20.17:430][368]LogPlayLevel: PIE: World Init took: (0.000734s)
+[2018.04.09-02.20.17:430][368]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Pendulu.Pendulu to /Game/UEDPIE_0_Pendulu.Pendulu (0.003067s)
+[2018.04.09-02.20.17:452][368]LogInit: XAudio2 using 'Digital Audio (S/PDIF) (2- High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.04.09-02.20.17:457][368]LogInit: FAudioDevice initialized.
+[2018.04.09-02.20.17:488][368]LogLoad: Game class is 'GameModeBase'
+[2018.04.09-02.20.17:489][368]LogWorld: Bringing World /Game/UEDPIE_0_Pendulu.Pendulu up for play (max tick rate 0) at 2018.04.09-03.20.17
+[2018.04.09-02.20.17:490][368]LogWorld: Bringing up level for play took: 0.000855
+[2018.04.09-02.20.17:491][368]PIE: Play in editor start time for /Game/UEDPIE_0_Pendulu 0.345
+[2018.04.09-02.20.17:491][368]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Pendulu.Pendulu:PersistentLevel' has LevelScriptBlueprint '/Game/Pendulu.Pendulu:PersistentLevel.Pendulu' with GeneratedClass '/Game/Pendulu.Pendulu_C' with ClassGeneratedBy '/Game/Pendulu.Pendulu:PersistentLevel.Pendulu'
+[2018.04.09-02.20.17:976][423]LogBlueprintUserMessages: [Pendulu_C_2] P=0.000000 Y=0.000000 R=0.000000
+[2018.04.09-02.20.18:551][490]LogBlueprintUserMessages: [Pendulu_C_2] P=0.000000 Y=0.000000 R=0.000000
+[2018.04.09-02.20.19:048][547]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Pendulu.Pendulu:PersistentLevel' has LevelScriptBlueprint '/Game/Pendulu.Pendulu:PersistentLevel.Pendulu' with GeneratedClass '/Game/Pendulu.Pendulu_C' with ClassGeneratedBy '/Game/Pendulu.Pendulu:PersistentLevel.Pendulu'
+[2018.04.09-02.20.19:096][547]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Pendulu.Pendulu:PersistentLevel' has LevelScriptBlueprint '/Game/Pendulu.Pendulu:PersistentLevel.Pendulu' with GeneratedClass '/Game/Pendulu.Pendulu_C' with ClassGeneratedBy '/Game/Pendulu.Pendulu:PersistentLevel.Pendulu'
+[2018.04.09-02.20.19:671][591]LogTemp: Repeating last play command: Selected Viewport
+[2018.04.09-02.20.19:683][591]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Pendulu.Pendulu:PersistentLevel' has LevelScriptBlueprint '/Game/Pendulu.Pendulu:PersistentLevel.Pendulu' with GeneratedClass '/Game/Pendulu.Pendulu_C' with ClassGeneratedBy '/Game/Pendulu.Pendulu:PersistentLevel.Pendulu'
+[2018.04.09-02.20.19:683][591]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.04.09-02.20.19:683][591]PIE: New page: PIE session: Pendulu (9 Apr 2018 04:20:19)
+[2018.04.09-02.20.19:683][591]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Pendulu
+[2018.04.09-02.20.19:685][591]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002082s)
+[2018.04.09-02.20.19:686][591]LogAIModule: Creating AISystem for world Pendulu
+[2018.04.09-02.20.19:686][591]LogPlayLevel: PIE: World Init took: (0.000755s)
+[2018.04.09-02.20.19:686][591]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Pendulu.Pendulu to /Game/UEDPIE_0_Pendulu.Pendulu (0.003019s)
+[2018.04.09-02.20.19:708][591]LogInit: XAudio2 using 'Digital Audio (S/PDIF) (2- High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.04.09-02.20.19:714][591]LogInit: FAudioDevice initialized.
+[2018.04.09-02.20.19:744][591]LogLoad: Game class is 'GameModeBase'
+[2018.04.09-02.20.19:745][591]LogWorld: Bringing World /Game/UEDPIE_0_Pendulu.Pendulu up for play (max tick rate 0) at 2018.04.09-03.20.19
+[2018.04.09-02.20.19:746][591]LogWorld: Bringing up level for play took: 0.001034
+[2018.04.09-02.20.19:747][591]PIE: Play in editor start time for /Game/UEDPIE_0_Pendulu 0.602
+[2018.04.09-02.20.19:747][591]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Pendulu.Pendulu:PersistentLevel' has LevelScriptBlueprint '/Game/Pendulu.Pendulu:PersistentLevel.Pendulu' with GeneratedClass '/Game/Pendulu.Pendulu_C' with ClassGeneratedBy '/Game/Pendulu.Pendulu:PersistentLevel.Pendulu'
+[2018.04.09-02.20.20:574][686]LogBlueprintUserMessages: [Pendulu_C_2] P=0.000000 Y=0.000000 R=0.000000
+[2018.04.09-02.20.21:083][745]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Pendulu.Pendulu:PersistentLevel' has LevelScriptBlueprint '/Game/Pendulu.Pendulu:PersistentLevel.Pendulu' with GeneratedClass '/Game/Pendulu.Pendulu_C' with ClassGeneratedBy '/Game/Pendulu.Pendulu:PersistentLevel.Pendulu'
+[2018.04.09-02.20.21:129][745]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Pendulu.Pendulu:PersistentLevel' has LevelScriptBlueprint '/Game/Pendulu.Pendulu:PersistentLevel.Pendulu' with GeneratedClass '/Game/Pendulu.Pendulu_C' with ClassGeneratedBy '/Game/Pendulu.Pendulu:PersistentLevel.Pendulu'
+[2018.04.09-02.20.33:787][679]LogTemp: Repeating last play command: Selected Viewport
+[2018.04.09-02.20.33:799][679]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Pendulu.Pendulu:PersistentLevel' has LevelScriptBlueprint '/Game/Pendulu.Pendulu:PersistentLevel.Pendulu' with GeneratedClass '/Game/Pendulu.Pendulu_C' with ClassGeneratedBy '/Game/Pendulu.Pendulu:PersistentLevel.Pendulu'
+[2018.04.09-02.20.33:799][679]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.04.09-02.20.33:800][679]PIE: New page: PIE session: Pendulu (9 Apr 2018 04:20:33)
+[2018.04.09-02.20.33:800][679]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Pendulu
+[2018.04.09-02.20.33:803][679]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003031s)
+[2018.04.09-02.20.33:804][679]LogAIModule: Creating AISystem for world Pendulu
+[2018.04.09-02.20.33:805][679]LogPlayLevel: PIE: World Init took: (0.001909s)
+[2018.04.09-02.20.33:805][679]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Pendulu.Pendulu to /Game/UEDPIE_0_Pendulu.Pendulu (0.005451s)
+[2018.04.09-02.20.33:825][679]LogInit: XAudio2 using 'Digital Audio (S/PDIF) (2- High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.04.09-02.20.33:832][679]LogInit: FAudioDevice initialized.
+[2018.04.09-02.20.33:865][679]LogLoad: Game class is 'GameModeBase'
+[2018.04.09-02.20.33:868][679]LogWorld: Bringing World /Game/UEDPIE_0_Pendulu.Pendulu up for play (max tick rate 0) at 2018.04.09-03.20.33
+[2018.04.09-02.20.33:868][679]LogWorld: Bringing up level for play took: 0.002490
+[2018.04.09-02.20.33:870][679]PIE: Play in editor start time for /Game/UEDPIE_0_Pendulu 0.724
+[2018.04.09-02.20.33:870][679]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Pendulu.Pendulu:PersistentLevel' has LevelScriptBlueprint '/Game/Pendulu.Pendulu:PersistentLevel.Pendulu' with GeneratedClass '/Game/Pendulu.Pendulu_C' with ClassGeneratedBy '/Game/Pendulu.Pendulu:PersistentLevel.Pendulu'
+[2018.04.09-02.20.34:144][703]LogBlueprintUserMessages: [Pendulu_C_2] P=0.000000 Y=0.000000 R=24.583345
+[2018.04.09-02.20.35:321][800]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Pendulu.Pendulu:PersistentLevel' has LevelScriptBlueprint '/Game/Pendulu.Pendulu:PersistentLevel.Pendulu' with GeneratedClass '/Game/Pendulu.Pendulu_C' with ClassGeneratedBy '/Game/Pendulu.Pendulu:PersistentLevel.Pendulu'
+[2018.04.09-02.20.35:377][800]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Pendulu.Pendulu:PersistentLevel' has LevelScriptBlueprint '/Game/Pendulu.Pendulu:PersistentLevel.Pendulu' with GeneratedClass '/Game/Pendulu.Pendulu_C' with ClassGeneratedBy '/Game/Pendulu.Pendulu:PersistentLevel.Pendulu'
+[2018.04.09-02.20.36:112][843]LogTemp: Repeating last play command: Selected Viewport
+[2018.04.09-02.20.36:126][843]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Pendulu.Pendulu:PersistentLevel' has LevelScriptBlueprint '/Game/Pendulu.Pendulu:PersistentLevel.Pendulu' with GeneratedClass '/Game/Pendulu.Pendulu_C' with ClassGeneratedBy '/Game/Pendulu.Pendulu:PersistentLevel.Pendulu'
+[2018.04.09-02.20.36:126][843]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.04.09-02.20.36:126][843]PIE: New page: PIE session: Pendulu (9 Apr 2018 04:20:36)
+[2018.04.09-02.20.36:126][843]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Pendulu
+[2018.04.09-02.20.36:128][843]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002120s)
+[2018.04.09-02.20.36:129][843]LogAIModule: Creating AISystem for world Pendulu
+[2018.04.09-02.20.36:129][843]LogPlayLevel: PIE: World Init took: (0.000941s)
+[2018.04.09-02.20.36:129][843]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Pendulu.Pendulu to /Game/UEDPIE_0_Pendulu.Pendulu (0.003271s)
+[2018.04.09-02.20.36:155][843]LogInit: XAudio2 using 'Digital Audio (S/PDIF) (2- High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.04.09-02.20.36:161][843]LogInit: FAudioDevice initialized.
+[2018.04.09-02.20.36:191][843]LogLoad: Game class is 'GameModeBase'
+[2018.04.09-02.20.36:193][843]LogWorld: Bringing World /Game/UEDPIE_0_Pendulu.Pendulu up for play (max tick rate 0) at 2018.04.09-03.20.36
+[2018.04.09-02.20.36:193][843]LogWorld: Bringing up level for play took: 0.001280
+[2018.04.09-02.20.36:194][843]PIE: Play in editor start time for /Game/UEDPIE_0_Pendulu 1.049
+[2018.04.09-02.20.36:195][843]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Pendulu.Pendulu:PersistentLevel' has LevelScriptBlueprint '/Game/Pendulu.Pendulu:PersistentLevel.Pendulu' with GeneratedClass '/Game/Pendulu.Pendulu_C' with ClassGeneratedBy '/Game/Pendulu.Pendulu:PersistentLevel.Pendulu'
+[2018.04.09-02.20.36:855][900]LogBlueprintUserMessages: [Pendulu_C_2] P=0.000000 Y=0.000000 R=-47.291672
+[2018.04.09-02.20.38:433][ 37]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Pendulu.Pendulu:PersistentLevel' has LevelScriptBlueprint '/Game/Pendulu.Pendulu:PersistentLevel.Pendulu' with GeneratedClass '/Game/Pendulu.Pendulu_C' with ClassGeneratedBy '/Game/Pendulu.Pendulu:PersistentLevel.Pendulu'
+[2018.04.09-02.20.38:487][ 37]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Pendulu.Pendulu:PersistentLevel' has LevelScriptBlueprint '/Game/Pendulu.Pendulu:PersistentLevel.Pendulu' with GeneratedClass '/Game/Pendulu.Pendulu_C' with ClassGeneratedBy '/Game/Pendulu.Pendulu:PersistentLevel.Pendulu'
+[2018.04.09-02.20.59:959][883]LogTemp: Repeating last play command: Selected Viewport
+[2018.04.09-02.20.59:971][883]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Pendulu.Pendulu:PersistentLevel' has LevelScriptBlueprint '/Game/Pendulu.Pendulu:PersistentLevel.Pendulu' with GeneratedClass '/Game/Pendulu.Pendulu_C' with ClassGeneratedBy '/Game/Pendulu.Pendulu:PersistentLevel.Pendulu'
+[2018.04.09-02.20.59:971][883]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.04.09-02.20.59:971][883]PIE: New page: PIE session: Pendulu (9 Apr 2018 04:20:59)
+[2018.04.09-02.20.59:971][883]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Pendulu
+[2018.04.09-02.20.59:973][883]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001776s)
+[2018.04.09-02.20.59:974][883]LogAIModule: Creating AISystem for world Pendulu
+[2018.04.09-02.20.59:974][883]LogPlayLevel: PIE: World Init took: (0.000816s)
+[2018.04.09-02.20.59:974][883]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Pendulu.Pendulu to /Game/UEDPIE_0_Pendulu.Pendulu (0.002756s)
+[2018.04.09-02.20.59:992][883]LogInit: XAudio2 using 'Digital Audio (S/PDIF) (2- High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.04.09-02.20.59:998][883]LogInit: FAudioDevice initialized.
+[2018.04.09-02.21.00:032][883]LogLoad: Game class is 'GameModeBase'
+[2018.04.09-02.21.00:034][883]LogWorld: Bringing World /Game/UEDPIE_0_Pendulu.Pendulu up for play (max tick rate 0) at 2018.04.09-03.21.00
+[2018.04.09-02.21.00:035][883]LogWorld: Bringing up level for play took: 0.001877
+[2018.04.09-02.21.00:036][883]PIE: Play in editor start time for /Game/UEDPIE_0_Pendulu 0.89
+[2018.04.09-02.21.00:036][883]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Pendulu.Pendulu:PersistentLevel' has LevelScriptBlueprint '/Game/Pendulu.Pendulu:PersistentLevel.Pendulu' with GeneratedClass '/Game/Pendulu.Pendulu_C' with ClassGeneratedBy '/Game/Pendulu.Pendulu:PersistentLevel.Pendulu'
+[2018.04.09-02.21.05:735][544]LogBlueprintUserMessages: [Pendulu_C_2] P=0.000000 Y=0.000000 R=-9.056255
+[2018.04.09-02.21.06:903][677]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Pendulu.Pendulu:PersistentLevel' has LevelScriptBlueprint '/Game/Pendulu.Pendulu:PersistentLevel.Pendulu' with GeneratedClass '/Game/Pendulu.Pendulu_C' with ClassGeneratedBy '/Game/Pendulu.Pendulu:PersistentLevel.Pendulu'
+[2018.04.09-02.21.06:935][677]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Pendulu.Pendulu:PersistentLevel' has LevelScriptBlueprint '/Game/Pendulu.Pendulu:PersistentLevel.Pendulu' with GeneratedClass '/Game/Pendulu.Pendulu_C' with ClassGeneratedBy '/Game/Pendulu.Pendulu:PersistentLevel.Pendulu'
+[2018.04.09-02.21.07:776][763]LogTemp: Repeating last play command: Selected Viewport
+[2018.04.09-02.21.07:786][763]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Pendulu.Pendulu:PersistentLevel' has LevelScriptBlueprint '/Game/Pendulu.Pendulu:PersistentLevel.Pendulu' with GeneratedClass '/Game/Pendulu.Pendulu_C' with ClassGeneratedBy '/Game/Pendulu.Pendulu:PersistentLevel.Pendulu'
+[2018.04.09-02.21.07:786][763]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.04.09-02.21.07:786][763]PIE: New page: PIE session: Pendulu (9 Apr 2018 04:21:07)
+[2018.04.09-02.21.07:786][763]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Pendulu
+[2018.04.09-02.21.07:788][763]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001632s)
+[2018.04.09-02.21.07:789][763]LogAIModule: Creating AISystem for world Pendulu
+[2018.04.09-02.21.07:789][763]LogPlayLevel: PIE: World Init took: (0.000721s)
+[2018.04.09-02.21.07:789][763]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Pendulu.Pendulu to /Game/UEDPIE_0_Pendulu.Pendulu (0.002544s)
+[2018.04.09-02.21.07:810][763]LogInit: XAudio2 using 'Digital Audio (S/PDIF) (2- High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.04.09-02.21.07:816][763]LogInit: FAudioDevice initialized.
+[2018.04.09-02.21.07:845][763]LogLoad: Game class is 'GameModeBase'
+[2018.04.09-02.21.07:846][763]LogWorld: Bringing World /Game/UEDPIE_0_Pendulu.Pendulu up for play (max tick rate 0) at 2018.04.09-03.21.07
+[2018.04.09-02.21.07:847][763]LogWorld: Bringing up level for play took: 0.001199
+[2018.04.09-02.21.07:848][763]PIE: Play in editor start time for /Game/UEDPIE_0_Pendulu 0.703
+[2018.04.09-02.21.07:848][763]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Pendulu.Pendulu:PersistentLevel' has LevelScriptBlueprint '/Game/Pendulu.Pendulu:PersistentLevel.Pendulu' with GeneratedClass '/Game/Pendulu.Pendulu_C' with ClassGeneratedBy '/Game/Pendulu.Pendulu:PersistentLevel.Pendulu'
+[2018.04.09-02.21.15:575][650]LogBlueprintUserMessages: [Pendulu_C_2] P=0.000000 Y=0.000000 R=-17.790112
+[2018.04.09-02.21.16:319][736]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Pendulu.Pendulu:PersistentLevel' has LevelScriptBlueprint '/Game/Pendulu.Pendulu:PersistentLevel.Pendulu' with GeneratedClass '/Game/Pendulu.Pendulu_C' with ClassGeneratedBy '/Game/Pendulu.Pendulu:PersistentLevel.Pendulu'
+[2018.04.09-02.21.16:358][736]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Pendulu.Pendulu:PersistentLevel' has LevelScriptBlueprint '/Game/Pendulu.Pendulu:PersistentLevel.Pendulu' with GeneratedClass '/Game/Pendulu.Pendulu_C' with ClassGeneratedBy '/Game/Pendulu.Pendulu:PersistentLevel.Pendulu'
+[2018.04.09-02.21.17:338][838]LogTemp: Repeating last play command: Selected Viewport
+[2018.04.09-02.21.17:348][838]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Pendulu.Pendulu:PersistentLevel' has LevelScriptBlueprint '/Game/Pendulu.Pendulu:PersistentLevel.Pendulu' with GeneratedClass '/Game/Pendulu.Pendulu_C' with ClassGeneratedBy '/Game/Pendulu.Pendulu:PersistentLevel.Pendulu'
+[2018.04.09-02.21.17:349][838]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.04.09-02.21.17:349][838]PIE: New page: PIE session: Pendulu (9 Apr 2018 04:21:17)
+[2018.04.09-02.21.17:349][838]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Pendulu
+[2018.04.09-02.21.17:351][838]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001954s)
+[2018.04.09-02.21.17:351][838]LogAIModule: Creating AISystem for world Pendulu
+[2018.04.09-02.21.17:351][838]LogPlayLevel: PIE: World Init took: (0.000702s)
+[2018.04.09-02.21.17:352][838]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Pendulu.Pendulu to /Game/UEDPIE_0_Pendulu.Pendulu (0.002878s)
+[2018.04.09-02.21.17:374][838]LogInit: XAudio2 using 'Digital Audio (S/PDIF) (2- High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.04.09-02.21.17:379][838]LogInit: FAudioDevice initialized.
+[2018.04.09-02.21.17:415][838]LogLoad: Game class is 'GameModeBase'
+[2018.04.09-02.21.17:416][838]LogWorld: Bringing World /Game/UEDPIE_0_Pendulu.Pendulu up for play (max tick rate 0) at 2018.04.09-03.21.17
+[2018.04.09-02.21.17:416][838]LogWorld: Bringing up level for play took: 0.001206
+[2018.04.09-02.21.17:417][838]PIE: Play in editor start time for /Game/UEDPIE_0_Pendulu 0.272
+[2018.04.09-02.21.17:418][838]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Pendulu.Pendulu:PersistentLevel' has LevelScriptBlueprint '/Game/Pendulu.Pendulu:PersistentLevel.Pendulu' with GeneratedClass '/Game/Pendulu.Pendulu_C' with ClassGeneratedBy '/Game/Pendulu.Pendulu:PersistentLevel.Pendulu'
+[2018.04.09-02.21.18:519][963]LogBlueprintUserMessages: [Pendulu_C_2] P=0.000000 Y=0.000000 R=24.349548
+[2018.04.09-02.21.19:188][ 40]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Pendulu.Pendulu:PersistentLevel' has LevelScriptBlueprint '/Game/Pendulu.Pendulu:PersistentLevel.Pendulu' with GeneratedClass '/Game/Pendulu.Pendulu_C' with ClassGeneratedBy '/Game/Pendulu.Pendulu:PersistentLevel.Pendulu'
+[2018.04.09-02.21.19:226][ 40]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Pendulu.Pendulu:PersistentLevel' has LevelScriptBlueprint '/Game/Pendulu.Pendulu:PersistentLevel.Pendulu' with GeneratedClass '/Game/Pendulu.Pendulu_C' with ClassGeneratedBy '/Game/Pendulu.Pendulu:PersistentLevel.Pendulu'
+[2018.04.09-02.21.19:806][ 96]LogTemp: Repeating last play command: Selected Viewport
+[2018.04.09-02.21.19:817][ 96]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Pendulu.Pendulu:PersistentLevel' has LevelScriptBlueprint '/Game/Pendulu.Pendulu:PersistentLevel.Pendulu' with GeneratedClass '/Game/Pendulu.Pendulu_C' with ClassGeneratedBy '/Game/Pendulu.Pendulu:PersistentLevel.Pendulu'
+[2018.04.09-02.21.19:817][ 96]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.04.09-02.21.19:817][ 96]PIE: New page: PIE session: Pendulu (9 Apr 2018 04:21:19)
+[2018.04.09-02.21.19:817][ 96]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Pendulu
+[2018.04.09-02.21.19:819][ 96]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002053s)
+[2018.04.09-02.21.19:820][ 96]LogAIModule: Creating AISystem for world Pendulu
+[2018.04.09-02.21.19:820][ 96]LogPlayLevel: PIE: World Init took: (0.000842s)
+[2018.04.09-02.21.19:820][ 96]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Pendulu.Pendulu to /Game/UEDPIE_0_Pendulu.Pendulu (0.003111s)
+[2018.04.09-02.21.19:840][ 96]LogInit: XAudio2 using 'Digital Audio (S/PDIF) (2- High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.04.09-02.21.19:846][ 96]LogInit: FAudioDevice initialized.
+[2018.04.09-02.21.19:876][ 96]LogLoad: Game class is 'GameModeBase'
+[2018.04.09-02.21.19:877][ 96]LogWorld: Bringing World /Game/UEDPIE_0_Pendulu.Pendulu up for play (max tick rate 0) at 2018.04.09-03.21.19
+[2018.04.09-02.21.19:877][ 96]LogWorld: Bringing up level for play took: 0.001062
+[2018.04.09-02.21.19:879][ 96]PIE: Play in editor start time for /Game/UEDPIE_0_Pendulu 0.733
+[2018.04.09-02.21.19:879][ 96]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Pendulu.Pendulu:PersistentLevel' has LevelScriptBlueprint '/Game/Pendulu.Pendulu:PersistentLevel.Pendulu' with GeneratedClass '/Game/Pendulu.Pendulu_C' with ClassGeneratedBy '/Game/Pendulu.Pendulu:PersistentLevel.Pendulu'
+[2018.04.09-02.21.21:809][315]LogBlueprintUserMessages: [Pendulu_C_2] P=0.000000 Y=0.000000 R=89.977844
+[2018.04.09-02.21.23:836][545]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Pendulu.Pendulu:PersistentLevel' has LevelScriptBlueprint '/Game/Pendulu.Pendulu:PersistentLevel.Pendulu' with GeneratedClass '/Game/Pendulu.Pendulu_C' with ClassGeneratedBy '/Game/Pendulu.Pendulu:PersistentLevel.Pendulu'
+[2018.04.09-02.21.23:873][545]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Pendulu.Pendulu:PersistentLevel' has LevelScriptBlueprint '/Game/Pendulu.Pendulu:PersistentLevel.Pendulu' with GeneratedClass '/Game/Pendulu.Pendulu_C' with ClassGeneratedBy '/Game/Pendulu.Pendulu:PersistentLevel.Pendulu'
+[2018.04.09-02.21.24:720][629]LogTemp: Repeating last play command: Selected Viewport
+[2018.04.09-02.21.24:730][629]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Pendulu.Pendulu:PersistentLevel' has LevelScriptBlueprint '/Game/Pendulu.Pendulu:PersistentLevel.Pendulu' with GeneratedClass '/Game/Pendulu.Pendulu_C' with ClassGeneratedBy '/Game/Pendulu.Pendulu:PersistentLevel.Pendulu'
+[2018.04.09-02.21.24:731][629]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.04.09-02.21.24:731][629]PIE: New page: PIE session: Pendulu (9 Apr 2018 04:21:24)
+[2018.04.09-02.21.24:731][629]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Pendulu
+[2018.04.09-02.21.24:736][629]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005146s)
+[2018.04.09-02.21.24:738][629]LogAIModule: Creating AISystem for world Pendulu
+[2018.04.09-02.21.24:738][629]LogPlayLevel: PIE: World Init took: (0.001607s)
+[2018.04.09-02.21.24:738][629]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Pendulu.Pendulu to /Game/UEDPIE_0_Pendulu.Pendulu (0.007157s)
+[2018.04.09-02.21.24:757][629]LogInit: XAudio2 using 'Digital Audio (S/PDIF) (2- High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.04.09-02.21.24:762][629]LogInit: FAudioDevice initialized.
+[2018.04.09-02.21.24:802][629]LogLoad: Game class is 'GameModeBase'
+[2018.04.09-02.21.24:804][629]LogWorld: Bringing World /Game/UEDPIE_0_Pendulu.Pendulu up for play (max tick rate 0) at 2018.04.09-03.21.24
+[2018.04.09-02.21.24:804][629]LogWorld: Bringing up level for play took: 0.001218
+[2018.04.09-02.21.24:805][629]PIE: Play in editor start time for /Game/UEDPIE_0_Pendulu -0.34
+[2018.04.09-02.21.24:805][629]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Pendulu.Pendulu:PersistentLevel' has LevelScriptBlueprint '/Game/Pendulu.Pendulu:PersistentLevel.Pendulu' with GeneratedClass '/Game/Pendulu.Pendulu_C' with ClassGeneratedBy '/Game/Pendulu.Pendulu:PersistentLevel.Pendulu'
+[2018.04.09-02.21.26:510][821]LogBlueprintUserMessages: [Pendulu_C_2] P=0.000000 Y=0.000000 R=-13.547933
+[2018.04.09-02.21.27:043][881]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Pendulu.Pendulu:PersistentLevel' has LevelScriptBlueprint '/Game/Pendulu.Pendulu:PersistentLevel.Pendulu' with GeneratedClass '/Game/Pendulu.Pendulu_C' with ClassGeneratedBy '/Game/Pendulu.Pendulu:PersistentLevel.Pendulu'
+[2018.04.09-02.21.27:080][881]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Pendulu.Pendulu:PersistentLevel' has LevelScriptBlueprint '/Game/Pendulu.Pendulu:PersistentLevel.Pendulu' with GeneratedClass '/Game/Pendulu.Pendulu_C' with ClassGeneratedBy '/Game/Pendulu.Pendulu:PersistentLevel.Pendulu'
+[2018.04.09-02.21.27:556][925]LogTemp: Repeating last play command: Selected Viewport
+[2018.04.09-02.21.27:571][925]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Pendulu.Pendulu:PersistentLevel' has LevelScriptBlueprint '/Game/Pendulu.Pendulu:PersistentLevel.Pendulu' with GeneratedClass '/Game/Pendulu.Pendulu_C' with ClassGeneratedBy '/Game/Pendulu.Pendulu:PersistentLevel.Pendulu'
+[2018.04.09-02.21.27:571][925]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.04.09-02.21.27:571][925]PIE: New page: PIE session: Pendulu (9 Apr 2018 04:21:27)
+[2018.04.09-02.21.27:571][925]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Pendulu
+[2018.04.09-02.21.27:573][925]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002129s)
+[2018.04.09-02.21.27:574][925]LogAIModule: Creating AISystem for world Pendulu
+[2018.04.09-02.21.27:574][925]LogPlayLevel: PIE: World Init took: (0.000739s)
+[2018.04.09-02.21.27:574][925]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Pendulu.Pendulu to /Game/UEDPIE_0_Pendulu.Pendulu (0.003029s)
+[2018.04.09-02.21.27:592][925]LogInit: XAudio2 using 'Digital Audio (S/PDIF) (2- High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.04.09-02.21.27:600][925]LogInit: FAudioDevice initialized.
+[2018.04.09-02.21.27:635][925]LogLoad: Game class is 'GameModeBase'
+[2018.04.09-02.21.27:637][925]LogWorld: Bringing World /Game/UEDPIE_0_Pendulu.Pendulu up for play (max tick rate 0) at 2018.04.09-03.21.27
+[2018.04.09-02.21.27:637][925]LogWorld: Bringing up level for play took: 0.001139
+[2018.04.09-02.21.27:638][925]PIE: Play in editor start time for /Game/UEDPIE_0_Pendulu 0.493
+[2018.04.09-02.21.27:638][925]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Pendulu.Pendulu:PersistentLevel' has LevelScriptBlueprint '/Game/Pendulu.Pendulu:PersistentLevel.Pendulu' with GeneratedClass '/Game/Pendulu.Pendulu_C' with ClassGeneratedBy '/Game/Pendulu.Pendulu:PersistentLevel.Pendulu'
+[2018.04.09-02.21.27:927][957]LogBlueprintUserMessages: [Pendulu_C_2] P=0.000000 Y=0.000000 R=-45.605484
+[2018.04.09-02.21.28:312][  0]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Pendulu.Pendulu:PersistentLevel' has LevelScriptBlueprint '/Game/Pendulu.Pendulu:PersistentLevel.Pendulu' with GeneratedClass '/Game/Pendulu.Pendulu_C' with ClassGeneratedBy '/Game/Pendulu.Pendulu:PersistentLevel.Pendulu'
+[2018.04.09-02.21.28:348][  0]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Pendulu.Pendulu:PersistentLevel' has LevelScriptBlueprint '/Game/Pendulu.Pendulu:PersistentLevel.Pendulu' with GeneratedClass '/Game/Pendulu.Pendulu_C' with ClassGeneratedBy '/Game/Pendulu.Pendulu:PersistentLevel.Pendulu'
+[2018.04.09-02.21.28:906][ 54]LogTemp: Repeating last play command: Selected Viewport
+[2018.04.09-02.21.28:917][ 54]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Pendulu.Pendulu:PersistentLevel' has LevelScriptBlueprint '/Game/Pendulu.Pendulu:PersistentLevel.Pendulu' with GeneratedClass '/Game/Pendulu.Pendulu_C' with ClassGeneratedBy '/Game/Pendulu.Pendulu:PersistentLevel.Pendulu'
+[2018.04.09-02.21.28:917][ 54]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.04.09-02.21.28:917][ 54]PIE: New page: PIE session: Pendulu (9 Apr 2018 04:21:28)
+[2018.04.09-02.21.28:917][ 54]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Pendulu
+[2018.04.09-02.21.28:919][ 54]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001795s)
+[2018.04.09-02.21.28:919][ 54]LogAIModule: Creating AISystem for world Pendulu
+[2018.04.09-02.21.28:920][ 54]LogPlayLevel: PIE: World Init took: (0.000743s)
+[2018.04.09-02.21.28:920][ 54]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Pendulu.Pendulu to /Game/UEDPIE_0_Pendulu.Pendulu (0.002735s)
+[2018.04.09-02.21.28:940][ 54]LogInit: XAudio2 using 'Digital Audio (S/PDIF) (2- High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.04.09-02.21.28:945][ 54]LogInit: FAudioDevice initialized.
+[2018.04.09-02.21.28:976][ 54]LogLoad: Game class is 'GameModeBase'
+[2018.04.09-02.21.28:977][ 54]LogWorld: Bringing World /Game/UEDPIE_0_Pendulu.Pendulu up for play (max tick rate 0) at 2018.04.09-03.21.28
+[2018.04.09-02.21.28:977][ 54]LogWorld: Bringing up level for play took: 0.000862
+[2018.04.09-02.21.28:978][ 54]PIE: Play in editor start time for /Game/UEDPIE_0_Pendulu -0.167
+[2018.04.09-02.21.28:979][ 54]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Pendulu.Pendulu:PersistentLevel' has LevelScriptBlueprint '/Game/Pendulu.Pendulu:PersistentLevel.Pendulu' with GeneratedClass '/Game/Pendulu.Pendulu_C' with ClassGeneratedBy '/Game/Pendulu.Pendulu:PersistentLevel.Pendulu'
+[2018.04.09-02.21.30:917][274]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Pendulu.Pendulu:PersistentLevel' has LevelScriptBlueprint '/Game/Pendulu.Pendulu:PersistentLevel.Pendulu' with GeneratedClass '/Game/Pendulu.Pendulu_C' with ClassGeneratedBy '/Game/Pendulu.Pendulu:PersistentLevel.Pendulu'
+[2018.04.09-02.21.30:953][274]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Pendulu.Pendulu:PersistentLevel' has LevelScriptBlueprint '/Game/Pendulu.Pendulu:PersistentLevel.Pendulu' with GeneratedClass '/Game/Pendulu.Pendulu_C' with ClassGeneratedBy '/Game/Pendulu.Pendulu:PersistentLevel.Pendulu'
+[2018.04.09-02.21.58:703][ 44]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Pendulu" FILE="D:/Unreal Projects/MyProject2/Content/Pendulu.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.04.09-02.21.58:804][ 44]LogSavePackage: Save=84.77ms
+[2018.04.09-02.21.58:804][ 44]LogSavePackage: Moving 'D:/Unreal Projects/MyProject2/Saved/Pendulu9C57E1D7465F0E603C4100B299FF01E7.tmp' to 'D:/Unreal Projects/MyProject2/Content/Pendulu.umap'
+[2018.04.09-02.21.58:805][ 44]LogSavePackage: Display: Finished SavePackage D:/Unreal Projects/MyProject2/Content/Pendulu.umap
+[2018.04.09-02.21.58:822][ 44]LogFileHelpers: Saving map 'Pendulu' took 0.168
+[2018.04.09-02.21.58:823][ 44]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Spin" FILE="D:/Unreal Projects/MyProject2/Content/Spin.uasset" SILENT=true
+[2018.04.09-02.21.58:836][ 44]LogSavePackage: Save=7.92ms
+[2018.04.09-02.21.58:836][ 44]LogSavePackage: Moving 'D:/Unreal Projects/MyProject2/Saved/SpinA3CE74DC40953309A3A44FAEA751B703.tmp' to 'D:/Unreal Projects/MyProject2/Content/Spin.uasset'
+[2018.04.09-02.21.58:837][ 44]LogSavePackage: Display: Finished SavePackage D:/Unreal Projects/MyProject2/Content/Spin.uasset
+[2018.04.09-02.21.58:914][ 44]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.04.09-02.21.59:083][ 45]Cmd: QUIT_EDITOR
+[2018.04.09-02.21.59:724][ 45]LogExit: Preparing to exit.
+[2018.04.09-02.22.00:960][ 45]LogExit: Editor shut down
+[2018.04.09-02.22.00:966][ 45]LogExit: Transaction tracking system shut down
+[2018.04.09-02.22.01:123][ 45]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2018.04.09-02.22.01:123][ 45]LogDirectoryWatcher: A directory notification for 'D:/Unreal Projects/MyProject2/Content/' was aborted.
+[2018.04.09-02.22.01:123][ 45]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2018.04.09-02.22.01:123][ 45]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Oculus/OculusVR/Content/' was aborted.
+[2018.04.09-02.22.01:123][ 45]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Steam/SteamVR/Content/' was aborted.
+[2018.04.09-02.22.01:196][ 45]LogExit: Object subsystem successfully closed.
+[2018.04.09-02.22.01:218][ 45]LogD3D11RHI: Shutdown
+[2018.04.09-02.22.01:218][ 45]LogD3D11RHI: CleanupD3DDevice
+[2018.04.09-02.22.01:282][ 45]LogD3D11RHI: ~FD3D11DynamicRHI
+[2018.04.09-02.22.01:294][ 45]LogModuleManager: Shutting down and abandoning module SequencerWidgets (540)
+[2018.04.09-02.22.01:294][ 45]LogModuleManager: Shutting down and abandoning module BlueprintGraph (538)
+[2018.04.09-02.22.01:295][ 45]LogModuleManager: Shutting down and abandoning module BlueprintProfiler (536)
+[2018.04.09-02.22.01:295][ 45]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (534)
+[2018.04.09-02.22.01:295][ 45]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (532)
+[2018.04.09-02.22.01:295][ 45]LogModuleManager: Shutting down and abandoning module ExternalImagePicker (530)
+[2018.04.09-02.22.01:295][ 45]LogModuleManager: Shutting down and abandoning module SceneOutliner (528)
+[2018.04.09-02.22.01:295][ 45]LogModuleManager: Shutting down and abandoning module AddContentDialog (526)
+[2018.04.09-02.22.01:295][ 45]LogDirectoryWatcher: A directory notification for 'C:/Program Files/Epic Games/UE_4.17/FeaturePacks/' was aborted.
+[2018.04.09-02.22.01:296][ 45]LogModuleManager: Shutting down and abandoning module WidgetCarousel (525)
+[2018.04.09-02.22.01:296][ 45]LogModuleManager: Shutting down and abandoning module EditorWidgets (522)
+[2018.04.09-02.22.01:296][ 45]LogModuleManager: Shutting down and abandoning module CollectionManager (520)
+[2018.04.09-02.22.01:296][ 45]LogDirectoryWatcher: A directory notification for 'D:/Unreal Projects/MyProject2/Content/Collections/' was aborted.
+[2018.04.09-02.22.01:296][ 45]LogDirectoryWatcher: A directory notification for 'D:/Unreal Projects/MyProject2/Content/Developers/vmirc/Collections/' was aborted.
+[2018.04.09-02.22.01:296][ 45]LogDirectoryWatcher: A directory notification for 'D:/Unreal Projects/MyProject2/Saved/Collections/' was aborted.
+[2018.04.09-02.22.01:296][ 45]LogModuleManager: Shutting down and abandoning module StatsViewer (518)
+[2018.04.09-02.22.01:296][ 45]LogModuleManager: Shutting down and abandoning module FoliageEdit (516)
+[2018.04.09-02.22.01:296][ 45]LogModuleManager: Shutting down and abandoning module LandscapeEditor (514)
+[2018.04.09-02.22.01:296][ 45]LogModuleManager: Shutting down and abandoning module MeshPaintMode (512)
+[2018.04.09-02.22.01:296][ 45]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (510)
+[2018.04.09-02.22.01:296][ 45]LogModuleManager: Shutting down and abandoning module ActorPickerMode (508)
+[2018.04.09-02.22.01:296][ 45]LogModuleManager: Shutting down and abandoning module GeometryMode (506)
+[2018.04.09-02.22.01:296][ 45]LogModuleManager: Shutting down and abandoning module TextureAlignMode (504)
+[2018.04.09-02.22.01:296][ 45]LogModuleManager: Shutting down and abandoning module BspMode (502)
+[2018.04.09-02.22.01:296][ 45]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (500)
+[2018.04.09-02.22.01:296][ 45]LogModuleManager: Shutting down and abandoning module HardwareSurvey (498)
+[2018.04.09-02.22.01:296][ 45]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (496)
+[2018.04.09-02.22.01:296][ 45]LogModuleManager: Shutting down and abandoning module AutomationWorker (494)
+[2018.04.09-02.22.01:296][ 45]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (492)
+[2018.04.09-02.22.01:296][ 45]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (490)
+[2018.04.09-02.22.01:296][ 45]LogModuleManager: Shutting down and abandoning module PlacementMode (489)
+[2018.04.09-02.22.01:296][ 45]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (486)
+[2018.04.09-02.22.01:296][ 45]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (484)
+[2018.04.09-02.22.01:296][ 45]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (482)
+[2018.04.09-02.22.01:296][ 45]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (480)
+[2018.04.09-02.22.01:296][ 45]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (478)
+[2018.04.09-02.22.01:296][ 45]LogModuleManager: Shutting down and abandoning module Media (477)
+[2018.04.09-02.22.01:296][ 45]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (474)
+[2018.04.09-02.22.01:296][ 45]LogModuleManager: Shutting down and abandoning module CharacterAI (472)
+[2018.04.09-02.22.01:296][ 45]LogModuleManager: Shutting down and abandoning module AudioCapture (470)
+[2018.04.09-02.22.01:296][ 45]LogModuleManager: Shutting down and abandoning module SequenceRecorder (469)
+[2018.04.09-02.22.01:296][ 45]LogModuleManager: Shutting down and abandoning module SmartSnapping (466)
+[2018.04.09-02.22.01:296][ 45]LogModuleManager: Shutting down and abandoning module SessionServices (464)
+[2018.04.09-02.22.01:296][ 45]LogModuleManager: Shutting down and abandoning module ViewportSnapping (462)
+[2018.04.09-02.22.01:296][ 45]LogModuleManager: Shutting down and abandoning module ViewportInteraction (460)
+[2018.04.09-02.22.01:296][ 45]LogModuleManager: Shutting down and abandoning module ClothPainter (458)
+[2018.04.09-02.22.01:296][ 45]LogModuleManager: Shutting down and abandoning module LogVisualizer (456)
+[2018.04.09-02.22.01:297][ 45]LogModuleManager: Shutting down and abandoning module IntroTutorials (454)
+[2018.04.09-02.22.01:297][ 45]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (453)
+[2018.04.09-02.22.01:297][ 45]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (450)
+[2018.04.09-02.22.01:297][ 45]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (448)
+[2018.04.09-02.22.01:297][ 45]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (446)
+[2018.04.09-02.22.01:297][ 45]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (445)
+[2018.04.09-02.22.01:690][ 45]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (442)
+[2018.04.09-02.22.01:690][ 45]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (440)
+[2018.04.09-02.22.01:690][ 45]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (438)
+[2018.04.09-02.22.01:690][ 45]LogModuleManager: Shutting down and abandoning module InputBindingEditor (436)
+[2018.04.09-02.22.01:690][ 45]LogModuleManager: Shutting down and abandoning module MergeActors (434)
+[2018.04.09-02.22.01:690][ 45]LogModuleManager: Shutting down and abandoning module SizeMap (432)
+[2018.04.09-02.22.01:690][ 45]LogModuleManager: Shutting down and abandoning module TreeMap (430)
+[2018.04.09-02.22.01:690][ 45]LogModuleManager: Shutting down and abandoning module ReferenceViewer (428)
+[2018.04.09-02.22.01:691][ 45]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (426)
+[2018.04.09-02.22.01:691][ 45]LogModuleManager: Shutting down and abandoning module LocalizationService (425)
+[2018.04.09-02.22.01:691][ 45]LogModuleManager: Shutting down and abandoning module HardwareTargeting (422)
+[2018.04.09-02.22.01:691][ 45]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (420)
+[2018.04.09-02.22.01:691][ 45]LogModuleManager: Shutting down and abandoning module UndoHistory (418)
+[2018.04.09-02.22.01:691][ 45]LogModuleManager: Shutting down and abandoning module XmlParser (416)
+[2018.04.09-02.22.01:691][ 45]LogModuleManager: Shutting down and abandoning module Blutility (414)
+[2018.04.09-02.22.01:691][ 45]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (412)
+[2018.04.09-02.22.01:691][ 45]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (411)
+[2018.04.09-02.22.01:692][ 45]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (408)
+[2018.04.09-02.22.01:692][ 45]LogModuleManager: Shutting down and abandoning module SettingsEditor (406)
+[2018.04.09-02.22.01:692][ 45]LogModuleManager: Shutting down and abandoning module ProjectLauncher (404)
+[2018.04.09-02.22.01:692][ 45]LogModuleManager: Shutting down and abandoning module SessionFrontend (402)
+[2018.04.09-02.22.01:693][ 45]LogModuleManager: Shutting down and abandoning module ProfilerClient (400)
+[2018.04.09-02.22.01:693][ 45]LogModuleManager: Shutting down and abandoning module DeviceManager (398)
+[2018.04.09-02.22.01:693][ 45]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (397)
+[2018.04.09-02.22.01:746][ 45]LogModuleManager: Shutting down and abandoning module AutomationController (394)
+[2018.04.09-02.22.01:746][ 45]LogModuleManager: Shutting down and abandoning module AutomationWindow (392)
+[2018.04.09-02.22.01:746][ 45]LogModuleManager: Shutting down and abandoning module Layers (390)
+[2018.04.09-02.22.01:746][ 45]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (388)
+[2018.04.09-02.22.01:746][ 45]LogModuleManager: Shutting down and abandoning module DetailCustomizations (386)
+[2018.04.09-02.22.01:746][ 45]LogModuleManager: Shutting down and abandoning module PackagesDialog (384)
+[2018.04.09-02.22.01:746][ 45]LogModuleManager: Shutting down and abandoning module Persona (382)
+[2018.04.09-02.22.01:746][ 45]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (381)
+[2018.04.09-02.22.01:746][ 45]LogModuleManager: Shutting down and abandoning module AnimGraph (379)
+[2018.04.09-02.22.01:747][ 45]LogModuleManager: Shutting down and abandoning module Kismet (376)
+[2018.04.09-02.22.01:760][ 45]LogModuleManager: Shutting down and abandoning module ClassViewer (374)
+[2018.04.09-02.22.01:760][ 45]LogModuleManager: Shutting down and abandoning module Toolbox (372)
+[2018.04.09-02.22.01:760][ 45]LogModuleManager: Shutting down and abandoning module ModuleUI (370)
+[2018.04.09-02.22.01:760][ 45]LogModuleManager: Shutting down and abandoning module MovieSceneTools (368)
+[2018.04.09-02.22.01:760][ 45]LogModuleManager: Shutting down and abandoning module OutputLog (366)
+[2018.04.09-02.22.01:760][ 45]LogModuleManager: Shutting down and abandoning module GammaUI (364)
+[2018.04.09-02.22.01:760][ 45]LogModuleManager: Shutting down and abandoning module Documentation (362)
+[2018.04.09-02.22.01:760][ 45]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (360)
+[2018.04.09-02.22.01:760][ 45]LogModuleManager: Shutting down and abandoning module MovieScene (358)
+[2018.04.09-02.22.01:760][ 45]LogModuleManager: Shutting down and abandoning module Niagara (356)
+[2018.04.09-02.22.01:760][ 45]LogModuleManager: Shutting down and abandoning module NiagaraEditor (355)
+[2018.04.09-02.22.01:761][ 45]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (352)
+[2018.04.09-02.22.01:761][ 45]LogModuleManager: Shutting down and abandoning module LauncherPlatform (350)
+[2018.04.09-02.22.01:761][ 45]LogModuleManager: Shutting down and abandoning module AnalyticsET (348)
+[2018.04.09-02.22.01:761][ 45]LogModuleManager: Shutting down and abandoning module PortalServices (346)
+[2018.04.09-02.22.01:761][ 45]LogModuleManager: Shutting down and abandoning module PortalRpc (344)
+[2018.04.09-02.22.01:761][ 45]LogModuleManager: Shutting down and abandoning module MessagingRpc (342)
+[2018.04.09-02.22.01:761][ 45]LogModuleManager: Shutting down and abandoning module AIModule (340)
+[2018.04.09-02.22.01:761][ 45]LogModuleManager: Shutting down and abandoning module GameplayDebugger (339)
+[2018.04.09-02.22.01:761][ 45]LogModuleManager: Shutting down and abandoning module AITestSuite (337)
+[2018.04.09-02.22.01:761][ 45]LogModuleManager: Shutting down and abandoning module ProfilerService (334)
+[2018.04.09-02.22.01:968][ 45]LogModuleManager: Shutting down and abandoning module TaskGraph (332)
+[2018.04.09-02.22.01:969][ 45]LogModuleManager: Shutting down and abandoning module SteamVRController (330)
+[2018.04.09-02.22.01:969][ 45]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (328)
+[2018.04.09-02.22.01:969][ 45]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (326)
+[2018.04.09-02.22.01:969][ 45]LogModuleManager: Shutting down and abandoning module OculusInput (324)
+[2018.04.09-02.22.01:969][ 45]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (322)
+[2018.04.09-02.22.01:969][ 45]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (320)
+[2018.04.09-02.22.01:969][ 45]LogModuleManager: Shutting down and abandoning module CableComponent (318)
+[2018.04.09-02.22.01:969][ 45]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (316)
+[2018.04.09-02.22.01:969][ 45]LogModuleManager: Shutting down and abandoning module AndroidPermission (314)
+[2018.04.09-02.22.01:969][ 45]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (310)
+[2018.04.09-02.22.01:970][ 45]LogModuleManager: Shutting down and abandoning module HTML5Networking (308)
+[2018.04.09-02.22.01:970][ 45]LogModuleManager: Shutting down and abandoning module AlembicImporter (306)
+[2018.04.09-02.22.01:970][ 45]LogModuleManager: Shutting down and abandoning module AlembicLibrary (305)
+[2018.04.09-02.22.01:970][ 45]LogModuleManager: Shutting down and abandoning module GeometryCache (304)
+[2018.04.09-02.22.01:970][ 45]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (303)
+[2018.04.09-02.22.01:970][ 45]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (298)
+[2018.04.09-02.22.01:970][ 45]LogModuleManager: Shutting down and abandoning module PluginBrowser (296)
+[2018.04.09-02.22.01:970][ 45]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (294)
+[2018.04.09-02.22.01:970][ 45]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (292)
+[2018.04.09-02.22.01:970][ 45]LogModuleManager: Shutting down and abandoning module DesktopPlatform (291)
+[2018.04.09-02.22.01:971][ 45]LogModuleManager: Shutting down and abandoning module UObjectPlugin (288)
+[2018.04.09-02.22.01:971][ 45]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (286)
+[2018.04.09-02.22.01:971][ 45]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (284)
+[2018.04.09-02.22.01:971][ 45]LogModuleManager: Shutting down and abandoning module GitSourceControl (282)
+[2018.04.09-02.22.01:971][ 45]LogModuleManager: Shutting down and abandoning module SourceControl (281)
+[2018.04.09-02.22.01:971][ 45]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (278)
+[2018.04.09-02.22.01:971][ 45]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (276)
+[2018.04.09-02.22.01:971][ 45]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (274)
+[2018.04.09-02.22.01:971][ 45]LogModuleManager: Shutting down and abandoning module Paper2DEditor (272)
+[2018.04.09-02.22.01:971][ 45]LogModuleManager: Shutting down and abandoning module MeshPaint (271)
+[2018.04.09-02.22.01:972][ 45]LogModuleManager: Shutting down and abandoning module LevelEditor (269)
+[2018.04.09-02.22.01:974][ 45]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (268)
+[2018.04.09-02.22.01:974][ 45]LogModuleManager: Shutting down and abandoning module MainFrame (266)
+[2018.04.09-02.22.01:974][ 45]LogModuleManager: Shutting down and abandoning module HotReload (265)
+[2018.04.09-02.22.01:976][ 45]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (260)
+[2018.04.09-02.22.01:976][ 45]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (258)
+[2018.04.09-02.22.01:976][ 45]LogModuleManager: Shutting down and abandoning module PhysXVehicles (256)
+[2018.04.09-02.22.01:976][ 45]LogModuleManager: Shutting down and abandoning module OculusEditor (254)
+[2018.04.09-02.22.01:976][ 45]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (252)
+[2018.04.09-02.22.01:976][ 45]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (250)
+[2018.04.09-02.22.01:976][ 45]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (248)
+[2018.04.09-02.22.01:976][ 45]LogModuleManager: Shutting down and abandoning module UdpMessaging (246)
+[2018.04.09-02.22.02:077][ 45]LogModuleManager: Shutting down and abandoning module TcpMessaging (244)
+[2018.04.09-02.22.02:178][ 45]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (242)
+[2018.04.09-02.22.02:178][ 45]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (240)
+[2018.04.09-02.22.02:178][ 45]LogModuleManager: Shutting down and abandoning module FacialAnimation (238)
+[2018.04.09-02.22.02:178][ 45]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (236)
+[2018.04.09-02.22.02:178][ 45]LogModuleManager: Shutting down and abandoning module GraphEditor (235)
+[2018.04.09-02.22.02:178][ 45]LogModuleManager: Shutting down and abandoning module ContentBrowser (233)
+[2018.04.09-02.22.02:180][ 45]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (230)
+[2018.04.09-02.22.02:180][ 45]LogModuleManager: Shutting down and abandoning module Paper2D (228)
+[2018.04.09-02.22.02:181][ 45]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (226)
+[2018.04.09-02.22.02:181][ 45]LogModuleManager: Shutting down and abandoning module WmfMedia (224)
+[2018.04.09-02.22.02:186][ 45]LogModuleManager: Shutting down and abandoning module PacketHandler (222)
+[2018.04.09-02.22.02:186][ 45]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (220)
+[2018.04.09-02.22.02:186][ 45]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (218)
+[2018.04.09-02.22.02:186][ 45]LogModuleManager: Shutting down and abandoning module Overlay (216)
+[2018.04.09-02.22.02:186][ 45]LogModuleManager: Shutting down and abandoning module OverlayEditor (215)
+[2018.04.09-02.22.02:186][ 45]LogModuleManager: Shutting down and abandoning module MediaAssets (212)
+[2018.04.09-02.22.02:186][ 45]LogModuleManager: Shutting down and abandoning module VREditor (210)
+[2018.04.09-02.22.02:186][ 45]LogModuleManager: Shutting down and abandoning module StringTableEditor (208)
+[2018.04.09-02.22.02:186][ 45]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (206)
+[2018.04.09-02.22.02:186][ 45]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (204)
+[2018.04.09-02.22.02:186][ 45]LogModuleManager: Shutting down and abandoning module FunctionalTesting (202)
+[2018.04.09-02.22.02:186][ 45]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (200)
+[2018.04.09-02.22.02:186][ 45]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (199)
+[2018.04.09-02.22.02:187][ 45]LogModuleManager: Shutting down and abandoning module UMG (196)
+[2018.04.09-02.22.02:187][ 45]LogModuleManager: Shutting down and abandoning module UMGEditor (195)
+[2018.04.09-02.22.02:187][ 45]LogModuleManager: Shutting down and abandoning module Sequencer (194)
+[2018.04.09-02.22.02:187][ 45]LogModuleManager: Shutting down and abandoning module MessageLog (191)
+[2018.04.09-02.22.02:187][ 45]LogModuleManager: Shutting down and abandoning module SlateReflector (186)
+[2018.04.09-02.22.02:187][ 45]LogModuleManager: Shutting down and abandoning module Slate (184)
+[2018.04.09-02.22.02:187][ 45]LogModuleManager: Shutting down and abandoning module EditorStyle (182)
+[2018.04.09-02.22.02:191][ 45]LogModuleManager: Shutting down and abandoning module MRMesh (180)
+[2018.04.09-02.22.02:191][ 45]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (178)
+[2018.04.09-02.22.02:192][ 45]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (176)
+[2018.04.09-02.22.02:192][ 45]LogModuleManager: Shutting down and abandoning module XAudio2 (174)
+[2018.04.09-02.22.02:192][ 45]LogModuleManager: Shutting down and abandoning module Networking (172)
+[2018.04.09-02.22.02:192][ 45]LogModuleManager: Shutting down and abandoning module Core (168)
+[2018.04.09-02.22.02:192][ 45]LogModuleManager: Shutting down and abandoning module KismetCompiler (164)
+[2018.04.09-02.22.02:192][ 45]LogModuleManager: Shutting down and abandoning module LevelSequence (162)
+[2018.04.09-02.22.02:192][ 45]LogModuleManager: Shutting down and abandoning module MeshUtilities (160)
+[2018.04.09-02.22.02:192][ 45]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (159)
+[2018.04.09-02.22.02:192][ 45]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (158)
+[2018.04.09-02.22.02:192][ 45]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (157)
+[2018.04.09-02.22.02:192][ 45]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (155)
+[2018.04.09-02.22.02:192][ 45]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (153)
+[2018.04.09-02.22.02:192][ 45]LogModuleManager: Shutting down and abandoning module MaterialBaking (149)
+[2018.04.09-02.22.02:192][ 45]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (146)
+[2018.04.09-02.22.02:193][ 45]LogModuleManager: Shutting down and abandoning module DerivedDataCache (144)
+[2018.04.09-02.22.02:260][ 45]LogDerivedDataCache: Shutdown
+[2018.04.09-02.22.02:260][ 45]LogModuleManager: Shutting down and abandoning module TargetPlatform (142)
+[2018.04.09-02.22.02:260][ 45]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (141)
+[2018.04.09-02.22.02:261][ 45]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (139)
+[2018.04.09-02.22.02:261][ 45]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (137)
+[2018.04.09-02.22.02:261][ 45]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (135)
+[2018.04.09-02.22.02:261][ 45]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (133)
+[2018.04.09-02.22.02:261][ 45]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (131)
+[2018.04.09-02.22.02:261][ 45]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (129)
+[2018.04.09-02.22.02:261][ 45]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (127)
+[2018.04.09-02.22.02:261][ 45]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (125)
+[2018.04.09-02.22.02:261][ 45]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (123)
+[2018.04.09-02.22.02:261][ 45]LogModuleManager: Shutting down and abandoning module ImageWrapper (122)
+[2018.04.09-02.22.02:261][ 45]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (119)
+[2018.04.09-02.22.02:261][ 45]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (117)
+[2018.04.09-02.22.02:261][ 45]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (115)
+[2018.04.09-02.22.02:261][ 45]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (113)
+[2018.04.09-02.22.02:261][ 45]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (111)
+[2018.04.09-02.22.02:261][ 45]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (109)
+[2018.04.09-02.22.02:261][ 45]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (107)
+[2018.04.09-02.22.02:261][ 45]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (105)
+[2018.04.09-02.22.02:261][ 45]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (103)
+[2018.04.09-02.22.02:261][ 45]LogModuleManager: Shutting down and abandoning module Messaging (101)
+[2018.04.09-02.22.02:261][ 45]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (99)
+[2018.04.09-02.22.02:261][ 45]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (97)
+[2018.04.09-02.22.02:261][ 45]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (95)
+[2018.04.09-02.22.02:261][ 45]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (93)
+[2018.04.09-02.22.02:261][ 45]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (91)
+[2018.04.09-02.22.02:261][ 45]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (89)
+[2018.04.09-02.22.02:262][ 45]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (87)
+[2018.04.09-02.22.02:262][ 45]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (85)
+[2018.04.09-02.22.02:262][ 45]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (83)
+[2018.04.09-02.22.02:262][ 45]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (81)
+[2018.04.09-02.22.02:262][ 45]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (79)
+[2018.04.09-02.22.02:262][ 45]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (77)
+[2018.04.09-02.22.02:262][ 45]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (75)
+[2018.04.09-02.22.02:262][ 45]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (73)
+[2018.04.09-02.22.02:262][ 45]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (71)
+[2018.04.09-02.22.02:262][ 45]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (69)
+[2018.04.09-02.22.02:262][ 45]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (67)
+[2018.04.09-02.22.02:262][ 45]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (65)
+[2018.04.09-02.22.02:262][ 45]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (63)
+[2018.04.09-02.22.02:262][ 45]LogModuleManager: Shutting down and abandoning module InputCore (60)
+[2018.04.09-02.22.02:262][ 45]LogModuleManager: Shutting down and abandoning module Settings (58)
+[2018.04.09-02.22.02:262][ 45]LogModuleManager: Shutting down and abandoning module PhysXCooking (56)
+[2018.04.09-02.22.02:262][ 45]LogModuleManager: Shutting down and abandoning module SteamVR (54)
+[2018.04.09-02.22.02:262][ 45]LogModuleManager: Shutting down and abandoning module OculusHMD (52)
+[2018.04.09-02.22.02:262][ 45]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (50)
+[2018.04.09-02.22.02:262][ 45]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
+[2018.04.09-02.22.02:262][ 45]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
+[2018.04.09-02.22.02:262][ 45]LogOnline: Display: Unloading online subsystem: NULL
+[2018.04.09-02.22.02:262][ 45]LogModuleManager: Shutting down and abandoning module XMPP (43)
+[2018.04.09-02.22.02:262][ 45]LogModuleManager: Shutting down and abandoning module HTTP (41)
+[2018.04.09-02.22.02:262][ 45]LogHttp: Display: Http module shutting down, but needs to wait on 2 outstanding Http requests:
+[2018.04.09-02.22.02:263][ 45]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B68C90616-48BA-D38B-979B-12849926ABDC%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.17.2-3658906%2B%2B%2BUE4%2BRelease-4.17&UserID=4278eb7144686181efc85aa15e1f69f7%7C31aeb47f6b9b4803bb4c2cb06a92315a%7C435dce90-1338-4f5b-87e4-22053dfa6c20&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2018.04.09-02.22.02:263][ 45]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B68C90616-48BA-D38B-979B-12849926ABDC%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.17.2-3658906%2B%2B%2BUE4%2BRelease-4.17&UserID=4278eb7144686181efc85aa15e1f69f7%7C31aeb47f6b9b4803bb4c2cb06a92315a%7C435dce90-1338-4f5b-87e4-22053dfa6c20&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2018.04.09-02.22.02:272][ 45]LogModuleManager: Shutting down and abandoning module SSL (40)
+[2018.04.09-02.22.02:275][ 45]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
+[2018.04.09-02.22.02:275][ 45]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
+[2018.04.09-02.22.02:275][ 45]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
+[2018.04.09-02.22.02:275][ 45]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
+[2018.04.09-02.22.02:275][ 45]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
+[2018.04.09-02.22.02:275][ 45]LogModuleManager: Shutting down and abandoning module Landscape (26)
+[2018.04.09-02.22.02:275][ 45]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
+[2018.04.09-02.22.02:277][ 45]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
+[2018.04.09-02.22.02:277][ 45]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
+[2018.04.09-02.22.02:277][ 45]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
+[2018.04.09-02.22.02:277][ 45]LogModuleManager: Shutting down and abandoning module Renderer (16)
+[2018.04.09-02.22.02:277][ 45]LogModuleManager: Shutting down and abandoning module Engine (14)
+[2018.04.09-02.22.02:277][ 45]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
+[2018.04.09-02.22.02:277][ 45]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
+[2018.04.09-02.22.02:277][ 45]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
+[2018.04.09-02.22.02:277][ 45]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2018.04.09-02.22.02:277][ 45]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2018.04.09-02.22.02:277][ 45]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2018.04.09-02.22.02:282][ 45]LogExit: Exiting.
+[2018.04.09-02.22.02:305][ 45]Log file closed, 04/09/18 03:22:02
