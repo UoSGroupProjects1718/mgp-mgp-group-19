@@ -1,0 +1,974 @@
+﻿Log file open, 05/01/18 14:42:52
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: MyProject2
+LogPlatformFile: Not using cached read wrapper
+LogInit: Display: RandInit(-519312090) SRandInit(-519312090).
+LogInit: Read version file with build ID '3944462'
+LogInit: Overriding engine version to CL 3989454, compatible CL 3944462
+LogInit: Registered custom module enumerator with build ID '3944462'
+LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.277715
+LogD3D11RHI: Aftermath initialized
+LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: +0:00, Platform Override: ''
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2D.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2DEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-PaperSpriteSheetImporter.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-PaperTiledImporter.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-SmartSnapping.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Blendables/LightPropagationVolume/Binaries/Win64/UE4Editor-LightPropagationVolumeRuntime.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Blendables/LightPropagationVolume/Binaries/Win64/UE4Editor-LightPropagationVolumeEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/CLionSourceCodeAccess/Binaries/Win64/UE4Editor-CLionSourceCodeAccess.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/GitSourceControl/Binaries/Win64/UE4Editor-GitSourceControl.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/PerforceSourceControl/Binaries/Win64/UE4Editor-PerforceSourceControl.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/SubversionSourceControl/Binaries/Win64/UE4Editor-SubversionSourceControl.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/UObjectPlugin/Binaries/Win64/UE4Editor-UObjectPlugin.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/VisualStudioCodeSourceCodeAccess/Binaries/Win64/UE4Editor-VisualStudioCodeSourceCodeAccess.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/VisualStudioSourceCodeAccess/Binaries/Win64/UE4Editor-VisualStudioSourceCodeAccess.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/AssetManagerEditor/Binaries/Win64/UE4Editor-AssetManagerEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/CryptoKeys/Binaries/Win64/UE4Editor-CryptoKeys.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/CryptoKeys/Binaries/Win64/UE4Editor-CryptoKeysOpenSSL.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/DataValidation/Binaries/Win64/UE4Editor-DataValidation.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/FacialAnimation/Binaries/Win64/UE4Editor-FacialAnimation.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/FacialAnimation/Binaries/Win64/UE4Editor-FacialAnimationEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/GameplayTagsEditor/Binaries/Win64/UE4Editor-GameplayTagsEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/MobileLauncherProfileWizard/Binaries/Win64/UE4Editor-MobileLauncherProfileWizard.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/PluginBrowser/Binaries/Win64/UE4Editor-PluginBrowser.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/SpeedTreeImporter/Binaries/Win64/UE4Editor-SpeedTreeImporter.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Enterprise/DatasmithContent/Binaries/Win64/UE4Editor-DatasmithContent.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/AlembicImporter/Binaries/Win64/UE4Editor-AlembicImporter.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/AlembicImporter/Binaries/Win64/UE4Editor-AlembicLibrary.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/CharacterAI/Binaries/Win64/UE4Editor-CharacterAI.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/HTML5Networking/Binaries/Win64/UE4Editor-HTML5Networking.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AndroidMedia/Binaries/Win64/UE4Editor-AndroidMediaEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AndroidMedia/Binaries/Win64/UE4Editor-AndroidMediaFactory.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AvfMedia/Binaries/Win64/UE4Editor-AvfMediaEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AvfMedia/Binaries/Win64/UE4Editor-AvfMediaFactory.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AvfMedia/Binaries/Win64/UE4Editor-AvfMediaFactory.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMedia.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMediaEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMediaFactory.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMediaFactory.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-OpenExrWrapper.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/LinearTimecode/Binaries/Win64/UE4Editor-LinearTimecode.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/MediaCompositing/Binaries/Win64/UE4Editor-MediaCompositing.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/MediaCompositing/Binaries/Win64/UE4Editor-MediaCompositingEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/MediaPlayerEditor/Binaries/Win64/UE4Editor-MediaPlayerEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMedia.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMediaEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMediaFactory.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMediaFactory.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Messaging/TcpMessaging/Binaries/Win64/UE4Editor-TcpMessaging.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Messaging/UdpMessaging/Binaries/Win64/UE4Editor-UdpMessaging.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MovieScene/ActorSequence/Binaries/Win64/UE4Editor-ActorSequence.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MovieScene/LevelSequenceEditor/Binaries/Win64/UE4Editor-LevelSequenceEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MovieScene/MatineeToLevelSequence/Binaries/Win64/UE4Editor-MatineeToLevelSequence.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/NetcodeUnitTest/NetcodeUnitTest/Binaries/Win64/UE4Editor-NetcodeUnitTest.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/NetcodeUnitTest/NUTUnrealEngine4/Binaries/Win64/UE4Editor-NUTUnrealEngine4.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystem/Binaries/Win64/UE4Editor-OnlineSubsystem.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AndroidPermission/Binaries/Win64/UE4Editor-AndroidPermission.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemNull/Binaries/Win64/UE4Editor-OnlineSubsystemNull.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemUtils/Binaries/Win64/UE4Editor-OnlineSubsystemUtils.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemUtils/Binaries/Win64/UE4Editor-OnlineBlueprintSupport.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AndroidDeviceProfileSelector/Binaries/Win64/UE4Editor-AndroidDeviceProfileSelector.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AppleARKit/Binaries/Win64/UE4Editor-AppleARKit.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ProceduralMeshComponent/Binaries/Win64/UE4Editor-ProceduralMeshComponent.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ProceduralMeshComponent/Binaries/Win64/UE4Editor-ProceduralMeshComponentEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Animation/LiveLink/Binaries/Win64/UE4Editor-LiveLink.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Animation/LiveLink/Binaries/Win64/UE4Editor-LiveLinkEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ArchVisCharacter/Binaries/Win64/UE4Editor-ArchVisCharacter.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AudioCapture/Binaries/Win64/UE4Editor-AudioCapture.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AudioCapture/Binaries/Win64/UE4Editor-AudioCaptureEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/CableComponent/Binaries/Win64/UE4Editor-CableComponent.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/CustomMeshComponent/Binaries/Win64/UE4Editor-CustomMeshComponent.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ExampleDeviceProfileSelector/Binaries/Win64/UE4Editor-ExampleDeviceProfileSelector.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ImmediatePhysics/Binaries/Win64/UE4Editor-ImmediatePhysics.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ImmediatePhysics/Binaries/Win64/UE4Editor-ImmediatePhysicsEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/LocationServicesBPLibrary/Binaries/Win64/UE4Editor-LocationServicesBPLibrary.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/MobilePatchingUtils/Binaries/Win64/UE4Editor-MobilePatchingUtils.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Binaries/Win64/UE4Editor-OculusHMD.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Binaries/Win64/UE4Editor-OculusInput.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Binaries/Win64/UE4Editor-OculusEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/PhysXVehicles/Binaries/Win64/UE4Editor-PhysXVehicles.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/PhysXVehicles/Binaries/Win64/UE4Editor-PhysXVehiclesEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/RuntimePhysXCooking/Binaries/Win64/UE4Editor-RuntimePhysXCooking.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Steam/SteamVR/Binaries/Win64/UE4Editor-SteamVR.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Steam/SteamVR/Binaries/Win64/UE4Editor-SteamVRController.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/WindowsMoviePlayer/Binaries/Win64/UE4Editor-WindowsMoviePlayer.dll (API version 3944462).
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin LiveLink
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleARKit
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Plugin shader directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders found
+LogPluginManager: Mapping shader source directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders to virtual directory /Plugin/OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogStreaming: Display: Took  1.338s to configure plugins.
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: WinSock: I am DESKTOP-MCF393H (10.151.199.195:0)
+LogInit: Build: ++UE4+Release-4.19-CL-3989454
+LogInit: Engine Version: 4.19.1-3989454+++UE4+Release-4.19
+LogInit: Compatible Engine Version: 4.19.0-3944462+++UE4+Release-4.19
+LogInit: Net CL: 3944462
+LogDevObjectVersion: Number of dev versions registered: 18
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 23
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 33
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 25
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 6
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 1
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 2
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 16
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogInit: Compiled (64-bit): Apr  6 2018 12:26:04
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.19
+LogInit: Command Line: -EpicPortal 
+LogInit: Base Directory: d:/Program Files/Epic Games/UE_4.19/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogStreaming: Display: Took  0.000s to delete old logs.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2018.05.01-13.42.54:693][  0]LogInit: Selected Device Profile: [Windows]
+[2018.05.01-13.42.54:693][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.05.01-13.42.54:710][  0]LogInit: Computer: DESKTOP-MCF393H
+[2018.05.01-13.42.54:710][  0]LogInit: User: vmirc
+[2018.05.01-13.42.54:710][  0]LogInit: CPU Page size=4096, Cores=4
+[2018.05.01-13.42.54:710][  0]LogInit: High frequency timer resolution =3.423906 MHz
+[2018.05.01-13.42.54:710][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2018.05.01-13.42.54:710][  0]LogMemory: Platform Memory Stats for Windows
+[2018.05.01-13.42.54:710][  0]LogMemory: Process Physical Memory: 276.52 MB used, 276.52 MB peak
+[2018.05.01-13.42.54:710][  0]LogMemory: Process Virtual Memory: 264.91 MB used, 264.91 MB peak
+[2018.05.01-13.42.54:710][  0]LogMemory: Physical Memory: 10041.40 MB used,  6214.48 MB free, 16255.89 MB total
+[2018.05.01-13.42.54:710][  0]LogMemory: Virtual Memory: 698.14 MB used,  6214.48 MB free, 134217728.00 MB total
+[2018.05.01-13.42.54:735][  0]LogInit: Using OS detected language (en-US).
+[2018.05.01-13.42.54:735][  0]LogInit: Using OS detected locale (en-GB).
+[2018.05.01-13.42.54:739][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2018.05.01-13.42.55:222][  0]LogStreaming: Display: Took  0.488s to EndInitTextLocalization.
+[2018.05.01-13.42.55:223][  0]LogInit: Setting process to per monitor DPI aware
+[2018.05.01-13.42.55:251][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2018.05.01-13.42.55:251][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2018.05.01-13.42.55:523][  0]LogD3D11RHI: D3D11 adapters:
+[2018.05.01-13.42.55:574][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 760' (Feature Level 11_0)
+[2018.05.01-13.42.55:574][  0]LogD3D11RHI:       2007/0/8127 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2018.05.01-13.42.55:580][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 4600' (Feature Level 11_0)
+[2018.05.01-13.42.55:581][  0]LogD3D11RHI:       112/0/2048 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x8086
+[2018.05.01-13.42.55:583][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.05.01-13.42.55:583][  0]LogD3D11RHI:       0/0/8127 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.05.01-13.42.55:583][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.05.01-13.42.55:592][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.05.01-13.42.55:592][  0]LogD3D11RHI:     GPU DeviceId: 0x1187 (for the marketing name, search the web for "GPU Device Id")
+[2018.05.01-13.42.55:592][  0]LogWindows: EnumDisplayDevices:
+[2018.05.01-13.42.55:592][  0]LogWindows:    0. 'NVIDIA GeForce GTX 760' (P:1 D:1)
+[2018.05.01-13.42.55:592][  0]LogWindows:    1. 'NVIDIA GeForce GTX 760' (P:0 D:0)
+[2018.05.01-13.42.55:592][  0]LogWindows:    2. 'NVIDIA GeForce GTX 760' (P:0 D:0)
+[2018.05.01-13.42.55:593][  0]LogWindows:    3. 'NVIDIA GeForce GTX 760' (P:0 D:0)
+[2018.05.01-13.42.55:593][  0]LogWindows:    4. 'Intel(R) HD Graphics 4600' (P:0 D:1)
+[2018.05.01-13.42.55:593][  0]LogWindows:    5. 'Intel(R) HD Graphics 4600' (P:0 D:0)
+[2018.05.01-13.42.55:593][  0]LogWindows:    6. 'Intel(R) HD Graphics 4600' (P:0 D:0)
+[2018.05.01-13.42.55:593][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2018.05.01-13.42.55:593][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 760
+[2018.05.01-13.42.55:593][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2018.05.01-13.42.55:593][  0]LogD3D11RHI:      Driver Date: Unknown
+[2018.05.01-13.42.55:593][  0]LogRHI: Texture pool is 1404 MB (70% of 2007 MB)
+[2018.05.01-13.42.55:626][  0]LogD3D11RHI: [Aftermath] Aftermath enabled and primed
+[2018.05.01-13.42.55:626][  0]LogD3D11RHI: Async texture creation enabled
+[2018.05.01-13.42.55:736][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2018.05.01-13.42.55:785][  0]LogShaderCompilers: Guid format shader working directory is -27 characters bigger than the processId version (C:/Users/vmirc/Documents/GitHub/mgp-mgp-group-19/Prototypes/Group 19 4.19/Intermediate/Shaders/WorkingDirectory/9760/).
+[2018.05.01-13.42.55:785][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/vmirc/AppData/Local/Temp/UnrealShaderWorkingDir/2E08F5544F4002FB924226BEEDF3D271/'.
+[2018.05.01-13.42.56:061][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.05.01-13.42.56:074][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.05.01-13.42.56:087][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.05.01-13.42.56:101][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.05.01-13.42.56:116][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.05.01-13.42.56:132][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.05.01-13.42.56:147][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.05.01-13.42.56:161][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.05.01-13.42.56:169][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.05.01-13.42.56:184][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2018.05.01-13.42.56:196][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2018.05.01-13.42.56:208][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2018.05.01-13.42.56:220][  0]LogTemp: Display: Loaded TP Android_ETC1aTargetPlatform
+[2018.05.01-13.42.56:231][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2018.05.01-13.42.56:243][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2018.05.01-13.42.56:270][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2018.05.01-13.42.56:270][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2018.05.01-13.42.56:282][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.05.01-13.42.56:283][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.05.01-13.42.56:320][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.05.01-13.42.56:332][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.05.01-13.42.56:344][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.05.01-13.42.56:355][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.05.01-13.42.56:367][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.05.01-13.42.56:379][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.05.01-13.42.56:379][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.05.01-13.42.56:500][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2018.05.01-13.42.56:500][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2018.05.01-13.42.56:500][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.05.01-13.42.57:265][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.05.01-13.42.57:412][  0]LogDerivedDataCache: Loaded boot cache 0.15s 74MB C:/Users/vmirc/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc.
+[2018.05.01-13.42.57:412][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/vmirc/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc
+[2018.05.01-13.42.57:413][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file C:/Users/vmirc/Documents/GitHub/mgp-mgp-group-19/Prototypes/Group 19 4.19/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.05.01-13.42.57:413][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.05.01-13.42.57:413][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file C:/Users/vmirc/Documents/GitHub/mgp-mgp-group-19/Prototypes/Group 19 4.19/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.05.01-13.42.57:413][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.05.01-13.42.57:430][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.05.01-13.42.57:442][  0]LogDerivedDataCache: Using Local data cache path C:/Users/vmirc/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.05.01-13.42.57:453][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.05.01-13.42.57:453][  0]LogSlate: Using Freetype 2.6.0
+[2018.05.01-13.42.57:454][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.05.01-13.42.57:454][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.05.01-13.42.57:616][  0]LogAssetRegistry: FAssetRegistry took 0.0261 seconds to start up
+[2018.05.01-13.42.57:973][  0]LogInit: Selected Device Profile: [Windows]
+[2018.05.01-13.42.58:141][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.05.01-13.42.58:144][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.05.01-13.42.58:144][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.05.01-13.42.58:144][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.05.01-13.42.58:144][  0]LogMeshReduction: No automatic mesh merging module available
+[2018.05.01-13.42.58:144][  0]LogMeshMerging: No automatic mesh merging module available
+[2018.05.01-13.42.58:188][  0]LogNetVersion: MyProject2 , NetCL: 3944462, EngineNetVer: 2, GameNetVer: 0 (Checksum: 607132587)
+[2018.05.01-13.42.58:735][  0]LogPackageLocalizationCache: Processed 9 localized package path(s) for 2 prioritized culture(s) in 0.099606 seconds
+[2018.05.01-13.42.58:742][  0]LogUObjectArray: 36728 objects as part of root set at end of initial load.
+[2018.05.01-13.42.58:742][  0]LogUObjectAllocator: 7314304 out of 0 bytes used by permanent object pool.
+[2018.05.01-13.42.58:742][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.05.01-13.43.00:584][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.05.01-13.43.00:628][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.05.01-13.43.01:071][  0]SourceControl: Source control is disabled
+[2018.05.01-13.43.01:071][  0]SourceControl: Source control is disabled
+[2018.05.01-13.43.01:094][  0]SourceControl: Source control is disabled
+[2018.05.01-13.43.01:116][  0]SourceControl: Source control is disabled
+[2018.05.01-13.43.01:695][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.05.01-13.43.01:878][  0]LogOcInput: OculusInput pre-init called
+[2018.05.01-13.43.01:999][  0]LogEngine: Initializing Engine...
+[2018.05.01-13.43.02:001][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.05.01-13.43.02:002][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.05.01-13.43.02:002][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.05.01-13.43.02:340][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.05.01-13.43.02:348][  0]LogInit: XAudio2 using 'Digital Audio (S/PDIF) (2- High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.05.01-13.43.02:360][  0]LogInit: FAudioDevice initialized.
+[2018.05.01-13.43.02:472][  0]LogDerivedDataCache: Saved boot cache 0.11s 74MB C:/Users/vmirc/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc.
+[2018.05.01-13.43.02:501][  0]LogInit: Texture streaming: Enabled
+[2018.05.01-13.43.02:521][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.05.01-13.43.02:577][  0]LogInit: Transaction tracking system initialized
+[2018.05.01-13.43.02:597][  0]BlueprintLog: New page: Editor Load
+[2018.05.01-13.43.02:719][  0]LocalizationService: Localization service is disabled
+[2018.05.01-13.43.02:856][  0]LogConsoleResponse: Display: 
+[2018.05.01-13.43.03:319][  0]LogFileCache: Scanning file cache for directory 'C:/Users/vmirc/Documents/GitHub/mgp-mgp-group-19/Prototypes/Group 19 4.19/Content/' took 0.01s
+[2018.05.01-13.43.03:319][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.05.01-13.43.03:319][  0]LogCook: Display: Mobile HDR setting 1
+[2018.05.01-13.43.03:319][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.05.01-13.43.03:319][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.05.01-13.43.03:319][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.05.01-13.43.03:757][  0]SourceControl: Source control is disabled
+[2018.05.01-13.43.03:758][  0]Cmd: MAP LOAD FILE="C:/Users/vmirc/Documents/GitHub/mgp-mgp-group-19/Prototypes/Group 19 4.19/Content/Untitled.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.05.01-13.43.03:758][  0]LightingResults: New page: Lighting Build
+[2018.05.01-13.43.03:760][  0]MapCheck: New page: Map Check
+[2018.05.01-13.43.03:761][  0]LightingResults: New page: Lighting Build
+[2018.05.01-13.43.04:787][  0]LogMaterial: Missing cached shader map for material Scenary__Wonder__Mat, compiling. 
+[2018.05.01-13.43.05:509][  0]LogShaderCompilers: Display: Shaders left to compile 31
+[2018.05.01-13.43.05:509][  0]LogShaderCompilers: Display: Shaders left to compile 21
+[2018.05.01-13.43.05:509][  0]LogShaderCompilers: Display: Shaders left to compile 11
+[2018.05.01-13.43.05:509][  0]LogShaderCompilers: Display: Shaders left to compile 1
+[2018.05.01-13.43.05:511][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.05.01-13.43.05:521][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.05.01-13.43.05:610][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.05.01-13.43.05:728][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 118.134ms to complete.
+[2018.05.01-13.43.05:728][  0]LogFileHelpers: Loading map 'Untitled' took 1.971
+[2018.05.01-13.43.05:859][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.05.01-13.43.11:250][  0]LogCollectionManager: Loaded 0 collections in 0.001067 seconds
+[2018.05.01-13.43.12:086][  0]LogFileCache: Scanning file cache for directory 'C:/Users/vmirc/Documents/GitHub/mgp-mgp-group-19/Prototypes/Group 19 4.19/Saved/Collections/' took 0.01s
+[2018.05.01-13.43.12:086][  0]LogFileCache: Scanning file cache for directory 'C:/Users/vmirc/Documents/GitHub/mgp-mgp-group-19/Prototypes/Group 19 4.19/Content/Developers/vmirc/Collections/' took 0.01s
+[2018.05.01-13.43.12:086][  0]LogFileCache: Scanning file cache for directory 'C:/Users/vmirc/Documents/GitHub/mgp-mgp-group-19/Prototypes/Group 19 4.19/Content/Collections/' took 0.01s
+[2018.05.01-13.43.12:086][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2018.05.01-13.43.12:138][  0]LogContentBrowser: Native class hierarchy populated in 0.0334 seconds. Added 2452 classes and 558 folders.
+[2018.05.01-13.43.12:350][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2018.05.01-13.43.12:816][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2018.05.01-13.43.12:945][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2018.05.01-13.43.13:899][  0]LogSlate: Took 0.000698 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.05.01-13.43.13:904][  0]LogSlate: Took 0.000682 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.05.01-13.43.14:022][  0]LogSlate: Took 0.023192 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.05.01-13.43.14:491][  0]LogRenderer: Reallocating scene render targets to support 1168x600 Format 10 NumSamples 1 (Frame:1).
+[2018.05.01-13.43.15:322][  0]LogSlate: Took 0.000346 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.05.01-13.43.15:592][  0]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.05.01-13.43.15:659][  0]LogSlate: Window 'Tutorials' being destroyed
+[2018.05.01-13.43.15:697][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2018.05.01-13.43.15:697][  0]LogLoad: (Engine Initialization) Total time: 24.09 seconds
+[2018.05.01-13.43.15:697][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.05.01-13.43.15:932][  0]LogAssetRegistry: Asset discovery search completed in 18.3371 seconds
+[2018.05.01-13.43.15:934][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2018.05.01-13.43.15:934][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000040 seconds (updated 0 objects)
+[2018.05.01-13.43.15:975][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.05.01-13.43.40:421][378]LogEditorViewport: Clicking on Actor (LMB): CameraActor (CameraActor)
+[2018.05.01-13.43.41:152][378]LogEditorViewport: Clicking on Component (LMB): CameraComponent (CameraComponent)
+[2018.05.01-13.49.03:891][682]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2018.05.01-13.49.05:416][736]LogEditorViewport: Clicking on Actor (LMB): CameraActor (CameraActor)
+[2018.05.01-15.53.47:909][934]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.05.01-18.13.57:408][160]LogSlate: Took 0.045963 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.05.01-18.13.57:981][160]LogTexture: Display: Building textures: LQ_Lightmap_0_1 (DXT1, 128X128)
+[2018.05.01-18.13.57:981][160]LogTexture: Display: Building textures: HQ_Lightmap0_2 (AutoDXT, 64X64)
+[2018.05.01-18.13.57:981][160]LogTexture: Display: Building textures: HQ_Lightmap0_1 (AutoDXT, 128X128)
+[2018.05.01-18.13.57:981][160]LogTexture: Display: Building textures: LQ_Lightmap_0_2 (DXT1, 64X64)
+[2018.05.01-18.13.58:124][160]LogAIModule: Creating AISystem for world Pendulu
+[2018.05.01-18.13.58:196][160]Cmd: MAP LOAD FILE="C:/Users/vmirc/Documents/GitHub/mgp-mgp-group-19/Prototypes/Group 19 4.19/Content/Pendulu.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.05.01-18.13.58:197][160]LightingResults: New page: Lighting Build
+[2018.05.01-18.13.58:198][160]LoadErrors: New page: Loading map: Pendulu.umap
+[2018.05.01-18.13.58:232][160]MapCheck: New page: Map Check
+[2018.05.01-18.13.58:232][160]LightingResults: New page: Lighting Build
+[2018.05.01-18.13.58:259][160]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.05.01-18.13.58:324][160]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.05.01-18.13.58:493][160]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 168.836ms to complete.
+[2018.05.01-18.13.58:499][160]LogFileHelpers: Loading map 'Pendulu' took 0.306
+[2018.05.01-18.14.00:330][240]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2018.05.01-18.14.01:986][265]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2018.05.01-18.14.02:287][270]Cmd: TRANSACTION UNDO
+[2018.05.01-18.14.02:288][270]LogEditorTransaction: Undo Clicking on Actors
+[2018.05.01-18.14.10:531][594]Cmd: SELECT NONE
+[2018.05.01-18.14.11:151][627]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.05.01-18.14.11:225][632]LogTemp: Repeating last play command: Selected Viewport
+[2018.05.01-18.14.11:259][632]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Pendulu.Pendulu:PersistentLevel' has LevelScriptBlueprint '/Game/Pendulu.Pendulu:PersistentLevel.Pendulu' with GeneratedClass '/Game/Pendulu.Pendulu_C' with ClassGeneratedBy '/Game/Pendulu.Pendulu:PersistentLevel.Pendulu'
+[2018.05.01-18.14.11:259][632]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.05.01-18.14.11:260][632]PIE: New page: PIE session: Pendulu (1 May 2018 20:14:11)
+[2018.05.01-18.14.11:260][632]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Pendulu
+[2018.05.01-18.14.11:264][632]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004580s)
+[2018.05.01-18.14.11:266][632]LogAIModule: Creating AISystem for world Pendulu
+[2018.05.01-18.14.11:266][632]LogPlayLevel: PIE: World Init took: (0.001338s)
+[2018.05.01-18.14.11:266][632]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Pendulu.Pendulu to /Game/UEDPIE_0_Pendulu.Pendulu (0.006137s)
+[2018.05.01-18.14.11:293][632]LogInit: XAudio2 using 'Digital Audio (S/PDIF) (2- High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.05.01-18.14.11:299][632]LogInit: FAudioDevice initialized.
+[2018.05.01-18.14.11:359][632]LogLoad: Game class is 'GameModeBase'
+[2018.05.01-18.14.11:362][632]LogWorld: Bringing World /Game/UEDPIE_0_Pendulu.Pendulu up for play (max tick rate 0) at 2018.05.01-19.14.11
+[2018.05.01-18.14.11:363][632]LogLinker: Warning: Can't find file '/Game/NewLevelSequence'
+[2018.05.01-18.14.11:363][632]LogLinker: Warning: Can't find file '/Game/NewLevelSequence'
+[2018.05.01-18.14.11:363][632]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/NewLevelSequence.NewLevelSequence'
+[2018.05.01-18.14.11:379][632]LogWorld: Bringing up level for play took: 0.018039
+[2018.05.01-18.14.11:384][632]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0010 seconds. Added 11 classes and 0 folders.
+[2018.05.01-18.14.11:389][632]PIE: Play in editor start time for /Game/UEDPIE_0_Pendulu 0.262
+[2018.05.01-18.14.11:390][632]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Pendulu.Pendulu:PersistentLevel' has LevelScriptBlueprint '/Game/Pendulu.Pendulu:PersistentLevel.Pendulu' with GeneratedClass '/Game/Pendulu.Pendulu_C' with ClassGeneratedBy '/Game/Pendulu.Pendulu:PersistentLevel.Pendulu'
+[2018.05.01-18.14.11:727][650]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Pendulu.Pendulu:PersistentLevel' has LevelScriptBlueprint '/Game/Pendulu.Pendulu:PersistentLevel.Pendulu' with GeneratedClass '/Game/Pendulu.Pendulu_C' with ClassGeneratedBy '/Game/Pendulu.Pendulu:PersistentLevel.Pendulu'
+[2018.05.01-18.14.11:766][650]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Pendulu.Pendulu:PersistentLevel' has LevelScriptBlueprint '/Game/Pendulu.Pendulu:PersistentLevel.Pendulu' with GeneratedClass '/Game/Pendulu.Pendulu_C' with ClassGeneratedBy '/Game/Pendulu.Pendulu:PersistentLevel.Pendulu'
+[2018.05.01-18.14.13:196][729]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2018.05.01-18.14.14:667][794]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.05.01-18.14.14:735][798]LogTemp: Repeating last play command: Selected Viewport
+[2018.05.01-18.14.14:758][798]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Pendulu.Pendulu:PersistentLevel' has LevelScriptBlueprint '/Game/Pendulu.Pendulu:PersistentLevel.Pendulu' with GeneratedClass '/Game/Pendulu.Pendulu_C' with ClassGeneratedBy '/Game/Pendulu.Pendulu:PersistentLevel.Pendulu'
+[2018.05.01-18.14.14:758][798]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.05.01-18.14.14:758][798]PIE: New page: PIE session: Pendulu (1 May 2018 20:14:14)
+[2018.05.01-18.14.14:758][798]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Pendulu
+[2018.05.01-18.14.14:762][798]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003143s)
+[2018.05.01-18.14.14:762][798]LogAIModule: Creating AISystem for world Pendulu
+[2018.05.01-18.14.14:763][798]LogPlayLevel: PIE: World Init took: (0.000934s)
+[2018.05.01-18.14.14:763][798]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Pendulu.Pendulu to /Game/UEDPIE_0_Pendulu.Pendulu (0.004266s)
+[2018.05.01-18.14.14:787][798]LogInit: XAudio2 using 'Digital Audio (S/PDIF) (2- High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.05.01-18.14.14:793][798]LogInit: FAudioDevice initialized.
+[2018.05.01-18.14.14:828][798]LogLoad: Game class is 'GameModeBase'
+[2018.05.01-18.14.14:829][798]LogWorld: Bringing World /Game/UEDPIE_0_Pendulu.Pendulu up for play (max tick rate 0) at 2018.05.01-19.14.14
+[2018.05.01-18.14.14:829][798]LogWorld: Bringing up level for play took: 0.000843
+[2018.05.01-18.14.14:832][798]PIE: Play in editor start time for /Game/UEDPIE_0_Pendulu -0.296
+[2018.05.01-18.14.14:832][798]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Pendulu.Pendulu:PersistentLevel' has LevelScriptBlueprint '/Game/Pendulu.Pendulu:PersistentLevel.Pendulu' with GeneratedClass '/Game/Pendulu.Pendulu_C' with ClassGeneratedBy '/Game/Pendulu.Pendulu:PersistentLevel.Pendulu'
+[2018.05.01-18.14.21:647][217]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Pendulu.Pendulu:PersistentLevel' has LevelScriptBlueprint '/Game/Pendulu.Pendulu:PersistentLevel.Pendulu' with GeneratedClass '/Game/Pendulu.Pendulu_C' with ClassGeneratedBy '/Game/Pendulu.Pendulu:PersistentLevel.Pendulu'
+[2018.05.01-18.14.21:687][217]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Pendulu.Pendulu:PersistentLevel' has LevelScriptBlueprint '/Game/Pendulu.Pendulu:PersistentLevel.Pendulu' with GeneratedClass '/Game/Pendulu.Pendulu_C' with ClassGeneratedBy '/Game/Pendulu.Pendulu:PersistentLevel.Pendulu'
+[2018.05.01-18.14.24:599][389]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2018.05.01-18.14.27:690][460]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Pendulum1_Sprite)
+[2018.05.01-18.14.29:201][526]LogEditorViewport: Clicking on Actor (LMB): CameraActor (CameraActor)
+[2018.05.01-18.14.30:619][578]LogSlate: Took 0.029536 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2018.05.01-18.34.07:366][197]LogEditorViewport: Clicking on Actor (context menu): BP_Sky_Sphere_C (Sky Sphere)
+[2018.05.01-18.34.07:446][197]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.05.01-18.34.08:450][262]LogEditorViewport: Clicking on Actor (LMB): CameraActor (CameraActor)
+[2018.05.01-18.35.06:339][625]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2018.05.01-18.35.17:858][726]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2018.05.01-19.07.02:456][493]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.05.01-19.07.04:758][603]Cmd: MAP LOAD FILE="C:/Users/vmirc/Documents/GitHub/mgp-mgp-group-19/Prototypes/Group 19 4.19/Content/Pendulu.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.05.01-19.07.04:759][603]LightingResults: New page: Lighting Build
+[2018.05.01-19.07.04:760][603]LoadErrors: New page: Loading map: Pendulu.umap
+[2018.05.01-19.07.04:761][603]MapCheck: New page: Map Check
+[2018.05.01-19.07.04:761][603]LightingResults: New page: Lighting Build
+[2018.05.01-19.07.04:844][603]LogAIModule: Creating AISystem for world Pendulu
+[2018.05.01-19.07.04:847][603]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.05.01-19.07.04:900][603]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.05.01-19.07.05:020][603]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 120.214ms to complete.
+[2018.05.01-19.07.05:022][603]LogFileHelpers: Loading map 'Pendulu' took 0.267
+[2018.05.01-19.07.06:504][680]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.05.01-19.07.06:593][686]LogTemp: Repeating last play command: Selected Viewport
+[2018.05.01-19.07.06:613][686]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Pendulu.Pendulu:PersistentLevel' has LevelScriptBlueprint '/Game/Pendulu.Pendulu:PersistentLevel.Pendulu' with GeneratedClass '/Game/Pendulu.Pendulu_C' with ClassGeneratedBy '/Game/Pendulu.Pendulu:PersistentLevel.Pendulu'
+[2018.05.01-19.07.06:615][686]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.05.01-19.07.06:616][686]PIE: New page: PIE session: Pendulu (1 May 2018 21:07:06)
+[2018.05.01-19.07.06:616][686]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Pendulu
+[2018.05.01-19.07.06:621][686]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005489s)
+[2018.05.01-19.07.06:623][686]LogAIModule: Creating AISystem for world Pendulu
+[2018.05.01-19.07.06:623][686]LogPlayLevel: PIE: World Init took: (0.001429s)
+[2018.05.01-19.07.06:623][686]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Pendulu.Pendulu to /Game/UEDPIE_0_Pendulu.Pendulu (0.007132s)
+[2018.05.01-19.07.06:646][686]LogInit: XAudio2 using 'Digital Audio (S/PDIF) (2- High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.05.01-19.07.06:654][686]LogInit: FAudioDevice initialized.
+[2018.05.01-19.07.06:690][686]LogLoad: Game class is 'GameModeBase'
+[2018.05.01-19.07.06:691][686]LogWorld: Bringing World /Game/UEDPIE_0_Pendulu.Pendulu up for play (max tick rate 0) at 2018.05.01-20.07.06
+[2018.05.01-19.07.06:692][686]LogWorld: Bringing up level for play took: 0.001257
+[2018.05.01-19.07.06:695][686]PIE: Play in editor start time for /Game/UEDPIE_0_Pendulu -0.432
+[2018.05.01-19.07.06:695][686]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Pendulu.Pendulu:PersistentLevel' has LevelScriptBlueprint '/Game/Pendulu.Pendulu:PersistentLevel.Pendulu' with GeneratedClass '/Game/Pendulu.Pendulu_C' with ClassGeneratedBy '/Game/Pendulu.Pendulu:PersistentLevel.Pendulu'
+[2018.05.01-19.07.11:180][961]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Pendulu.Pendulu:PersistentLevel' has LevelScriptBlueprint '/Game/Pendulu.Pendulu:PersistentLevel.Pendulu' with GeneratedClass '/Game/Pendulu.Pendulu_C' with ClassGeneratedBy '/Game/Pendulu.Pendulu:PersistentLevel.Pendulu'
+[2018.05.01-19.07.11:223][961]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Pendulu.Pendulu:PersistentLevel' has LevelScriptBlueprint '/Game/Pendulu.Pendulu:PersistentLevel.Pendulu' with GeneratedClass '/Game/Pendulu.Pendulu_C' with ClassGeneratedBy '/Game/Pendulu.Pendulu:PersistentLevel.Pendulu'
+[2018.05.01-19.07.15:248][173]Cmd: MAP LOAD FILE="C:/Users/vmirc/Documents/GitHub/mgp-mgp-group-19/Prototypes/Group 19 4.19/Content/Pendulu.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.05.01-19.07.15:248][173]LightingResults: New page: Lighting Build
+[2018.05.01-19.07.15:249][173]LoadErrors: New page: Loading map: Pendulu.umap
+[2018.05.01-19.07.15:250][173]MapCheck: New page: Map Check
+[2018.05.01-19.07.15:250][173]LightingResults: New page: Lighting Build
+[2018.05.01-19.07.15:318][173]LogAIModule: Creating AISystem for world Pendulu
+[2018.05.01-19.07.15:325][173]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.05.01-19.07.15:371][173]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.05.01-19.07.15:485][173]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 113.132ms to complete.
+[2018.05.01-19.07.15:489][173]LogFileHelpers: Loading map 'Pendulu' took 0.243
+[2018.05.01-19.07.16:764][228]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.05.01-19.07.17:024][233]LogAIModule: Creating AISystem for world PlaytestPendulum
+[2018.05.01-19.07.17:048][233]Cmd: MAP LOAD FILE="C:/Users/vmirc/Documents/GitHub/mgp-mgp-group-19/Prototypes/Group 19 4.19/Content/PlaytestPendulum.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.05.01-19.07.17:048][233]LightingResults: New page: Lighting Build
+[2018.05.01-19.07.17:051][233]LoadErrors: New page: Loading map: PlaytestPendulum.umap
+[2018.05.01-19.07.17:053][233]MapCheck: New page: Map Check
+[2018.05.01-19.07.17:053][233]LightingResults: New page: Lighting Build
+[2018.05.01-19.07.17:073][233]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.05.01-19.07.17:109][233]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.05.01-19.07.17:238][233]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 128.473ms to complete.
+[2018.05.01-19.07.17:240][233]LogFileHelpers: Loading map 'PlaytestPendulum' took 0.194
+[2018.05.01-19.07.18:397][280]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.05.01-19.07.18:509][286]LogTemp: Repeating last play command: Selected Viewport
+[2018.05.01-19.07.18:532][286]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/PlaytestPendulum.PlaytestPendulum:PersistentLevel' has LevelScriptBlueprint '/Game/PlaytestPendulum.PlaytestPendulum:PersistentLevel.PlaytestPendulum' with GeneratedClass '/Game/PlaytestPendulum.PlaytestPendulum_C' with ClassGeneratedBy '/Game/PlaytestPendulum.PlaytestPendulum:PersistentLevel.PlaytestPendulum'
+[2018.05.01-19.07.18:533][286]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.05.01-19.07.18:534][286]PIE: New page: PIE session: PlaytestPendulum (1 May 2018 21:07:18)
+[2018.05.01-19.07.18:534][286]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_PlaytestPendulum
+[2018.05.01-19.07.18:540][286]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006135s)
+[2018.05.01-19.07.18:542][286]LogAIModule: Creating AISystem for world PlaytestPendulum
+[2018.05.01-19.07.18:542][286]LogPlayLevel: PIE: World Init took: (0.001331s)
+[2018.05.01-19.07.18:542][286]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PlaytestPendulum.PlaytestPendulum to /Game/UEDPIE_0_PlaytestPendulum.PlaytestPendulum (0.007686s)
+[2018.05.01-19.07.18:570][286]LogInit: XAudio2 using 'Digital Audio (S/PDIF) (2- High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.05.01-19.07.18:577][286]LogInit: FAudioDevice initialized.
+[2018.05.01-19.07.18:627][286]LogLoad: Game class is 'GameModeBase'
+[2018.05.01-19.07.18:628][286]LogWorld: Bringing World /Game/UEDPIE_0_PlaytestPendulum.PlaytestPendulum up for play (max tick rate 0) at 2018.05.01-20.07.18
+[2018.05.01-19.07.18:629][286]LogWorld: Bringing up level for play took: 0.000888
+[2018.05.01-19.07.18:630][286]PIE: Play in editor start time for /Game/UEDPIE_0_PlaytestPendulum -0.497
+[2018.05.01-19.07.18:630][286]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/PlaytestPendulum.PlaytestPendulum:PersistentLevel' has LevelScriptBlueprint '/Game/PlaytestPendulum.PlaytestPendulum:PersistentLevel.PlaytestPendulum' with GeneratedClass '/Game/PlaytestPendulum.PlaytestPendulum_C' with ClassGeneratedBy '/Game/PlaytestPendulum.PlaytestPendulum:PersistentLevel.PlaytestPendulum'
+[2018.05.01-19.07.20:108][361]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/PlaytestPendulum.PlaytestPendulum:PersistentLevel' has LevelScriptBlueprint '/Game/PlaytestPendulum.PlaytestPendulum:PersistentLevel.PlaytestPendulum' with GeneratedClass '/Game/PlaytestPendulum.PlaytestPendulum_C' with ClassGeneratedBy '/Game/PlaytestPendulum.PlaytestPendulum:PersistentLevel.PlaytestPendulum'
+[2018.05.01-19.07.20:157][361]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/PlaytestPendulum.PlaytestPendulum:PersistentLevel' has LevelScriptBlueprint '/Game/PlaytestPendulum.PlaytestPendulum:PersistentLevel.PlaytestPendulum' with GeneratedClass '/Game/PlaytestPendulum.PlaytestPendulum_C' with ClassGeneratedBy '/Game/PlaytestPendulum.PlaytestPendulum:PersistentLevel.PlaytestPendulum'
+[2018.05.01-19.07.25:091][622]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.05.01-19.07.25:293][630]LogAIModule: Creating AISystem for world Pendulu
+[2018.05.01-19.07.25:315][630]Cmd: MAP LOAD FILE="C:/Users/vmirc/Documents/GitHub/mgp-mgp-group-19/Prototypes/Group 19 4.19/Content/Pendulu.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.05.01-19.07.25:315][630]LightingResults: New page: Lighting Build
+[2018.05.01-19.07.25:316][630]LoadErrors: New page: Loading map: Pendulu.umap
+[2018.05.01-19.07.25:317][630]MapCheck: New page: Map Check
+[2018.05.01-19.07.25:317][630]LightingResults: New page: Lighting Build
+[2018.05.01-19.07.25:330][630]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.05.01-19.07.25:357][630]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.05.01-19.07.25:462][630]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 104.369ms to complete.
+[2018.05.01-19.07.25:462][630]LogFileHelpers: Loading map 'Pendulu' took 0.148
+[2018.05.01-19.07.29:834][885]LogEditorViewport: Clicking on Actor (LMB): CameraActor (CameraActor)
+[2018.05.01-19.07.32:488][982]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.05.01-19.07.42:252][149]LogSlate: Window 'Delete Assets' being destroyed
+[2018.05.01-19.07.44:026][223]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.05.01-19.07.51:626][468]LogSlate: Window 'Delete Assets' being destroyed
+[2018.05.01-19.07.57:211][578]LogSlate: Window 'Delete Assets' being destroyed
+[2018.05.01-19.08.02:406][628]LogSlate: Window 'Delete Assets' being destroyed
+[2018.05.01-19.08.10:727][879]LogSlate: Window 'Delete Assets' being destroyed
+[2018.05.01-19.08.15:797][945]LogSlate: Window 'Delete Assets' being destroyed
+[2018.05.01-19.08.23:639][283]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/Untitled_BuiltData.Untitled_BuiltData'
+[2018.05.01-19.08.25:689][283]LogSlate: Window 'Delete Assets' being destroyed
+[2018.05.01-19.08.26:869][316]LogLinker: Warning: Can't find file '/Game/WeaponSelect'
+[2018.05.01-19.08.26:870][316]LogLinker: Warning: Can't find file for asset '/Game/WeaponSelect' while loading C:/Users/vmirc/Documents/GitHub/mgp-mgp-group-19/Prototypes/Group 19 4.19/Content/Untitled.umap.
+[2018.05.01-19.08.26:870][316]LoadErrors: Error: /Game/Untitled : Can't find file for asset. /Game/WeaponSelect
+[2018.05.01-19.08.26:872][316]LogLinker: Warning: Can't find file '/Game/WeaponSelect'
+[2018.05.01-19.08.26:872][316]LogLinker: Warning: Can't find file for asset '/Game/WeaponSelect' while loading C:/Users/vmirc/Documents/GitHub/mgp-mgp-group-19/Prototypes/Group 19 4.19/Content/Untitled.umap.
+[2018.05.01-19.08.26:883][316]LogLinker: Warning: Can't find file '/Game/WeaponSelect'
+[2018.05.01-19.08.26:884][316]LogLinker: Warning: Can't find file for asset '/Game/WeaponSelect' while loading NULL.
+[2018.05.01-19.08.26:885][316]LogLinker: Warning: Can't find file '/Game/WeaponSelect'
+[2018.05.01-19.08.26:885][316]LogLinker: Warning: Can't find file for asset '/Game/WeaponSelect' while loading NULL.
+[2018.05.01-19.08.26:885][316]LogLinker: Warning: Can't find file '/Game/WeaponSelect'
+[2018.05.01-19.08.26:885][316]LogLinker: Warning: Can't find file for asset '/Game/WeaponSelect' while loading NULL.
+[2018.05.01-19.08.26:887][316]LogLinker: Warning: Can't find file '/Game/WeaponSelect'
+[2018.05.01-19.08.26:888][316]LoadErrors: Failed to load /Game/WeaponSelect.WeaponSelect_C Referenced by K2Node_CreateWidget_0
+[2018.05.01-19.08.26:888][316]LogLinker: Warning: Can't find file for asset '/Game/WeaponSelect' while loading NULL.
+[2018.05.01-19.08.26:888][316]LogLinker: Warning: Can't find file '/Game/WeaponSelect'
+[2018.05.01-19.08.26:888][316]LogLinker: Warning: Can't find file for asset '/Game/WeaponSelect' while loading NULL.
+[2018.05.01-19.08.26:893][316]LogBlueprint: Error: [Compiler PersistentLevel.Untitled] Spawn node  Create Widget  must have a class specified.
+[2018.05.01-19.08.26:898][316]LogBlueprint: Warning: [Compiler PersistentLevel.Untitled] [9535.29] Compile of PersistentLevel.Untitled failed. 1 Fatal Issue(s) 0 Warning(s) [in 8 ms] (/Game/Untitled.Untitled:PersistentLevel.Untitled)
+[2018.05.01-19.08.26:911][316]LogAIModule: Creating AISystem for world Untitled
+[2018.05.01-19.08.28:729][316]LogSlate: Window 'Save Content' being destroyed
+[2018.05.01-19.08.28:859][316]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Pendulu" FILE="C:/Users/vmirc/Documents/GitHub/mgp-mgp-group-19/Prototypes/Group 19 4.19/Content/Pendulu.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.05.01-19.08.28:898][316]LogBlueprint: Error: [Compiler PersistentLevel.Pendulu] Spawn node  Create Widget  must have a class specified.
+[2018.05.01-19.08.28:898][316]LogBlueprint: Error: [Compiler PersistentLevel.Pendulu] Spawn node  Create Widget  must have a class specified.
+[2018.05.01-19.08.28:901][316]LogBlueprint: Warning: [Compiler PersistentLevel.Pendulu] [9537.29] Compile of PersistentLevel.Pendulu failed. 2 Fatal Issue(s) 0 Warning(s) [in 10 ms] (/Game/Pendulu.Pendulu:PersistentLevel.Pendulu)
+[2018.05.01-19.08.29:043][316]LogSavePackage: Save=162.30ms
+[2018.05.01-19.08.29:043][316]LogSavePackage: Moving 'C:/Users/vmirc/Documents/GitHub/mgp-mgp-group-19/Prototypes/Group 19 4.19/Saved/PenduluB4FB5AC24E901CDBC73CEFAB1E7106A4.tmp' to 'C:/Users/vmirc/Documents/GitHub/mgp-mgp-group-19/Prototypes/Group 19 4.19/Content/Pendulu.umap'
+[2018.05.01-19.08.29:050][316]LogSavePackage: Display: Finished SavePackage C:/Users/vmirc/Documents/GitHub/mgp-mgp-group-19/Prototypes/Group 19 4.19/Content/Pendulu.umap
+[2018.05.01-19.08.29:065][316]LogFileHelpers: Saving map 'Pendulu' took 0.328
+[2018.05.01-19.08.29:067][316]Cmd: MAP LOAD FILE="C:/Users/vmirc/Documents/GitHub/mgp-mgp-group-19/Prototypes/Group 19 4.19/Content/Untitled.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.05.01-19.08.29:067][316]LightingResults: New page: Lighting Build
+[2018.05.01-19.08.29:068][316]LoadErrors: New page: Loading map: Untitled.umap
+[2018.05.01-19.08.29:098][316]MapCheck: New page: Map Check
+[2018.05.01-19.08.29:098][316]LightingResults: New page: Lighting Build
+[2018.05.01-19.08.29:111][316]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.05.01-19.08.29:141][316]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.05.01-19.08.29:262][316]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 120.846ms to complete.
+[2018.05.01-19.08.29:262][316]LogFileHelpers: Loading map 'Untitled' took 0.197
+[2018.05.01-19.08.31:805][410]LogSlate: Window 'Delete Assets' being destroyed
+[2018.05.01-19.08.31:826][410]LightingResults: New page: Lighting Build
+[2018.05.01-19.08.31:827][410]MapCheck: New page: Map Check
+[2018.05.01-19.08.31:827][410]LightingResults: New page: Lighting Build
+[2018.05.01-19.08.31:839][410]LogAIModule: Creating AISystem for world Untitled
+[2018.05.01-19.08.31:848][410]LoadErrors: New page: New Map
+[2018.05.01-19.08.31:858][410]LogLinker: Can't find file '/Game/WeaponSelect'
+[2018.05.01-19.08.31:858][410]LogLinker: Can't find file for asset '/Game/WeaponSelect' while loading C:/Users/vmirc/Documents/GitHub/mgp-mgp-group-19/Prototypes/Group 19 4.19/Content/Untitled.umap.
+[2018.05.01-19.08.31:859][410]LogLinker: Can't find file '/Game/WeaponSelect'
+[2018.05.01-19.08.31:859][410]LogLinker: Can't find file for asset '/Game/WeaponSelect' while loading C:/Users/vmirc/Documents/GitHub/mgp-mgp-group-19/Prototypes/Group 19 4.19/Content/Untitled.umap.
+[2018.05.01-19.08.31:863][410]LogLinker: Can't find file '/Game/WeaponSelect'
+[2018.05.01-19.08.31:864][410]LogLinker: Can't find file for asset '/Game/WeaponSelect' while loading NULL.
+[2018.05.01-19.08.31:864][410]LogLinker: Can't find file '/Game/WeaponSelect'
+[2018.05.01-19.08.31:864][410]LogLinker: Can't find file for asset '/Game/WeaponSelect' while loading NULL.
+[2018.05.01-19.08.31:865][410]LogLinker: Can't find file '/Game/WeaponSelect'
+[2018.05.01-19.08.31:865][410]LogLinker: Can't find file for asset '/Game/WeaponSelect' while loading NULL.
+[2018.05.01-19.08.31:866][410]LogLinker: Can't find file '/Game/WeaponSelect'
+[2018.05.01-19.08.31:866][410]LogLinker: Can't find file for asset '/Game/WeaponSelect' while loading NULL.
+[2018.05.01-19.08.31:866][410]LogLinker: Can't find file '/Game/WeaponSelect'
+[2018.05.01-19.08.31:866][410]LogLinker: Can't find file for asset '/Game/WeaponSelect' while loading NULL.
+[2018.05.01-19.08.31:867][410]LogBlueprint: Error: [Compiler PersistentLevel.Untitled] Spawn node  Create Widget  must have a class specified.
+[2018.05.01-19.08.31:868][410]LogBlueprint: Warning: [Compiler PersistentLevel.Untitled] [9540.26] Compile of PersistentLevel.Untitled failed. 1 Fatal Issue(s) 0 Warning(s) [in 1 ms] (/Game/Untitled.Untitled:PersistentLevel.Untitled)
+[2018.05.01-19.08.31:874][410]LogAIModule: Creating AISystem for world Untitled
+[2018.05.01-19.08.40:974][892]LogSlate: Window 'Delete Assets' being destroyed
+[2018.05.01-19.08.42:924][967]LogAIModule: Creating AISystem for world PlaytestPendulum
+[2018.05.01-19.08.42:955][967]Cmd: MAP LOAD FILE="C:/Users/vmirc/Documents/GitHub/mgp-mgp-group-19/Prototypes/Group 19 4.19/Content/PlaytestPendulum.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.05.01-19.08.42:955][967]LightingResults: New page: Lighting Build
+[2018.05.01-19.08.42:956][967]LoadErrors: New page: Loading map: PlaytestPendulum.umap
+[2018.05.01-19.08.42:956][967]MapCheck: New page: Map Check
+[2018.05.01-19.08.42:956][967]LightingResults: New page: Lighting Build
+[2018.05.01-19.08.42:979][967]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.05.01-19.08.43:007][967]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.05.01-19.08.43:119][967]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 111.09ms to complete.
+[2018.05.01-19.08.43:119][967]LogFileHelpers: Loading map 'PlaytestPendulum' took 0.165
+[2018.05.01-19.08.45:258][ 90]LogLinker: Warning: Can't find file '/Game/Player_1_WIP_Sprite'
+[2018.05.01-19.08.45:259][ 90]LogLinker: Warning: Can't find file for asset '/Game/Player_1_WIP_Sprite' while loading C:/Users/vmirc/Documents/GitHub/mgp-mgp-group-19/Prototypes/Group 19 4.19/Content/Pendulu.umap.
+[2018.05.01-19.08.45:259][ 90]LoadErrors: Error: /Game/Pendulu : Can't find file for asset. /Game/Player_1_WIP_Sprite
+[2018.05.01-19.08.45:259][ 90]LogLinker: Warning: Can't find file '/Game/Player_2_WIP_Sprite'
+[2018.05.01-19.08.45:259][ 90]LogLinker: Warning: Can't find file for asset '/Game/Player_2_WIP_Sprite' while loading C:/Users/vmirc/Documents/GitHub/mgp-mgp-group-19/Prototypes/Group 19 4.19/Content/Pendulu.umap.
+[2018.05.01-19.08.45:259][ 90]LoadErrors: Error: /Game/Pendulu : Can't find file for asset. /Game/Player_2_WIP_Sprite
+[2018.05.01-19.08.45:260][ 90]LogLinker: Warning: Can't find file '/Game/Player_1_WIP_Sprite'
+[2018.05.01-19.08.45:260][ 90]LogLinker: Warning: Can't find file for asset '/Game/Player_1_WIP_Sprite' while loading C:/Users/vmirc/Documents/GitHub/mgp-mgp-group-19/Prototypes/Group 19 4.19/Content/Pendulu.umap.
+[2018.05.01-19.08.45:260][ 90]LogLinker: Warning: Can't find file '/Game/Player_2_WIP_Sprite'
+[2018.05.01-19.08.45:260][ 90]LogLinker: Warning: Can't find file for asset '/Game/Player_2_WIP_Sprite' while loading C:/Users/vmirc/Documents/GitHub/mgp-mgp-group-19/Prototypes/Group 19 4.19/Content/Pendulu.umap.
+[2018.05.01-19.08.45:262][ 90]LogLinker: Warning: Can't find file '/Game/Player_1_WIP_Sprite'
+[2018.05.01-19.08.45:262][ 90]LogLinker: Warning: Can't find file for asset '/Game/Player_1_WIP_Sprite' while loading NULL.
+[2018.05.01-19.08.45:262][ 90]LogLinker: Warning: Can't find file '/Game/Player_2_WIP_Sprite'
+[2018.05.01-19.08.45:262][ 90]LogLinker: Warning: Can't find file for asset '/Game/Player_2_WIP_Sprite' while loading NULL.
+[2018.05.01-19.08.45:262][ 90]LogLinker: Warning: Can't find file '/Game/Player_1_WIP_Sprite'
+[2018.05.01-19.08.45:262][ 90]LogLinker: Warning: Can't find file for asset '/Game/Player_1_WIP_Sprite' while loading NULL.
+[2018.05.01-19.08.45:262][ 90]LogLinker: Warning: Can't find file '/Game/Player_2_WIP_Sprite'
+[2018.05.01-19.08.45:263][ 90]LogLinker: Warning: Can't find file for asset '/Game/Player_2_WIP_Sprite' while loading NULL.
+[2018.05.01-19.08.45:277][ 90]LogBlueprint: Error: [Compiler PersistentLevel.Pendulu] Spawn node  Create Widget  must have a class specified.
+[2018.05.01-19.08.45:277][ 90]LogBlueprint: Error: [Compiler PersistentLevel.Pendulu] Spawn node  Create Widget  must have a class specified.
+[2018.05.01-19.08.45:279][ 90]LogBlueprint: Warning: [Compiler PersistentLevel.Pendulu] [9553.67] Compile of PersistentLevel.Pendulu failed. 2 Fatal Issue(s) 0 Warning(s) [in 10 ms] (/Game/Pendulu.Pendulu:PersistentLevel.Pendulu)
+[2018.05.01-19.08.45:285][ 90]LogLinker: Warning: Can't find file '/Game/Player_1_WIP_Sprite'
+[2018.05.01-19.08.45:285][ 90]LoadErrors: Failed to load /Game/Player_1_WIP_Sprite.Player_1_WIP_Sprite Referenced by Player_1_WIP_Sprite_2
+[2018.05.01-19.08.45:285][ 90]LogLinker: Warning: Can't find file for asset '/Game/Player_1_WIP_Sprite' while loading NULL.
+[2018.05.01-19.08.45:285][ 90]LogLinker: Warning: Can't find file '/Game/Player_2_WIP_Sprite'
+[2018.05.01-19.08.45:285][ 90]LoadErrors: Failed to load /Game/Player_2_WIP_Sprite.Player_2_WIP_Sprite Referenced by Player_2_WIP_Sprite_5
+[2018.05.01-19.08.45:285][ 90]LogLinker: Warning: Can't find file for asset '/Game/Player_2_WIP_Sprite' while loading NULL.
+[2018.05.01-19.08.45:295][ 90]LogAIModule: Creating AISystem for world Pendulu
+[2018.05.01-19.08.45:323][ 90]Cmd: MAP LOAD FILE="C:/Users/vmirc/Documents/GitHub/mgp-mgp-group-19/Prototypes/Group 19 4.19/Content/Pendulu.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.05.01-19.08.45:323][ 90]LightingResults: New page: Lighting Build
+[2018.05.01-19.08.45:324][ 90]LoadErrors: New page: Loading map: Pendulu.umap
+[2018.05.01-19.08.45:324][ 90]MapCheck: New page: Map Check
+[2018.05.01-19.08.45:324][ 90]LightingResults: New page: Lighting Build
+[2018.05.01-19.08.45:346][ 90]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.05.01-19.08.45:372][ 90]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.05.01-19.08.45:486][ 90]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 113.738ms to complete.
+[2018.05.01-19.08.45:486][ 90]LogFileHelpers: Loading map 'Pendulu' took 0.165
+[2018.05.01-19.08.46:422][147]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2018.05.01-19.08.59:314][259]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\vmirc\Documents\GitHub\mgp-mgp-group-19\Art Assets\M-H.png)
+[2018.05.01-19.08.59:656][259]LogTexture: Display: Building textures: M-H (BGRA8, 3508X1493)
+[2018.05.01-19.09.00:309][259]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\vmirc\Documents\GitHub\mgp-mgp-group-19\Art Assets\M-M.png)
+[2018.05.01-19.09.00:526][259]LogTexture: Display: Building textures: M-M (BGRA8, 3508X1493)
+[2018.05.01-19.09.01:155][259]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\vmirc\Documents\GitHub\mgp-mgp-group-19\Art Assets\E-E.png)
+[2018.05.01-19.09.01:377][259]LogTexture: Display: Building textures: E-E (BGRA8, 3508X1493)
+[2018.05.01-19.09.01:985][259]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\vmirc\Documents\GitHub\mgp-mgp-group-19\Art Assets\E-H.png)
+[2018.05.01-19.09.02:206][259]LogTexture: Display: Building textures: E-H (BGRA8, 3508X1493)
+[2018.05.01-19.09.02:814][259]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\vmirc\Documents\GitHub\mgp-mgp-group-19\Art Assets\E-M.png)
+[2018.05.01-19.09.03:040][259]LogTexture: Display: Building textures: E-M (BGRA8, 3508X1493)
+[2018.05.01-19.09.03:652][259]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\vmirc\Documents\GitHub\mgp-mgp-group-19\Art Assets\H-E.png)
+[2018.05.01-19.09.03:873][259]LogTexture: Display: Building textures: H-E (BGRA8, 3508X1493)
+[2018.05.01-19.09.04:520][259]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\vmirc\Documents\GitHub\mgp-mgp-group-19\Art Assets\H-H.png)
+[2018.05.01-19.09.04:738][259]LogTexture: Display: Building textures: H-H (BGRA8, 3508X1493)
+[2018.05.01-19.09.05:337][259]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\vmirc\Documents\GitHub\mgp-mgp-group-19\Art Assets\H-M.png)
+[2018.05.01-19.09.05:553][259]LogTexture: Display: Building textures: H-M (BGRA8, 3508X1493)
+[2018.05.01-19.09.06:152][259]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\vmirc\Documents\GitHub\mgp-mgp-group-19\Art Assets\M-E.png)
+[2018.05.01-19.09.06:368][259]LogTexture: Display: Building textures: M-E (BGRA8, 3508X1493)
+[2018.05.01-19.09.06:976][259]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.05.01-19.09.34:690][343]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2018.05.01-19.09.35:418][391]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.05.01-19.09.36:171][455]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2018.05.01-19.09.36:620][493]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Cube)
+[2018.05.01-19.09.36:664][493]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.05.01-19.09.37:875][587]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2018.05.01-19.09.38:842][666]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.05.01-19.09.41:184][847]LogSlate: Window 'Select Path' being destroyed
+[2018.05.01-19.09.41:234][847]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.05.01-19.09.41:784][847]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0012 seconds. Added 116 classes and 0 folders.
+[2018.05.01-19.09.47:996][110]LogSlate: Window 'Cube_Blueprint*' being destroyed
+[2018.05.01-19.09.48:000][110]LogSlate: Window 'Cube_Blueprint*' being destroyed
+[2018.05.01-19.09.48:818][167]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.05.01-19.09.51:984][386]LogMaterial: Missing cached shader map for material M-M_Mat, compiling. 
+[2018.05.01-19.09.51:996][386]LogShaderCompilers: Display: Shaders left to compile 22
+[2018.05.01-19.09.51:996][386]LogShaderCompilers: Display: Shaders left to compile 12
+[2018.05.01-19.09.51:996][386]LogShaderCompilers: Display: Shaders left to compile 2
+[2018.05.01-19.09.54:035][512]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.05.01-19.10.01:817][948]LogEditorViewport: Clicking on Actor (LMB): Cube_Blueprint_C (Cube_Blueprint)
+[2018.05.01-19.10.03:142][ 54]LogEditorViewport: Clicking on Actor (LMB): Cube_Blueprint_C (Cube_Blueprint)
+[2018.05.01-19.10.08:406][338]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.05.01-19.10.08:504][348]LogTemp: Repeating last play command: Selected Viewport
+[2018.05.01-19.10.08:535][348]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Pendulu.Pendulu:PersistentLevel' has LevelScriptBlueprint '/Game/Pendulu.Pendulu:PersistentLevel.Pendulu' with GeneratedClass '/Game/Pendulu.Pendulu_C' with ClassGeneratedBy '/Game/Pendulu.Pendulu:PersistentLevel.Pendulu'
+[2018.05.01-19.10.08:536][348]BlueprintLog: New page: Pre-Play auto-recompile
+[2018.05.01-19.10.08:541][348]LogPlayLevel: [PlayLevel] Compiling Pendulu before play...
+[2018.05.01-19.10.08:546][348]LogBlueprint: Error: [Compiler PersistentLevel.Pendulu] Spawn node  Create Widget  must have a class specified.
+[2018.05.01-19.10.08:546][348]LogBlueprint: Error: [Compiler PersistentLevel.Pendulu] Spawn node  Create Widget  must have a class specified.
+[2018.05.01-19.10.08:548][348]LogBlueprint: Warning: [Compiler PersistentLevel.Pendulu] [9636.94] Compile of PersistentLevel.Pendulu failed. 2 Fatal Issue(s) 0 Warning(s) [in 6 ms] (/Game/Pendulu.Pendulu:PersistentLevel.Pendulu)
+[2018.05.01-19.10.08:630][348]LogPlayLevel: PlayLevel: Blueprint regeneration took 94 ms (1 blueprints)
+[2018.05.01-19.10.08:630][348]BlueprintLog: Blueprint Pendulu failed to compile
+[2018.05.01-19.10.12:247][348]LogSlate: Window 'Message' being destroyed
+[2018.05.01-19.10.12:252][348]PIE: New page: PIE session: Pendulu (1 May 2018 21:10:12)
+[2018.05.01-19.10.12:252][348]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Pendulu
+[2018.05.01-19.10.12:255][348]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003409s)
+[2018.05.01-19.10.12:256][348]LogAIModule: Creating AISystem for world Pendulu
+[2018.05.01-19.10.12:256][348]LogPlayLevel: PIE: World Init took: (0.000877s)
+[2018.05.01-19.10.12:256][348]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Pendulu.Pendulu to /Game/UEDPIE_0_Pendulu.Pendulu (0.004450s)
+[2018.05.01-19.10.12:280][348]LogInit: XAudio2 using 'Digital Audio (S/PDIF) (2- High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.05.01-19.10.12:287][348]LogInit: FAudioDevice initialized.
+[2018.05.01-19.10.12:320][348]LogLoad: Game class is 'GameModeBase'
+[2018.05.01-19.10.12:322][348]LogWorld: Bringing World /Game/UEDPIE_0_Pendulu.Pendulu up for play (max tick rate 0) at 2018.05.01-20.10.12
+[2018.05.01-19.10.12:322][348]LogWorld: Bringing up level for play took: 0.001135
+[2018.05.01-19.10.12:324][348]PIE: Play in editor start time for /Game/UEDPIE_0_Pendulu 3.197
+[2018.05.01-19.10.12:324][348]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Pendulu.Pendulu:PersistentLevel' has LevelScriptBlueprint '/Game/Pendulu.Pendulu:PersistentLevel.Pendulu' with GeneratedClass '/Game/Pendulu.Pendulu_C' with ClassGeneratedBy '/Game/Pendulu.Pendulu:PersistentLevel.Pendulu'
+[2018.05.01-19.10.13:530][463]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Pendulu.Pendulu:PersistentLevel' has LevelScriptBlueprint '/Game/Pendulu.Pendulu:PersistentLevel.Pendulu' with GeneratedClass '/Game/Pendulu.Pendulu_C' with ClassGeneratedBy '/Game/Pendulu.Pendulu:PersistentLevel.Pendulu'
+[2018.05.01-19.10.13:563][463]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Pendulu.Pendulu:PersistentLevel' has LevelScriptBlueprint '/Game/Pendulu.Pendulu:PersistentLevel.Pendulu' with GeneratedClass '/Game/Pendulu.Pendulu_C' with ClassGeneratedBy '/Game/Pendulu.Pendulu:PersistentLevel.Pendulu'
+[2018.05.01-19.10.14:929][602]LogEditorViewport: Clicking on Actor (LMB): CameraActor (CameraActor)
+[2018.05.01-19.10.24:832][387]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.05.01-19.10.30:187][782]LogSlate: Took 0.018504 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2018.05.01-19.10.43:224][464]BlueprintLog: New page: Compile Pendulu
+[2018.05.01-19.10.45:795][584]LogTemp: Repeating last play command: Selected Viewport
+[2018.05.01-19.10.45:806][584]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Pendulu.Pendulu:PersistentLevel' has LevelScriptBlueprint '/Game/Pendulu.Pendulu:PersistentLevel.Pendulu' with GeneratedClass '/Game/Pendulu.Pendulu_C' with ClassGeneratedBy '/Game/Pendulu.Pendulu:PersistentLevel.Pendulu'
+[2018.05.01-19.10.45:806][584]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.05.01-19.10.45:806][584]PIE: New page: PIE session: Pendulu (1 May 2018 21:10:45)
+[2018.05.01-19.10.45:806][584]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Pendulu
+[2018.05.01-19.10.45:808][584]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002499s)
+[2018.05.01-19.10.45:809][584]LogAIModule: Creating AISystem for world Pendulu
+[2018.05.01-19.10.45:810][584]LogPlayLevel: PIE: World Init took: (0.001014s)
+[2018.05.01-19.10.45:810][584]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Pendulu.Pendulu to /Game/UEDPIE_0_Pendulu.Pendulu (0.003672s)
+[2018.05.01-19.10.45:862][584]LogInit: XAudio2 using 'Digital Audio (S/PDIF) (2- High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.05.01-19.10.45:868][584]LogInit: FAudioDevice initialized.
+[2018.05.01-19.10.45:900][584]LogLoad: Game class is 'GameModeBase'
+[2018.05.01-19.10.45:902][584]LogWorld: Bringing World /Game/UEDPIE_0_Pendulu.Pendulu up for play (max tick rate 0) at 2018.05.01-20.10.45
+[2018.05.01-19.10.45:902][584]LogWorld: Bringing up level for play took: 0.000803
+[2018.05.01-19.10.45:903][584]PIE: Play in editor start time for /Game/UEDPIE_0_Pendulu 0.776
+[2018.05.01-19.10.45:903][584]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Pendulu.Pendulu:PersistentLevel' has LevelScriptBlueprint '/Game/Pendulu.Pendulu:PersistentLevel.Pendulu' with GeneratedClass '/Game/Pendulu.Pendulu_C' with ClassGeneratedBy '/Game/Pendulu.Pendulu:PersistentLevel.Pendulu'
+[2018.05.01-19.10.51:779][156]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.05.01-19.10.54:674][319]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Pendulu.Pendulu:PersistentLevel' has LevelScriptBlueprint '/Game/Pendulu.Pendulu:PersistentLevel.Pendulu' with GeneratedClass '/Game/Pendulu.Pendulu_C' with ClassGeneratedBy '/Game/Pendulu.Pendulu:PersistentLevel.Pendulu'
+[2018.05.01-19.10.54:713][319]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Pendulu.Pendulu:PersistentLevel' has LevelScriptBlueprint '/Game/Pendulu.Pendulu:PersistentLevel.Pendulu' with GeneratedClass '/Game/Pendulu.Pendulu_C' with ClassGeneratedBy '/Game/Pendulu.Pendulu:PersistentLevel.Pendulu'
+[2018.05.01-19.10.56:100][412]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Pendulum1_Sprite)
+[2018.05.01-19.10.56:814][452]Cmd: DELETE
+[2018.05.01-19.10.56:814][452]Cmd: ACTOR DELETE
+[2018.05.01-19.10.56:816][452]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2018.05.01-19.10.56:838][452]LogEditorActor: Deleted 1 Actors (0.024 secs)
+[2018.05.01-19.10.57:664][513]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Pendulum2_Sprite)
+[2018.05.01-19.11.04:070][746]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.05.01-19.11.04:141][749]LogTemp: Repeating last play command: Selected Viewport
+[2018.05.01-19.11.04:154][749]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Pendulu.Pendulu:PersistentLevel' has LevelScriptBlueprint '/Game/Pendulu.Pendulu:PersistentLevel.Pendulu' with GeneratedClass '/Game/Pendulu.Pendulu_C' with ClassGeneratedBy '/Game/Pendulu.Pendulu:PersistentLevel.Pendulu'
+[2018.05.01-19.11.04:155][749]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.05.01-19.11.04:155][749]PIE: New page: PIE session: Pendulu (1 May 2018 21:11:04)
+[2018.05.01-19.11.04:155][749]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Pendulu
+[2018.05.01-19.11.04:158][749]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003047s)
+[2018.05.01-19.11.04:159][749]LogAIModule: Creating AISystem for world Pendulu
+[2018.05.01-19.11.04:159][749]LogPlayLevel: PIE: World Init took: (0.001226s)
+[2018.05.01-19.11.04:159][749]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Pendulu.Pendulu to /Game/UEDPIE_0_Pendulu.Pendulu (0.004438s)
+[2018.05.01-19.11.04:187][749]LogInit: XAudio2 using 'Digital Audio (S/PDIF) (2- High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.05.01-19.11.04:193][749]LogInit: FAudioDevice initialized.
+[2018.05.01-19.11.04:226][749]LogLoad: Game class is 'GameModeBase'
+[2018.05.01-19.11.04:228][749]LogWorld: Bringing World /Game/UEDPIE_0_Pendulu.Pendulu up for play (max tick rate 0) at 2018.05.01-20.11.04
+[2018.05.01-19.11.04:228][749]LogWorld: Bringing up level for play took: 0.000937
+[2018.05.01-19.11.04:229][749]PIE: Play in editor start time for /Game/UEDPIE_0_Pendulu -0.898
+[2018.05.01-19.11.04:229][749]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Pendulu.Pendulu:PersistentLevel' has LevelScriptBlueprint '/Game/Pendulu.Pendulu:PersistentLevel.Pendulu' with GeneratedClass '/Game/Pendulu.Pendulu_C' with ClassGeneratedBy '/Game/Pendulu.Pendulu:PersistentLevel.Pendulu'
+[2018.05.01-19.11.06:991][878]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Pendulu.Pendulu:PersistentLevel' has LevelScriptBlueprint '/Game/Pendulu.Pendulu:PersistentLevel.Pendulu' with GeneratedClass '/Game/Pendulu.Pendulu_C' with ClassGeneratedBy '/Game/Pendulu.Pendulu:PersistentLevel.Pendulu'
+[2018.05.01-19.11.07:039][878]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Pendulu.Pendulu:PersistentLevel' has LevelScriptBlueprint '/Game/Pendulu.Pendulu:PersistentLevel.Pendulu' with GeneratedClass '/Game/Pendulu.Pendulu_C' with ClassGeneratedBy '/Game/Pendulu.Pendulu:PersistentLevel.Pendulu'
+[2018.05.01-19.11.08:156][927]LogEditorViewport: Clicking on Actor (LMB): Cube_Blueprint_C (Cube_Blueprint)
+[2018.05.01-19.11.09:310][973]LogEditorViewport: Clicking on Actor (LMB): CameraActor (CameraActor)
+[2018.05.01-19.11.16:707][260]LogEditorViewport: Clicking on Actor (LMB): Cube_Blueprint_C (Cube_Blueprint)
+[2018.05.01-19.11.21:343][428]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.05.01-19.11.32:780][885]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Pendulum2_Sprite)
+[2018.05.01-19.11.36:108][ 19]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Pendulum2_Sprite)
+[2018.05.01-19.11.37:599][ 79]Cmd: TRANSACTION UNDO
+[2018.05.01-19.11.37:599][ 79]LogEditorTransaction: Undo Scale Actors
+[2018.05.01-19.11.39:092][131]Cmd: TRANSACTION UNDO
+[2018.05.01-19.11.39:092][131]LogEditorTransaction: Undo Clicking on Actors
+[2018.05.01-19.11.39:448][145]Cmd: TRANSACTION UNDO
+[2018.05.01-19.11.39:448][145]LogEditorTransaction: Undo Scale Actors
+[2018.05.01-19.11.40:216][174]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.05.01-19.12.06:105][189]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2018.05.01-19.12.08:184][274]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Pendulum2_Sprite)
+[2018.05.01-19.12.13:387][481]Cmd: TRANSACTION UNDO
+[2018.05.01-19.12.13:387][481]LogEditorTransaction: Undo Scale Actors
+[2018.05.01-19.12.14:102][503]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.05.01-19.12.17:413][633]LogEditorViewport: Clicking on Actor (LMB): Cube_Blueprint_C (Cube_Blueprint)
+[2018.05.01-19.12.20:552][741]LogEditorViewport: Clicking on Actor (LMB): Cube_Blueprint_C (Cube_Blueprint)
+[2018.05.01-19.12.21:067][762]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Pendulum2_Sprite)
+[2018.05.01-19.12.41:895][582]Cmd: TRANSACTION UNDO
+[2018.05.01-19.12.41:895][582]LogEditorTransaction: Undo Scale Actors
+[2018.05.01-19.12.44:983][677]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.05.01-19.12.52:970][983]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Pendulum2_Sprite)
+[2018.05.01-19.12.58:746][212]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.05.01-19.13.23:156][183]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2018.05.01-19.13.24:641][243]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Pendulum2_Sprite)
+[2018.05.01-19.13.27:920][368]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.05.01-19.13.49:369][236]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2018.05.01-19.13.50:731][290]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Pendulum2_Sprite)
+[2018.05.01-19.13.52:637][362]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.05.01-19.13.59:748][648]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2018.05.01-19.14.17:123][322]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Pendulum2_Sprite)
+[2018.05.01-19.14.18:069][357]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.05.01-19.14.33:031][765]LogSlate: Window 'Delete Assets' being destroyed
+[2018.05.01-19.14.33:037][765]LogSlate: Window 'Pendulu* - Level Blueprint Editor' being destroyed
+[2018.05.01-19.18.04:920][  8]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2018.05.01-19.18.09:583][212]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.05.01-19.18.09:670][216]LogSlate: Window 'Sequencer' being destroyed
+[2018.05.01-19.18.09:683][216]LogSlate: Window 'Sequencer' being destroyed
+[2018.05.01-19.18.16:203][485]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.05.01-19.18.17:571][546]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.05.01-19.19.00:105][ 97]LogSavePackage: Save=307.79ms
+[2018.05.01-19.19.00:105][ 97]LogSavePackage: Moving 'C:/Users/vmirc/Documents/GitHub/mgp-mgp-group-19/Prototypes/Group 19 4.19/Saved/Pendulu_Auto15872BD4D48D8A4F70EDC30AF632B1EC7.tmp' to 'C:/Users/vmirc/Documents/GitHub/mgp-mgp-group-19/Prototypes/Group 19 4.19/Saved/Autosaves/Game/Pendulu_Auto1.umap'
+[2018.05.01-19.19.00:107][ 97]LogSavePackage: Display: Finished SavePackage C:/Users/vmirc/Documents/GitHub/mgp-mgp-group-19/Prototypes/Group 19 4.19/Saved/Autosaves/Game/Pendulu_Auto1.umap
+[2018.05.01-19.19.00:111][ 97]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Pendulu' took 0.379
+[2018.05.01-19.19.00:111][ 97]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.379
+[2018.05.01-19.19.00:114][ 97]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/M-E] ([1] browsable assets)...
+[2018.05.01-19.19.00:118][ 97]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/M-E.M-E]
+[2018.05.01-19.19.00:118][ 97]OBJ SavePackage: Finished generating thumbnails for package [/Game/M-E]
+[2018.05.01-19.19.00:118][ 97]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/M-E" FILE="C:/Users/vmirc/Documents/GitHub/mgp-mgp-group-19/Prototypes/Group 19 4.19/Saved/Autosaves/Game/M-E_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2018.05.01-19.19.00:180][ 97]LogSavePackage: Save=59.97ms
+[2018.05.01-19.19.00:180][ 97]LogSavePackage: Moving 'C:/Users/vmirc/Documents/GitHub/mgp-mgp-group-19/Prototypes/Group 19 4.19/Saved/M-E_Auto1AB5B300148742F0EE6851D9EA5FA1BAA.tmp' to 'C:/Users/vmirc/Documents/GitHub/mgp-mgp-group-19/Prototypes/Group 19 4.19/Saved/Autosaves/Game/M-E_Auto1.uasset'
+[2018.05.01-19.19.00:184][ 97]LogSavePackage: Display: Finished SavePackage C:/Users/vmirc/Documents/GitHub/mgp-mgp-group-19/Prototypes/Group 19 4.19/Saved/Autosaves/Game/M-E_Auto1.uasset
+[2018.05.01-19.19.00:186][ 97]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Cube_Blueprint] ([1] browsable assets)...
+[2018.05.01-19.19.00:207][ 97]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Cube_Blueprint.Cube_Blueprint]
+[2018.05.01-19.19.00:207][ 97]OBJ SavePackage: Finished generating thumbnails for package [/Game/Cube_Blueprint]
+[2018.05.01-19.19.00:230][ 97]LogSavePackage: Save=21.45ms
+[2018.05.01-19.19.00:231][ 97]LogSavePackage: Moving 'C:/Users/vmirc/Documents/GitHub/mgp-mgp-group-19/Prototypes/Group 19 4.19/Saved/Cube_Blueprint_Auto1C05B9F9F4C85949E38F6E48E6634F33F.tmp' to 'C:/Users/vmirc/Documents/GitHub/mgp-mgp-group-19/Prototypes/Group 19 4.19/Saved/Autosaves/Game/Cube_Blueprint_Auto1.uasset'
+[2018.05.01-19.19.00:232][ 97]LogSavePackage: Display: Finished SavePackage C:/Users/vmirc/Documents/GitHub/mgp-mgp-group-19/Prototypes/Group 19 4.19/Saved/Autosaves/Game/Cube_Blueprint_Auto1.uasset
+[2018.05.01-19.19.00:233][ 97]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/H-M] ([1] browsable assets)...
+[2018.05.01-19.19.00:238][ 97]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/H-M.H-M]
+[2018.05.01-19.19.00:238][ 97]OBJ SavePackage: Finished generating thumbnails for package [/Game/H-M]
+[2018.05.01-19.19.00:238][ 97]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/H-M" FILE="C:/Users/vmirc/Documents/GitHub/mgp-mgp-group-19/Prototypes/Group 19 4.19/Saved/Autosaves/Game/H-M_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2018.05.01-19.19.00:301][ 97]LogSavePackage: Save=59.56ms
+[2018.05.01-19.19.00:301][ 97]LogSavePackage: Moving 'C:/Users/vmirc/Documents/GitHub/mgp-mgp-group-19/Prototypes/Group 19 4.19/Saved/H-M_Auto18963FD314A51FE615C3A649E549E2159.tmp' to 'C:/Users/vmirc/Documents/GitHub/mgp-mgp-group-19/Prototypes/Group 19 4.19/Saved/Autosaves/Game/H-M_Auto1.uasset'
+[2018.05.01-19.19.00:302][ 97]LogSavePackage: Display: Finished SavePackage C:/Users/vmirc/Documents/GitHub/mgp-mgp-group-19/Prototypes/Group 19 4.19/Saved/Autosaves/Game/H-M_Auto1.uasset
+[2018.05.01-19.19.00:303][ 97]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/E-H] ([1] browsable assets)...
+[2018.05.01-19.19.00:309][ 97]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/E-H.E-H]
+[2018.05.01-19.19.00:309][ 97]OBJ SavePackage: Finished generating thumbnails for package [/Game/E-H]
+[2018.05.01-19.19.00:309][ 97]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/E-H" FILE="C:/Users/vmirc/Documents/GitHub/mgp-mgp-group-19/Prototypes/Group 19 4.19/Saved/Autosaves/Game/E-H_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2018.05.01-19.19.00:368][ 97]LogSavePackage: Save=50.62ms
+[2018.05.01-19.19.00:368][ 97]LogSavePackage: Moving 'C:/Users/vmirc/Documents/GitHub/mgp-mgp-group-19/Prototypes/Group 19 4.19/Saved/E-H_Auto15FF23A8A4D79EDA4966253B7234703E2.tmp' to 'C:/Users/vmirc/Documents/GitHub/mgp-mgp-group-19/Prototypes/Group 19 4.19/Saved/Autosaves/Game/E-H_Auto1.uasset'
+[2018.05.01-19.19.00:369][ 97]LogSavePackage: Display: Finished SavePackage C:/Users/vmirc/Documents/GitHub/mgp-mgp-group-19/Prototypes/Group 19 4.19/Saved/Autosaves/Game/E-H_Auto1.uasset
+[2018.05.01-19.19.00:370][ 97]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/H-H] ([1] browsable assets)...
+[2018.05.01-19.19.00:375][ 97]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/H-H.H-H]
+[2018.05.01-19.19.00:375][ 97]OBJ SavePackage: Finished generating thumbnails for package [/Game/H-H]
+[2018.05.01-19.19.00:376][ 97]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/H-H" FILE="C:/Users/vmirc/Documents/GitHub/mgp-mgp-group-19/Prototypes/Group 19 4.19/Saved/Autosaves/Game/H-H_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2018.05.01-19.19.00:435][ 97]LogSavePackage: Save=50.85ms
+[2018.05.01-19.19.00:435][ 97]LogSavePackage: Moving 'C:/Users/vmirc/Documents/GitHub/mgp-mgp-group-19/Prototypes/Group 19 4.19/Saved/H-H_Auto1199BAFBE4C45501F50991C9B5A59EA93.tmp' to 'C:/Users/vmirc/Documents/GitHub/mgp-mgp-group-19/Prototypes/Group 19 4.19/Saved/Autosaves/Game/H-H_Auto1.uasset'
+[2018.05.01-19.19.00:436][ 97]LogSavePackage: Display: Finished SavePackage C:/Users/vmirc/Documents/GitHub/mgp-mgp-group-19/Prototypes/Group 19 4.19/Saved/Autosaves/Game/H-H_Auto1.uasset
+[2018.05.01-19.19.00:437][ 97]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/M-H] ([1] browsable assets)...
+[2018.05.01-19.19.00:440][ 97]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/M-H.M-H]
+[2018.05.01-19.19.00:440][ 97]OBJ SavePackage: Finished generating thumbnails for package [/Game/M-H]
+[2018.05.01-19.19.00:441][ 97]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/M-H" FILE="C:/Users/vmirc/Documents/GitHub/mgp-mgp-group-19/Prototypes/Group 19 4.19/Saved/Autosaves/Game/M-H_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2018.05.01-19.19.00:485][ 97]LogSavePackage: Save=42.00ms
+[2018.05.01-19.19.00:485][ 97]LogSavePackage: Moving 'C:/Users/vmirc/Documents/GitHub/mgp-mgp-group-19/Prototypes/Group 19 4.19/Saved/M-H_Auto17AED601349DA8B557275AD833B5875F8.tmp' to 'C:/Users/vmirc/Documents/GitHub/mgp-mgp-group-19/Prototypes/Group 19 4.19/Saved/Autosaves/Game/M-H_Auto1.uasset'
+[2018.05.01-19.19.00:488][ 97]LogSavePackage: Display: Finished SavePackage C:/Users/vmirc/Documents/GitHub/mgp-mgp-group-19/Prototypes/Group 19 4.19/Saved/Autosaves/Game/M-H_Auto1.uasset
+[2018.05.01-19.19.00:489][ 97]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/M-M] ([1] browsable assets)...
+[2018.05.01-19.19.00:494][ 97]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/M-M.M-M]
+[2018.05.01-19.19.00:495][ 97]OBJ SavePackage: Finished generating thumbnails for package [/Game/M-M]
+[2018.05.01-19.19.00:495][ 97]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/M-M" FILE="C:/Users/vmirc/Documents/GitHub/mgp-mgp-group-19/Prototypes/Group 19 4.19/Saved/Autosaves/Game/M-M_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2018.05.01-19.19.00:540][ 97]LogSavePackage: Save=37.74ms
+[2018.05.01-19.19.00:540][ 97]LogSavePackage: Moving 'C:/Users/vmirc/Documents/GitHub/mgp-mgp-group-19/Prototypes/Group 19 4.19/Saved/M-M_Auto1CA4CC3914708112DF52272BE939E87B8.tmp' to 'C:/Users/vmirc/Documents/GitHub/mgp-mgp-group-19/Prototypes/Group 19 4.19/Saved/Autosaves/Game/M-M_Auto1.uasset'
+[2018.05.01-19.19.00:541][ 97]LogSavePackage: Display: Finished SavePackage C:/Users/vmirc/Documents/GitHub/mgp-mgp-group-19/Prototypes/Group 19 4.19/Saved/Autosaves/Game/M-M_Auto1.uasset
+[2018.05.01-19.19.00:542][ 97]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/E-E] ([1] browsable assets)...
+[2018.05.01-19.19.00:545][ 97]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/E-E.E-E]
+[2018.05.01-19.19.00:545][ 97]OBJ SavePackage: Finished generating thumbnails for package [/Game/E-E]
+[2018.05.01-19.19.00:545][ 97]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/E-E" FILE="C:/Users/vmirc/Documents/GitHub/mgp-mgp-group-19/Prototypes/Group 19 4.19/Saved/Autosaves/Game/E-E_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2018.05.01-19.19.00:587][ 97]LogSavePackage: Save=39.73ms
+[2018.05.01-19.19.00:587][ 97]LogSavePackage: Moving 'C:/Users/vmirc/Documents/GitHub/mgp-mgp-group-19/Prototypes/Group 19 4.19/Saved/E-E_Auto168EF7446480D6A0EDB2CE08C21E6FA23.tmp' to 'C:/Users/vmirc/Documents/GitHub/mgp-mgp-group-19/Prototypes/Group 19 4.19/Saved/Autosaves/Game/E-E_Auto1.uasset'
+[2018.05.01-19.19.00:588][ 97]LogSavePackage: Display: Finished SavePackage C:/Users/vmirc/Documents/GitHub/mgp-mgp-group-19/Prototypes/Group 19 4.19/Saved/Autosaves/Game/E-E_Auto1.uasset
+[2018.05.01-19.19.00:589][ 97]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/H-E] ([1] browsable assets)...
+[2018.05.01-19.19.00:592][ 97]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/H-E.H-E]
+[2018.05.01-19.19.00:592][ 97]OBJ SavePackage: Finished generating thumbnails for package [/Game/H-E]
+[2018.05.01-19.19.00:592][ 97]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/H-E" FILE="C:/Users/vmirc/Documents/GitHub/mgp-mgp-group-19/Prototypes/Group 19 4.19/Saved/Autosaves/Game/H-E_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2018.05.01-19.19.00:630][ 97]LogSavePackage: Save=35.58ms
+[2018.05.01-19.19.00:630][ 97]LogSavePackage: Moving 'C:/Users/vmirc/Documents/GitHub/mgp-mgp-group-19/Prototypes/Group 19 4.19/Saved/H-E_Auto1D963576E45CAA86F722DFEBA4191668E.tmp' to 'C:/Users/vmirc/Documents/GitHub/mgp-mgp-group-19/Prototypes/Group 19 4.19/Saved/Autosaves/Game/H-E_Auto1.uasset'
+[2018.05.01-19.19.00:631][ 97]LogSavePackage: Display: Finished SavePackage C:/Users/vmirc/Documents/GitHub/mgp-mgp-group-19/Prototypes/Group 19 4.19/Saved/Autosaves/Game/H-E_Auto1.uasset
+[2018.05.01-19.19.00:631][ 97]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/E-M] ([1] browsable assets)...
+[2018.05.01-19.19.00:634][ 97]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/E-M.E-M]
+[2018.05.01-19.19.00:635][ 97]OBJ SavePackage: Finished generating thumbnails for package [/Game/E-M]
+[2018.05.01-19.19.00:635][ 97]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/E-M" FILE="C:/Users/vmirc/Documents/GitHub/mgp-mgp-group-19/Prototypes/Group 19 4.19/Saved/Autosaves/Game/E-M_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2018.05.01-19.19.00:679][ 97]LogSavePackage: Save=42.30ms
+[2018.05.01-19.19.00:679][ 97]LogSavePackage: Moving 'C:/Users/vmirc/Documents/GitHub/mgp-mgp-group-19/Prototypes/Group 19 4.19/Saved/E-M_Auto1489B128B4EEC1316E3637AA22AA9FEAC.tmp' to 'C:/Users/vmirc/Documents/GitHub/mgp-mgp-group-19/Prototypes/Group 19 4.19/Saved/Autosaves/Game/E-M_Auto1.uasset'
+[2018.05.01-19.19.00:681][ 97]LogSavePackage: Display: Finished SavePackage C:/Users/vmirc/Documents/GitHub/mgp-mgp-group-19/Prototypes/Group 19 4.19/Saved/Autosaves/Game/E-M_Auto1.uasset
+[2018.05.01-19.19.00:682][ 97]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/M-M_Mat] ([1] browsable assets)...
+[2018.05.01-19.19.00:695][ 97]OBJ SavePackage:     Rendered thumbnail for [Material /Game/M-M_Mat.M-M_Mat]
+[2018.05.01-19.19.00:695][ 97]OBJ SavePackage: Finished generating thumbnails for package [/Game/M-M_Mat]
+[2018.05.01-19.19.00:695][ 97]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/M-M_Mat" FILE="C:/Users/vmirc/Documents/GitHub/mgp-mgp-group-19/Prototypes/Group 19 4.19/Saved/Autosaves/Game/M-M_Mat_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2018.05.01-19.19.00:714][ 97]LogSavePackage: Save=16.48ms
+[2018.05.01-19.19.00:714][ 97]LogSavePackage: Moving 'C:/Users/vmirc/Documents/GitHub/mgp-mgp-group-19/Prototypes/Group 19 4.19/Saved/M-M_Mat_Auto1E3B9967F49FA8C51C85F0ABCE65BE8FF.tmp' to 'C:/Users/vmirc/Documents/GitHub/mgp-mgp-group-19/Prototypes/Group 19 4.19/Saved/Autosaves/Game/M-M_Mat_Auto1.uasset'
+[2018.05.01-19.19.00:715][ 97]LogSavePackage: Display: Finished SavePackage C:/Users/vmirc/Documents/GitHub/mgp-mgp-group-19/Prototypes/Group 19 4.19/Saved/Autosaves/Game/M-M_Mat_Auto1.uasset
+[2018.05.01-19.19.00:715][ 97]LogFileHelpers: Auto-saving content packages took 0.603
+[2018.05.01-19.24.12:046][ 33]LogAIModule: Creating AISystem for world PlaytestPendulum
+[2018.05.01-19.24.13:592][ 33]LogSlate: Window 'Save Content' being destroyed
+[2018.05.01-19.24.13:637][ 33]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Cube_Blueprint" FILE="C:/Users/vmirc/Documents/GitHub/mgp-mgp-group-19/Prototypes/Group 19 4.19/Content/Cube_Blueprint.uasset" SILENT=true
+[2018.05.01-19.24.13:661][ 33]LogSavePackage: Save=21.22ms
+[2018.05.01-19.24.13:661][ 33]LogSavePackage: Moving 'C:/Users/vmirc/Documents/GitHub/mgp-mgp-group-19/Prototypes/Group 19 4.19/Saved/Cube_Blueprint9D531BA3406BD17F337B9B82D2C5AAE6.tmp' to 'C:/Users/vmirc/Documents/GitHub/mgp-mgp-group-19/Prototypes/Group 19 4.19/Content/Cube_Blueprint.uasset'
+[2018.05.01-19.24.13:671][ 33]LogSavePackage: Display: Finished SavePackage C:/Users/vmirc/Documents/GitHub/mgp-mgp-group-19/Prototypes/Group 19 4.19/Content/Cube_Blueprint.uasset
+[2018.05.01-19.24.13:676][ 33]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/E-E" FILE="C:/Users/vmirc/Documents/GitHub/mgp-mgp-group-19/Prototypes/Group 19 4.19/Content/E-E.uasset" SILENT=true
+[2018.05.01-19.24.14:019][ 33]LogSavePackage: Save=341.34ms
+[2018.05.01-19.24.14:019][ 33]LogSavePackage: Moving 'C:/Users/vmirc/Documents/GitHub/mgp-mgp-group-19/Prototypes/Group 19 4.19/Saved/E-EA211369947E485253A996B882DEA85B2.tmp' to 'C:/Users/vmirc/Documents/GitHub/mgp-mgp-group-19/Prototypes/Group 19 4.19/Content/E-E.uasset'
+[2018.05.01-19.24.14:027][ 33]LogSavePackage: Display: Finished SavePackage C:/Users/vmirc/Documents/GitHub/mgp-mgp-group-19/Prototypes/Group 19 4.19/Content/E-E.uasset
+[2018.05.01-19.24.14:031][ 33]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/E-H" FILE="C:/Users/vmirc/Documents/GitHub/mgp-mgp-group-19/Prototypes/Group 19 4.19/Content/E-H.uasset" SILENT=true
+[2018.05.01-19.24.14:355][ 33]LogSavePackage: Save=322.87ms
+[2018.05.01-19.24.14:355][ 33]LogSavePackage: Moving 'C:/Users/vmirc/Documents/GitHub/mgp-mgp-group-19/Prototypes/Group 19 4.19/Saved/E-H9DC58E5747F43B8BB1E164944FA2C83C.tmp' to 'C:/Users/vmirc/Documents/GitHub/mgp-mgp-group-19/Prototypes/Group 19 4.19/Content/E-H.uasset'
+[2018.05.01-19.24.14:362][ 33]LogSavePackage: Display: Finished SavePackage C:/Users/vmirc/Documents/GitHub/mgp-mgp-group-19/Prototypes/Group 19 4.19/Content/E-H.uasset
+[2018.05.01-19.24.14:367][ 33]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/E-M" FILE="C:/Users/vmirc/Documents/GitHub/mgp-mgp-group-19/Prototypes/Group 19 4.19/Content/E-M.uasset" SILENT=true
+[2018.05.01-19.24.14:698][ 33]LogSavePackage: Save=329.21ms
+[2018.05.01-19.24.14:698][ 33]LogSavePackage: Moving 'C:/Users/vmirc/Documents/GitHub/mgp-mgp-group-19/Prototypes/Group 19 4.19/Saved/E-MF240B458474C6A4BFA0D9AB9298461CC.tmp' to 'C:/Users/vmirc/Documents/GitHub/mgp-mgp-group-19/Prototypes/Group 19 4.19/Content/E-M.uasset'
+[2018.05.01-19.24.14:705][ 33]LogSavePackage: Display: Finished SavePackage C:/Users/vmirc/Documents/GitHub/mgp-mgp-group-19/Prototypes/Group 19 4.19/Content/E-M.uasset
+[2018.05.01-19.24.14:709][ 33]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/H-E" FILE="C:/Users/vmirc/Documents/GitHub/mgp-mgp-group-19/Prototypes/Group 19 4.19/Content/H-E.uasset" SILENT=true
+[2018.05.01-19.24.15:032][ 33]LogSavePackage: Save=321.36ms
+[2018.05.01-19.24.15:033][ 33]LogSavePackage: Moving 'C:/Users/vmirc/Documents/GitHub/mgp-mgp-group-19/Prototypes/Group 19 4.19/Saved/H-EE63879854B70B47EF4F61A99641FDFD1.tmp' to 'C:/Users/vmirc/Documents/GitHub/mgp-mgp-group-19/Prototypes/Group 19 4.19/Content/H-E.uasset'
+[2018.05.01-19.24.15:041][ 33]LogSavePackage: Display: Finished SavePackage C:/Users/vmirc/Documents/GitHub/mgp-mgp-group-19/Prototypes/Group 19 4.19/Content/H-E.uasset
+[2018.05.01-19.24.15:045][ 33]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/H-H" FILE="C:/Users/vmirc/Documents/GitHub/mgp-mgp-group-19/Prototypes/Group 19 4.19/Content/H-H.uasset" SILENT=true
+[2018.05.01-19.24.15:366][ 33]LogSavePackage: Save=319.46ms
+[2018.05.01-19.24.15:366][ 33]LogSavePackage: Moving 'C:/Users/vmirc/Documents/GitHub/mgp-mgp-group-19/Prototypes/Group 19 4.19/Saved/H-H06B6F9944A07F3669A477591877CC192.tmp' to 'C:/Users/vmirc/Documents/GitHub/mgp-mgp-group-19/Prototypes/Group 19 4.19/Content/H-H.uasset'
+[2018.05.01-19.24.15:373][ 33]LogSavePackage: Display: Finished SavePackage C:/Users/vmirc/Documents/GitHub/mgp-mgp-group-19/Prototypes/Group 19 4.19/Content/H-H.uasset
+[2018.05.01-19.24.15:377][ 33]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/H-M" FILE="C:/Users/vmirc/Documents/GitHub/mgp-mgp-group-19/Prototypes/Group 19 4.19/Content/H-M.uasset" SILENT=true
+[2018.05.01-19.24.15:698][ 33]LogSavePackage: Save=319.56ms
+[2018.05.01-19.24.15:698][ 33]LogSavePackage: Moving 'C:/Users/vmirc/Documents/GitHub/mgp-mgp-group-19/Prototypes/Group 19 4.19/Saved/H-MFCE2972544CAA215D7D1BBA2A8F977CF.tmp' to 'C:/Users/vmirc/Documents/GitHub/mgp-mgp-group-19/Prototypes/Group 19 4.19/Content/H-M.uasset'
+[2018.05.01-19.24.15:706][ 33]LogSavePackage: Display: Finished SavePackage C:/Users/vmirc/Documents/GitHub/mgp-mgp-group-19/Prototypes/Group 19 4.19/Content/H-M.uasset
+[2018.05.01-19.24.15:711][ 33]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/M-E" FILE="C:/Users/vmirc/Documents/GitHub/mgp-mgp-group-19/Prototypes/Group 19 4.19/Content/M-E.uasset" SILENT=true
+[2018.05.01-19.24.16:051][ 33]LogSavePackage: Save=338.51ms
+[2018.05.01-19.24.16:051][ 33]LogSavePackage: Moving 'C:/Users/vmirc/Documents/GitHub/mgp-mgp-group-19/Prototypes/Group 19 4.19/Saved/M-E1F9CC8714AB4C37DC0B27D8F6CAB3DAE.tmp' to 'C:/Users/vmirc/Documents/GitHub/mgp-mgp-group-19/Prototypes/Group 19 4.19/Content/M-E.uasset'
+[2018.05.01-19.24.16:056][ 33]LogSavePackage: Display: Finished SavePackage C:/Users/vmirc/Documents/GitHub/mgp-mgp-group-19/Prototypes/Group 19 4.19/Content/M-E.uasset
+[2018.05.01-19.24.16:060][ 33]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/M-H" FILE="C:/Users/vmirc/Documents/GitHub/mgp-mgp-group-19/Prototypes/Group 19 4.19/Content/M-H.uasset" SILENT=true
+[2018.05.01-19.24.16:381][ 33]LogSavePackage: Save=319.13ms
+[2018.05.01-19.24.16:381][ 33]LogSavePackage: Moving 'C:/Users/vmirc/Documents/GitHub/mgp-mgp-group-19/Prototypes/Group 19 4.19/Saved/M-H6599D52F462FDF0B08927EA20B263856.tmp' to 'C:/Users/vmirc/Documents/GitHub/mgp-mgp-group-19/Prototypes/Group 19 4.19/Content/M-H.uasset'
+[2018.05.01-19.24.16:386][ 33]LogSavePackage: Display: Finished SavePackage C:/Users/vmirc/Documents/GitHub/mgp-mgp-group-19/Prototypes/Group 19 4.19/Content/M-H.uasset
+[2018.05.01-19.24.16:391][ 33]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/M-M" FILE="C:/Users/vmirc/Documents/GitHub/mgp-mgp-group-19/Prototypes/Group 19 4.19/Content/M-M.uasset" SILENT=true
+[2018.05.01-19.24.16:711][ 33]LogSavePackage: Save=318.31ms
+[2018.05.01-19.24.16:711][ 33]LogSavePackage: Moving 'C:/Users/vmirc/Documents/GitHub/mgp-mgp-group-19/Prototypes/Group 19 4.19/Saved/M-MD9D6807A4334BEDE85B22BA7E7217DF3.tmp' to 'C:/Users/vmirc/Documents/GitHub/mgp-mgp-group-19/Prototypes/Group 19 4.19/Content/M-M.uasset'
+[2018.05.01-19.24.16:716][ 33]LogSavePackage: Display: Finished SavePackage C:/Users/vmirc/Documents/GitHub/mgp-mgp-group-19/Prototypes/Group 19 4.19/Content/M-M.uasset
+[2018.05.01-19.24.16:753][ 33]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/M-M_Mat" FILE="C:/Users/vmirc/Documents/GitHub/mgp-mgp-group-19/Prototypes/Group 19 4.19/Content/M-M_Mat.uasset" SILENT=true
+[2018.05.01-19.24.16:778][ 33]LogSavePackage: Save=21.95ms
+[2018.05.01-19.24.16:778][ 33]LogSavePackage: Moving 'C:/Users/vmirc/Documents/GitHub/mgp-mgp-group-19/Prototypes/Group 19 4.19/Saved/M-M_Mat21AFA7854BF0A652054B87AA3CFF7D36.tmp' to 'C:/Users/vmirc/Documents/GitHub/mgp-mgp-group-19/Prototypes/Group 19 4.19/Content/M-M_Mat.uasset'
+[2018.05.01-19.24.16:784][ 33]LogSavePackage: Display: Finished SavePackage C:/Users/vmirc/Documents/GitHub/mgp-mgp-group-19/Prototypes/Group 19 4.19/Content/M-M_Mat.uasset
+[2018.05.01-19.24.16:887][ 33]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Pendulu" FILE="C:/Users/vmirc/Documents/GitHub/mgp-mgp-group-19/Prototypes/Group 19 4.19/Content/Pendulu.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.05.01-19.24.17:028][ 33]LogSavePackage: Save=111.00ms
+[2018.05.01-19.24.17:028][ 33]LogSavePackage: Moving 'C:/Users/vmirc/Documents/GitHub/mgp-mgp-group-19/Prototypes/Group 19 4.19/Saved/Pendulu54E12CB3455545521CDDDBAFAE074E3E.tmp' to 'C:/Users/vmirc/Documents/GitHub/mgp-mgp-group-19/Prototypes/Group 19 4.19/Content/Pendulu.umap'
+[2018.05.01-19.24.17:033][ 33]LogSavePackage: Display: Finished SavePackage C:/Users/vmirc/Documents/GitHub/mgp-mgp-group-19/Prototypes/Group 19 4.19/Content/Pendulu.umap
+[2018.05.01-19.24.17:060][ 33]LogFileHelpers: Saving map 'Pendulu' took 0.277
+[2018.05.01-19.24.17:063][ 33]Cmd: MAP LOAD FILE="C:/Users/vmirc/Documents/GitHub/mgp-mgp-group-19/Prototypes/Group 19 4.19/Content/PlaytestPendulum.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.05.01-19.24.17:063][ 33]LightingResults: New page: Lighting Build
+[2018.05.01-19.24.17:064][ 33]LoadErrors: New page: Loading map: PlaytestPendulum.umap
+[2018.05.01-19.24.17:066][ 33]LogSlate: Window 'Pendulu - Level Blueprint Editor' being destroyed
+[2018.05.01-19.24.17:130][ 33]MapCheck: New page: Map Check
+[2018.05.01-19.24.17:130][ 33]LightingResults: New page: Lighting Build
+[2018.05.01-19.24.17:167][ 33]LogEditorServer: Finished looking for orphan Actors (0.001 secs)
+[2018.05.01-19.24.17:228][ 33]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.05.01-19.24.17:347][ 33]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 118.615ms to complete.
+[2018.05.01-19.24.17:347][ 33]LogFileHelpers: Loading map 'PlaytestPendulum' took 0.286
+[2018.05.01-19.24.26:080][983]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Pendulum1_Sprite)
+[2018.05.01-19.24.27:349][ 89]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Pendulum2_Sprite2)
+[2018.05.01-19.24.28:033][146]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2018.05.01-19.24.32:907][547]LogSlate: FSceneViewport::OnFocusLost() reason 2
